@@ -43,7 +43,7 @@ run_test("91212129", 9)
 # Ok, so if we reach here, then we can be reasonably sure that the code
 # above is working correctly. Let's use the actual captcha now.
 
-with open("input_p1.txt", "r") as f:
+with open("input.txt", "r") as f:
     captcha = f.readline()
 
     print "Captcha solution is {0}".format(solve_captcha(captcha))
