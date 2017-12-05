@@ -25,6 +25,7 @@ In this example, the spreadsheet's checksum would be 8 + 4 + 6 = 18.
 
 What is the checksum for the spreadsheet in your puzzle input?
 
+**SOLUTION:** 39126.
 
 ### Part 2
 
@@ -49,3 +50,5 @@ For example, given the following spreadsheet:
 In this example, the sum of the results would be 4 + 3 + 2 = 9.
 
 What is the sum of each row's result in your puzzle input?
+
+**SOLUTION:** 258.
