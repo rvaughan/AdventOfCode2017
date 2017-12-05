@@ -1,4 +1,4 @@
-# Day 01
+# Day 02
 
 This folder contains a solution for day 2.
 
