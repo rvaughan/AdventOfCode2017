@@ -1,4 +1,4 @@
-# Day 01
+# Day 01 : Inverse Captcha
 
 This folder contains a solution for day 1.
 

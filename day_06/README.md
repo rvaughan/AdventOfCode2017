@@ -1,4 +1,4 @@
-# Day 06
+# Day 06 : Memory Reallocation
 
 This folder contains a solution for day 6.
 

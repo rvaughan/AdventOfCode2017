@@ -1,4 +1,4 @@
-# Day 04
+# Day 04 : High-Entropy Passphrases
 
 This folder contains a solution for day 4.
 

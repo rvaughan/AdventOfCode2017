@@ -1,4 +1,4 @@
-# Day 07 : I Heard You Like Registers
+# Day 08 : I Heard You Like Registers
 
 This folder contains a solution for day 8.
 

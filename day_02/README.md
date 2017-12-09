@@ -1,4 +1,4 @@
-# Day 02
+# Day 02 : Corruption Checksum
 
 This folder contains a solution for day 2.
 

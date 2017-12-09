@@ -1,4 +1,4 @@
-# Day 05
+# Day 05 : A Maze of Twisty Trampolines, All Alike
 
 This folder contains a solution for day 5.
 

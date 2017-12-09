@@ -1,4 +1,4 @@
-# Day 03
+# Day 03 : Spiral Memory
 
 This folder contains a solution for day 3.
 
