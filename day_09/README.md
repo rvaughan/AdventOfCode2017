@@ -1,6 +1,6 @@
 # Day 09 : Stream Processing
 
-This folder contains a solution for day 8.
+This folder contains a solution for day 9.
 
 ## Problem Description
 
