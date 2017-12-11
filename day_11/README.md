@@ -34,7 +34,7 @@ For example:
   * se,sw,se,sw,sw is 3 steps away (s,s,sw).
 
 
-**SOLUTION:** xxx.
+**SOLUTION:** 705.
 
 ### Part 2
 
