@@ -17,7 +17,7 @@ def find_end_pos(data, start_x, start_y):
             cur_x += 1
         elif move == "se":
             cur_x += 1
-            cur_y -=1
+            cur_y -= 1
         elif move == "s":
             cur_y -= 1
         elif move == "sw":
@@ -33,16 +33,16 @@ def find_end_pos(data, start_x, start_y):
 
 
 def calc_distance(pos_x, pos_y):
-    if POS_X == POS_Y:
-        return abs(POS_X)
+    if pos_x == pos_y:
+        return abs(pos_x)
 
     distance = 0
-    if abs(POS_X) < abs(POS_Y):
-        distance = abs(POS_X)
+    if abs(pos_x) < abs(pos_y):
+        distance = abs(pos_x)
     else:
         distance = abs(POS_Y)
 
-    distance += abs(POS_X) - abs(POS_Y)
+    distance += abs(pos_x) - abs(pos_y)
 
     return abs(distance)
 
