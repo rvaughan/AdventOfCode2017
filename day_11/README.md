@@ -38,7 +38,7 @@ For example:
 
 ### Part 2
 
-xxx
+How many steps away is the furthest he ever got from his starting position?
 
 
-**SOLUTION:** xxx.
+**SOLUTION:** 1469.
