@@ -176,7 +176,7 @@ The severity of getting caught on a layer is equal to its depth multiplied by it
 Given the details of the firewall you've recorded, if you leave immediately, what is the severity of your whole trip?
 
 
-**SOLUTION:** xxx.
+**SOLUTION:** 1300.
 
 ### Part 2
 
