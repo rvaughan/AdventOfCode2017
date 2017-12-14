@@ -66,4 +66,4 @@ How many regions are present given your key string?
 Your puzzle input is still xlqgujun.
 
 
-**SOLUTION:** xxx.
+**SOLUTION:** 1089.
