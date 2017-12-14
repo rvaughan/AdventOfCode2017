@@ -18,6 +18,7 @@ The output of a knot hash is traditionally represented by 32 hexadecimal digits;
 
 Continuing this process, the first 8 rows and columns for key flqrgnkx appear as follows, using # to denote used squares, and . to denote free ones:
 
+```bash
 ##.#.#..-->
 .#.#.#.#   
 ....#.#.   
@@ -28,6 +29,8 @@ Continuing this process, the first 8 rows and columns for key flqrgnkx appear as
 ##.#.##.-->
 |      |   
 V      V   
+```
+
 In this example, 8108 squares are used across the entire 128x128 grid.
 
 Given your actual key string, how many squares are used?
