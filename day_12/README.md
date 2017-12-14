@@ -1,4 +1,4 @@
-# Day 11 : Digital Plumber
+# Day 12 : Digital Plumber
 
 This folder contains a solution for day 12.
 
