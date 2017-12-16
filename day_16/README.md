@@ -44,4 +44,4 @@ In the example above, their second dance would begin with the order baedc, and u
 In what order are the programs standing after their billion dances?
 
 
-**SOLUTION:** xxx.
+**SOLUTION:** abocefghijklmndp.
