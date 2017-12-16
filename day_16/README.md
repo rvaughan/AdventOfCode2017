@@ -27,7 +27,7 @@ After finishing their dance, the programs end up in order baedc.
 You watch the dance for a while and record their dance moves (your puzzle input). In what order are the programs standing after their dance?
 
 
-**SOLUTION:** xxx.
+**SOLUTION:** ebjpfdgmihonackl.
 
 ### Part 2
 
