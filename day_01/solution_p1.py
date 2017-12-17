@@ -6,21 +6,13 @@ import sys
 def solve_captcha(captcha):
     solution = 0
 
-    first = True
-    last_digit = None
+    prev_digit = captcha[-1]
 
     for digit in captcha:
-        if first:
-            first_digit = digit
-            first = False
-        else:
-            if last_digit == digit:
-                solution += int(digit)
+        if prev_digit == digit:
+            solution += int(digit)
 
-        last_digit = digit
-
-    if last_digit == first_digit:
-        solution += int(last_digit)
+        prev_digit = digit
 
     return solution
 
