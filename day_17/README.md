@@ -45,7 +45,7 @@ What is the value after 2017 in your completed circular buffer?
 Your puzzle input is 304.
 
 
-**SOLUTION:** xxx.
+**SOLUTION:** 1173.
 
 ### Part 2
 
