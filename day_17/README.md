@@ -42,6 +42,8 @@ Perhaps, if you can identify the value that will ultimately be after the last va
 
 What is the value after 2017 in your completed circular buffer?
 
+Your puzzle input is 304.
+
 
 **SOLUTION:** xxx.
 
