@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+"""
+This code holds the solution for part 2 of day 3 of the Advent of Code for 2017.
+"""
 
 from __future__ import division
 
@@ -43,8 +46,6 @@ def calc_cell_position(number):
     # Work out how far out the number can be.
     spiral_size = calc_spiral_size(number)
 
-    print "Spiral size: {0}".format(spiral_size)
-
     cur_x = 0
     cur_y = 0
     cur_val = spiral_size * spiral_size
@@ -60,7 +61,6 @@ def calc_cell_position(number):
     directions = {NORTH: E, E: S, S: W, W: NORTH}
 
     if spiral_size % 2 == 0:
-        print "Even"
         # number is even, so the max point is top left.
         cur_x = 0 - int(math.floor((spiral_size - 1) / 2))
         cur_y = int(math.floor(spiral_size / 2))
@@ -69,16 +69,11 @@ def calc_cell_position(number):
         if spiral_size == 2:
             cur_x = 0
             cur_y = 1
-
-        print cur_x, cur_y
     else:
-        print "Odd"
         # Spiral size is odd, so the end point is bottom right.
         cur_x = int(math.floor(spiral_size / 2))
         cur_y = 0 - int(math.floor(spiral_size / 2))
         cur_direction = W
-
-        print cur_x, cur_y
 
     diff = cur_val - number
 
@@ -86,8 +81,6 @@ def calc_cell_position(number):
     while diff > 0:
         cur_x += cur_direction[0]
         cur_y += cur_direction[1]
-
-        print "** {0}, {1}".format(cur_x, cur_y)
 
         diff -= 1
 
@@ -109,23 +102,17 @@ def calc_cell_value(cell):
         cell_positions[cell_id] = cell
         rollback -= 1
 
-    print "Have solutions back to cell {0}".format(rollback)
-
     rollback += 1
     while rollback <= cell:
-        print "Generating solution for cell {0}".format(rollback)
         cell_id = calc_cell_position(rollback)
-        print "Cell ID: {0}".format(cell_id)
 
         surrounding = [(-1, -1), (0, -1), (1, -1), (1, 0), (1, 1), (0, 1), (-1, 1), (-1, 0)]
 
         tmp = 0
 
         for idx_diff in surrounding:
-            print idx_diff
             idx = (cell_id[0] + idx_diff[0], cell_id[1] + idx_diff[1])
             if idx in cell_positions:
-                print "pos: {0}, cell: {1}, val: {2}".format(idx, cell_positions[idx], cell_sums[cell_positions[idx]])
                 tmp += cell_sums[cell_positions[idx]]
 
         cell_positions[cell_id] = rollback
@@ -137,6 +124,7 @@ def calc_cell_value(cell):
 
     return cell_sums[rollback]
 
+
 def run_test(cell_number, expected_sum):
     act_sum = calc_cell_value(cell_number)
     if act_sum != expected_sum:
@@ -144,10 +132,6 @@ def run_test(cell_number, expected_sum):
         sys.exit(-1)
     print "Test {0} passed".format(cell_number)
 
-
-print "----------------------------------------------------------------"
-print " RUN STARTING"
-print "----------------------------------------------------------------"
 
 run_test(1, 1)
 run_test(2, 1)
@@ -173,15 +157,15 @@ run_test(21, 362)
 run_test(22, 747)
 run_test(23, 806)
 
+print "All tests passed."
+
 # Ok, so if we get here we can be reasonably confident that our code is ok,
 # and we can try the real puzzle.
 
-act_sum = 0
-cell_number = 1
-while act_sum < 289326:
-    act_sum = calc_cell_value(cell_number)
-    cell_number += 1
+ACT_SUM = 0
+CELL_NUMBER = 1
+while ACT_SUM < 289326:
+    ACT_SUM = calc_cell_value(CELL_NUMBER)
+    CELL_NUMBER += 1
 
-print "The solution is {0}".format(act_sum)
-
-print "----------------------------------------------------------------"
+print "The solution is {0}".format(ACT_SUM)
