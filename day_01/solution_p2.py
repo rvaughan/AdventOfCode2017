@@ -20,17 +20,13 @@ def solve_captcha(captcha):
     solution = 0
 
     list_size = len(captcha)
+    mid_point = list_size / 2
 
     for idx in xrange(list_size):
 
-        pos = idx + (list_size / 2)
-        if pos >= list_size:
-            pos -= list_size
+        pos = (idx + mid_point) % list_size
 
-        check_digit = captcha[pos]
-
-        if check_digits(captcha[idx], check_digit):
-            solution += int(captcha[idx])
+        solution += int(captcha[idx]) if check_digits(captcha[idx], captcha[pos]) else 0
 
     return solution
 
