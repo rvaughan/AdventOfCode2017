@@ -49,7 +49,7 @@ At the time the recover operation is executed, the frequency of the last sound p
 What is the value of the recovered frequency (the value of the most recently played sound) the first time a rcv instruction is executed with a non-zero value?
 
 
-**SOLUTION:** xxx.
+**SOLUTION:** 4601.
 
 ### Part 2
 
