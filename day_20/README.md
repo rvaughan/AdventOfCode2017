@@ -42,7 +42,7 @@ At this point, particle 1 will never be closer to <0,0,0> than particle 0, and s
 Which particle will stay closest to position <0,0,0> in the long term?
 
 
-**SOLUTION:** xxx.
+**SOLUTION:** 161.
 
 ### Part 2
 
