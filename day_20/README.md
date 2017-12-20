@@ -77,4 +77,4 @@ In this example, particles 0, 1, and 2 are simultaneously destroyed at the time 
 How many particles are left after all collisions are resolved?
 
 
-**SOLUTION:** xxx.
+**SOLUTION:** 438.
