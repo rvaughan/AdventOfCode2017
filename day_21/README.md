@@ -111,11 +111,11 @@ Thus, after 2 iterations, the grid contains 12 pixels that are on.
 How many pixels stay on after 5 iterations?
 
 
-**SOLUTION:** xxx.
+**SOLUTION:** 179.
 
 ### Part 2
 
-XXXX
+How many pixels stay on after 18 iterations?
 
 
-**SOLUTION:** xxx.
+**SOLUTION:** 2766750.
