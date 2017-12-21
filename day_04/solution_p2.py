@@ -1,13 +1,20 @@
 #!/usr/bin/env python
+"""
+This code holds the solution for part 2 of day 4 of the Advent of Code for 2017.
+"""
 
 import itertools
 import sys
 
 
 def has_duplicates(passphrase):
+    """
+    Checks to see if the passphrase is duplicated.
+    """
     existing_words = {}
 
     for word in passphrase.split(" "):
+        # Create an anagram list for the word...
         anagrams = ["".join(perm) for perm in itertools.permutations(word)]
 
         # Need to de-duplicate the anagram words before we check anything.
@@ -16,6 +23,7 @@ def has_duplicates(passphrase):
             if w not in a_words:
                 a_words[w] = w
 
+        # Now check each of the words
         for words in a_words:
             if words in existing_words:
                 return True
@@ -23,6 +31,8 @@ def has_duplicates(passphrase):
             existing_words[words] = True
 
     return False
+
+# Test and validation code
 
 if has_duplicates("abcde fghij"):
     print "Test 1 failed."
@@ -49,12 +59,16 @@ if not has_duplicates("oiii ioii iioi iiio"):
     sys.exit(-1)
 print "Test 5 passed."
 
-with open("input.txt", "r") as inputfile:
-    passphrase_count = 0
-    valid_passphrases = 0
-    for passphrase in inputfile.readlines():
-        passphrase_count += 1
-        if not has_duplicates(passphrase.split("\n")[0]):
-            valid_passphrases += 1
+print "All tests passed."
 
-    print "Found {0} valid passphrases out of {1}".format(valid_passphrases, passphrase_count)
+# If we get here all tests have passed and we can solve the problem.
+
+with open("input.txt", "r") as inputfile:
+    PASSPHRASE_COUNT = 0
+    VALID_PASSPHRASES = 0
+    for user_passphrases in inputfile.readlines():
+        PASSPHRASE_COUNT += 1
+        if not has_duplicates(user_passphrases.split("\n")[0]):
+            VALID_PASSPHRASES += 1
+
+    print "Found {0} valid passphrases out of {1}".format(VALID_PASSPHRASES, PASSPHRASE_COUNT)
