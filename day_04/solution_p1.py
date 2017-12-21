@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+"""
+This code holds the solution for part 1 of day 4 of the Advent of Code for 2017.
+"""
 
 import sys
 
@@ -12,6 +15,8 @@ def has_duplicates(passphrase):
         existing_words[words] = True
 
     return False
+
+# Test code
 
 if has_duplicates("aa bb cc dd ee"):
     print "Test 1 failed."
@@ -28,12 +33,16 @@ if has_duplicates("aa bb cc dd aaa"):
     sys.exit(-1)
 print "Test 3 passed."
 
-with open("input.txt", "r") as inputfile:
-    passphrase_count = 0
-    valid_passphrases = 0
-    for passphrase in inputfile.readlines():
-        passphrase_count += 1
-        if not has_duplicates(passphrase.split("\n")[0]):
-            valid_passphrases += 1
+print "All tests passed."
 
-    print "Found {0} valid passphrases out of {1}".format(valid_passphrases, passphrase_count)
+# Solution code goes here.
+
+with open("input.txt", "r") as inputfile:
+    PASSPHRASE_COUNT = 0
+    VALID_PASSPHRASES = 0
+    for passphrase in inputfile.readlines():
+        PASSPHRASE_COUNT += 1
+        if not has_duplicates(passphrase.split("\n")[0]):
+            VALID_PASSPHRASES += 1
+
+    print "Found {0} valid passphrases out of {1}".format(VALID_PASSPHRASES, PASSPHRASE_COUNT)
