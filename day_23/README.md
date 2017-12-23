@@ -37,4 +37,4 @@ The coprocessor's ultimate goal is to determine the final value left in register
 After setting register a to 1, if the program were to run to completion, what value would be left in register h?
 
 
-**SOLUTION:** xxx.
+**SOLUTION:** 915.
