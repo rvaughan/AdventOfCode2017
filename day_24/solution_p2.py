@@ -17,7 +17,7 @@ def calc_bridge_strength(bridge):
     return score
 
 
-def check(comps, bridge, best_score):
+def check(comps, bridge, longest_bridge, best_score):
     next_port = 0
 
     if len(bridge) >= 2:
@@ -33,14 +33,16 @@ def check(comps, bridge, best_score):
             next_bridge.append(comp)
             next_comps = comps[:]
             next_comps.remove(comp)
-            best_score = check(next_comps, next_bridge, best_score)
+            best_score, longest_bridge = check(next_comps, next_bridge, longest_bridge, best_score)
 
     if not found_a_bridge:
-        score = calc_bridge_strength(bridge)
-        if score > best_score:
-            best_score = score
+        if len(bridge) >= len(longest_bridge):
+            score = calc_bridge_strength(bridge)
+            if score > best_score:
+                longest_bridge = bridge
+                best_score = score
 
-    return best_score
+    return best_score, longest_bridge
 
 
 with open("input.txt", "r") as f:
@@ -48,7 +50,9 @@ with open("input.txt", "r") as f:
     for line in f:
         ALL_COMPONENTS.append(tuple([int(x) for x in line.strip().split("/")]))
 
-    STRONGEST_BRIDGE_SCORE = 0
-    STRONGEST_BRIDGE_SCORE = check(ALL_COMPONENTS, [], STRONGEST_BRIDGE_SCORE)
+    LONGEST_BRIDGE = []
+    LONGEST_BRIDGE_SCORE = 0
 
-    print "Solution: {0}".format(STRONGEST_BRIDGE_SCORE)
+    LONGEST_BRIDGE_SCORE, LONGEST_BRIDGE = check(ALL_COMPONENTS, [], LONGEST_BRIDGE, LONGEST_BRIDGE_SCORE)
+
+    print "Solution: {0}".format(LONGEST_BRIDGE_SCORE)
