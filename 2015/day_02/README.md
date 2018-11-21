@@ -43,3 +43,5 @@ For example:
   * A present with dimensions 1x1x10 requires 1+1+1+1 = 4 feet of ribbon to wrap the present plus 1*1*10 = 10 feet of ribbon for the bow, for a total of 14 feet.
 
 How many total feet of ribbon should they order?
+
+**Solution:** 3737498 feet of ribbon.
