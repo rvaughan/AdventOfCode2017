@@ -25,3 +25,5 @@ For example:
 ### Part 2
 
 Now find one that starts with six zeroes.
+
+**Solution:** 9958218
