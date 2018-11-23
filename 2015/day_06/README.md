@@ -1,4 +1,4 @@
-# Day 04 : Probably a Fire Hazard
+# Day 06 : Probably a Fire Hazard
 
 This folder contains a solution for day 6.
 
