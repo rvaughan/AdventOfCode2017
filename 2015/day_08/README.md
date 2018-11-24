@@ -24,3 +24,5 @@ Santa's list is a file that contains many double-quoted string literals, one on 
 Disregarding the whitespace in the file, what is **the number of characters of code for string literals** minus **the number of characters in memory for the values of the strings** in total for the entire file?
 
 For example, given the four strings above, the total number of characters of string code (2 + 5 + 10 + 6 = 23) minus the total number of characters in memory for string values (0 + 3 + 7 + 1 = 11) is 23 - 11 = 12.
+
+**Solution:** 1350
