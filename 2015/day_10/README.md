@@ -19,3 +19,5 @@ For example:
   * 111221 becomes 312211 (three 1s, two 2s, and one 1).
 
 Starting with the digits in your puzzle input, apply this process 40 times. What is the length of the result?
+
+**Solution:** 492982
