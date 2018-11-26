@@ -52,3 +52,5 @@ In all the commotion, you realize that you forgot to seat yourself. At this poin
 So, add yourself to the list, and give all happiness relationships that involve you a score of 0.
 
 What is the total change in happiness for the optimal seating arrangement that actually includes yourself?
+
+**Solution:** 640
