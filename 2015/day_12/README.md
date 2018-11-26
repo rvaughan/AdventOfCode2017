@@ -20,3 +20,5 @@ For example:
 You will not encounter any strings containing numbers.
 
 What is the sum of all numbers in the document?
+
+**Solution:** 156366
