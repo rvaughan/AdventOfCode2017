@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 """
+This code holds the solution for part 1 of day 21 of the Advent of Code for 2017.
+
 This is a failed attempt at solving the problem.
 
 Works by splitting up the grid into arrays of smaller grids. I think this

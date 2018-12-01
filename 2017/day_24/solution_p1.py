@@ -1,5 +1,7 @@
 #!/usr/bin/env python
-
+"""
+This code holds the solution for part 1 of day 24 of the Advent of Code for 2017.
+"""
 
 def pick_next_port(port_a, port_b):
     if port_b[0] == port_a[0] or port_b[0] == port_a[1]:

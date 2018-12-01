@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+"""
+This code holds the solution for part 2 of day 6 of the Advent of Code for 2017.
+"""
 
 import sys
 

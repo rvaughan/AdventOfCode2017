@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-This code holds the solution for part 1 of day 4 of the Advent of Code for 2015.
+This code holds the solution for part 1 of day 5 of the Advent of Code for 2015.
 """
 import hashlib
 import sys

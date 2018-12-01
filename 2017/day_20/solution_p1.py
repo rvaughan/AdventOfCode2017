@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+"""
+This code holds the solution for part 1 of day 20 of the Advent of Code for 2017.
+"""
 
 from operator import add, abs
 import re

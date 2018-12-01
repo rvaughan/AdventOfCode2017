@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+"""
+This code holds the solution for part 2 of day 22 of the Advent of Code for 2017.
+"""
 
 from collections import defaultdict
 import sys
