@@ -1,5 +1,6 @@
-# Advent Of Code 2015
-Code and solutions for [Advent of Code 2015](http://adventofcode.com/2015).
+# Advent Of Code 2017
+
+Code and solutions for [Advent of Code 2017](http://adventofcode.com/2016).
 Just maybe not very good ones :)
 
 The code relating to each day of advent is held in its own folder within this
@@ -19,19 +20,19 @@ hold your breath.
 
 ## Puzzles
 
-  * [Day 1 - Not Quite Lisp](./day_01/README.md)
-  * [Day 2 - I Was Told There Would Be No Math](./day_02/README.md)
-  * [Day 3 - Perfectly Spherical Houses in a Vacuum](./day_03/README.md)
-  * [Day 4 - The Ideal Stocking Stuffer](./day_04/README.md)
-  * [Day 5 - Doesn't He Have Intern-Elves For This?](./day_05/README.md)
-  * [Day 6 - Probably a Fire Hazard](./day_06/README.md)
-  * [Day 7 - Some Assembly Required](./day_07/README.md)
-  * [Day 8 - Matchsticks](./day_08/README.md)
-  * [Day 9 - All in a Single Night](./day_09/README.md)
-  * [Day 10 - Elves Look, Elves Say](./day_10/README.md)
-  * [Day 11 - Corporate Policy](./day_11/README.md)
-  * [Day 12 - JSAbacusFramework.io](./day_12/README.md)
-  * [Day 13 - Knights of the Dinner Table](./day_13/README.md)
+  * [Day 1](./day_01/README.md)
+  * [Day 2](./day_02/README.md)
+  * [Day 3](./day_03/README.md)
+  * [Day 4](./day_04/README.md)
+  * [Day 5](./day_05/README.md)
+  * [Day 6](./day_06/README.md)
+  * [Day 7](./day_07/README.md)
+  * [Day 8](./day_08/README.md)
+  * [Day 9](./day_09/README.md)
+  * [Day 10](./day_10/README.md)
+  * [Day 11](./day_11/README.md)
+  * [Day 12](./day_12/README.md)
+  * [Day 13](./day_13/README.md)
   * [Day 14](./day_14/README.md)
   * [Day 15](./day_15/README.md)
   * [Day 16](./day_16/README.md)
