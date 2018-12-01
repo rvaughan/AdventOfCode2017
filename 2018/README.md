@@ -1,6 +1,6 @@
 # Advent Of Code 2017
 
-Code and solutions for [Advent of Code 2017](http://adventofcode.com/2018).
+Code and solutions for [Advent of Code 2018](http://adventofcode.com/2018).
 Just maybe not very good ones :)
 
 The code relating to each day of advent is held in its own folder within this
