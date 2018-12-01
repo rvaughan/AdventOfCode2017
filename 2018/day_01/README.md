@@ -32,3 +32,5 @@ Here are other example situations:
   * -1, -2, -3 results in -6
 
 Starting with a frequency of zero, what is the resulting frequency after all of the changes in frequency have been applied?
+
+**Solution:** 470
