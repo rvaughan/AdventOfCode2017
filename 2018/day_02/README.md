@@ -51,3 +51,5 @@ wvxyz
 The IDs abcde and axcye are close, but they differ by two characters (the second and fourth). However, the IDs fghij and fguij differ by exactly one character, the third (h and u). Those must be the correct boxes.
 
 **What letters are common between the two correct box IDs?** (In the example above, this is found by removing the differing character from either ID, producing fgij.)
+
+**Solution:** xretqmmonskvzupalfiwhcfdb
