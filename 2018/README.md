@@ -21,7 +21,7 @@ hold your breath.
 ## Puzzles
 
   * [Day 1 - Chronal Calibration](./day_01/README.md)
-  * [Day 2](./day_02/README.md)
+  * [Day 2 - Inventory Management System](./day_02/README.md)
   * [Day 3](./day_03/README.md)
   * [Day 4](./day_04/README.md)
   * [Day 5](./day_05/README.md)
