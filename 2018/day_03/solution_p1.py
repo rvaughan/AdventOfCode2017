@@ -82,9 +82,9 @@ grid = generate_fabric_grid(10)
 for line in test_input.split('\n'):
     mark_fabric(grid, line.strip())
 
-x = find_multiple_claims(grid, 10, 10)
+num_inches = find_multiple_claims(grid, 10, 10)
 
-assert x == 4
+assert num_inches == 4
 
 print ""
 print "-----------------"
@@ -100,6 +100,6 @@ with open("input.txt", "r") as f:
     for line in f:
         mark_fabric(grid, line.strip())
 
-    x = find_multiple_claims(grid, 1000, 1000)
+    num_inches = find_multiple_claims(grid, 1000, 1000)
 
-    print "Solution is {0}".format(x)
+    print "Solution is {0}".format(num_inches)
