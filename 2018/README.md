@@ -22,7 +22,7 @@ hold your breath.
 
   * [Day 1 - Chronal Calibration](./day_01/README.md)
   * [Day 2 - Inventory Management System](./day_02/README.md)
-  * [Day 3](./day_03/README.md)
+  * [Day 3 - No Matter How You Slice It](./day_03/README.md)
   * [Day 4](./day_04/README.md)
   * [Day 5](./day_05/README.md)
   * [Day 6](./day_06/README.md)
