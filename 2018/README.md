@@ -21,9 +21,12 @@ hold your breath.
 ## Puzzles
 
   * [Day 1 - Chronal Calibration](./day_01/README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a20646/2018_day_1_solutions/)
   * [Day 2 - Inventory Management System](./day_02/README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a2aimr/2018_day_2_solutions/)
   * [Day 3 - No Matter How You Slice It](./day_03/README.md)
   * [Day 4 - Repose Record](./day_04/README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a2xef8/2018_day_4_solutions/)
   * [Day 5](./day_05/README.md)
   * [Day 6](./day_06/README.md)
   * [Day 7](./day_07/README.md)
