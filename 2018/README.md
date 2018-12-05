@@ -27,7 +27,7 @@ hold your breath.
   * [Day 3 - No Matter How You Slice It](./day_03/README.md)
   * [Day 4 - Repose Record](./day_04/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a2xef8/2018_day_4_solutions/)
-  * [Day 5](./day_05/README.md)
+  * [Day 5 - Alchemical Reduction](./day_05/README.md)
   * [Day 6](./day_06/README.md)
   * [Day 7](./day_07/README.md)
   * [Day 8](./day_08/README.md)
