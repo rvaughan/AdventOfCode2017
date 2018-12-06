@@ -34,3 +34,5 @@ Given the example reindeer from above, after the first second, Dancer is in the 
 After the 1000th second, Dancer has accumulated **689** points, while poor Comet, our old champion, only has 312. So, with the new scoring system, Dancer would win (if the race ended at 1000 seconds).
 
 Again given the descriptions of each reindeer (in your puzzle input), after exactly 2503 seconds, **how many points does the winning reindeer have?**
+
+**Solution:** 1256
