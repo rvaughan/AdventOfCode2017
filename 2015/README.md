@@ -32,7 +32,7 @@ hold your breath.
   * [Day 11 - Corporate Policy](./day_11/README.md)
   * [Day 12 - JSAbacusFramework.io](./day_12/README.md)
   * [Day 13 - Knights of the Dinner Table](./day_13/README.md)
-  * [Day 14](./day_14/README.md)
+  * [Day 14 - Reindeer Olympics](./day_14/README.md)
   * [Day 15](./day_15/README.md)
   * [Day 16](./day_16/README.md)
   * [Day 17](./day_17/README.md)
