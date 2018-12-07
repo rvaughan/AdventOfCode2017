@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-This code holds the solution for part 1 of day 14 of the Advent of Code for 2015.
+This code holds the solution for part 1 of day 15 of the Advent of Code for 2015.
 """
 import itertools
 import functools
