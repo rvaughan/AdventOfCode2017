@@ -166,3 +166,5 @@ After 5 steps:
 After 5 steps, this example now has 17 lights on.
 
 In your grid of 100x100 lights, given your initial configuration, but with the four corners always in the on state, how many lights are on after 100 steps?
+
+**Solution:** 781
