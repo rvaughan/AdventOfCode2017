@@ -90,3 +90,5 @@ After 4 steps:
 After 4 steps, this example has four lights on.
 
 In your grid of 100x100 lights, given your initial configuration, **how many lights are on after 100 steps?**
+
+**Solution:** 768
