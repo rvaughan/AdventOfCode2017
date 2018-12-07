@@ -34,7 +34,7 @@ hold your breath.
   * [Day 13 - Knights of the Dinner Table](./day_13/README.md)
   * [Day 14 - Reindeer Olympics](./day_14/README.md)
   * [Day 15 - Science for Hungry People](./day_15/README.md)
-  * [Day 16](./day_16/README.md)
+  * [Day 16 - Aunt Sue](./day_16/README.md)
   * [Day 17](./day_17/README.md)
   * [Day 18](./day_18/README.md)
   * [Day 19](./day_19/README.md)
