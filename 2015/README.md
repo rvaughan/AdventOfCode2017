@@ -37,7 +37,7 @@ hold your breath.
   * [Day 16 - Aunt Sue](./day_16/README.md)
   * [Day 17 - Such Thing as Too Much](./day_17/README.md)
   * [Day 18 - Like a GIF For Your Yard](./day_18/README.md)
-  * [Day 19](./day_19/README.md)
+  * [Day 19 - Medicine for Rudolph](./day_19/README.md)
   * [Day 20](./day_20/README.md)
   * [Day 21](./day_21/README.md)
   * [Day 22](./day_22/README.md)
