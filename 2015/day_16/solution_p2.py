@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-This code holds the solution for part 1 of day 16 of the Advent of Code for 2015.
+This code holds the solution for part 2 of day 16 of the Advent of Code for 2015.
 """
 
 known_facts = """children: 3
