@@ -36,7 +36,7 @@ hold your breath.
   * [Day 15 - Science for Hungry People](./day_15/README.md)
   * [Day 16 - Aunt Sue](./day_16/README.md)
   * [Day 17 - Such Thing as Too Much](./day_17/README.md)
-  * [Day 18](./day_18/README.md)
+  * [Day 18 - Like a GIF For Your Yard](./day_18/README.md)
   * [Day 19](./day_19/README.md)
   * [Day 20](./day_20/README.md)
   * [Day 21](./day_21/README.md)
