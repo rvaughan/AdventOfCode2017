@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-This code holds the solution for part 1 of day 14 of the Advent of Code for 2015.
+This code holds the solution for part 2 of day 15 of the Advent of Code for 2015.
 """
 import itertools
 import functools
@@ -37,6 +37,7 @@ def generate_permutations(target, length):
 
 def calc_score(ingredients, permutations):
     components = [0] * 4
+    calories = 0
 
     for count, name in zip(permutations, ingredients):
         cookie_ingredients = ingredients[name]
@@ -46,18 +47,23 @@ def calc_score(ingredients, permutations):
         components[2] += (count * cookie_ingredients[2])
         components[3] += (count * cookie_ingredients[3])
 
+        calories += (count * cookie_ingredients[4])
+
     components = [max(c, 0) for c in components]
 
-    return functools.reduce(operator.mul, components)
+    calories = max(calories, 0)
+
+    return functools.reduce(operator.mul, components), calories
 
 
-def calc_best_score(ingredients, permutations):
+def calc_best_score(ingredients, permutations, max_calories=999999999999999999):
     best_score = 0
 
     for permutation in permutations:
-        score = calc_score(ingredients, permutation)
+        score, calories = calc_score(ingredients, permutation)
         if score > best_score:
-            best_score = score
+            if calories <= max_calories:
+                best_score = score
 
     return best_score
 
@@ -70,15 +76,16 @@ Cinnamon: capacity 2, durability 3, flavor -2, texture -1, calories 3"""
 
 ingredients = parse_ingredients(test_input)
 
-permutations = list([44, 56])
-score = calc_score(ingredients, permutations)
-assert score == 62842880, "Incorrect score, should have been %d, but got %d." % (62842880, score)
+permutations = list([40, 60])
+score, calories = calc_score(ingredients, permutations)
+assert score == 57600000, "Incorrect score, should have been %d, but got %d." % (62842880, score)
+assert calories == 500, "Incorrect calorie count, should have been %d, but got %d." % (500, calories)
 
 permutations = list(generate_permutations(100, len(ingredients)))
 
-best_score = calc_best_score(ingredients, permutations)
+best_score = calc_best_score(ingredients, permutations, max_calories=500)
 
-assert best_score == 62842880, "Incorrect best score, should have been %d, but got %d." % (62842880, best_score)
+assert best_score == 57600000, "Incorrect best score, should have been %d, but got %d." % (57600000, best_score)
 
 # Ok, so if we reach here, then we can be reasonably sure that the code
 # above is working correctly. Let's use the actual data now.
@@ -88,6 +95,6 @@ with open("input.txt", "r") as f:
 
     permutations = list(generate_permutations(100, len(ingredients)))
 
-    best_score = calc_best_score(ingredients, permutations)
+    best_score = calc_best_score(ingredients, permutations, max_calories=500)
 
     print "Best score: {}".format(best_score)
