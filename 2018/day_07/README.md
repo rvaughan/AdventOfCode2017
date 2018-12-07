@@ -48,3 +48,5 @@ Your first goal is to determine the order in which the steps should be completed
 So, in this example, the correct order is **CABDFE**.
 
 **In what order should the steps in your instructions be completed?**
+
+**Solution:** BITRAQVSGUWKXYHMZPOCDLJNFE
