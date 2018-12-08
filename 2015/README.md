@@ -39,8 +39,19 @@ hold your breath.
   * [Day 18 - Like a GIF For Your Yard](./day_18/README.md)
   * [Day 19 - Medicine for Rudolph](./day_19/README.md)
   * [Day 20 - Infinite Elves and Infinite Houses](./day_20/README.md)
-  * [Day 21](./day_21/README.md)
+  * [Day 21 - RPG Simulator 20XX](./day_21/README.md)
   * [Day 22](./day_22/README.md)
   * [Day 23](./day_23/README.md)
   * [Day 24](./day_24/README.md)
   * [Day 25](./day_25/README.md)
+
+### Other People
+
+Here's a list of other people on GitHub who've released their code for this
+years competition. It's illustrative to see how different people have solved
+the different challenges. Much to learn from here.
+
+  * [Wing Lenn](https://github.com/wimglenn/advent-of-code)
+  * [Adamm b70](https://github.com/adamb70/AdventOfCode2015)
+  * [szaboeman](https://github.com/szaboeman/adventOfCode2015python)
+  * [Anthony Floyd](https://github.com/AnthonyFloyd/2015-AdventOfCode-Python)
