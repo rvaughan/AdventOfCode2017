@@ -35,3 +35,5 @@ The first house gets 10 presents: it is visited only by Elf 1, which delivers 1 
 What is the **lowest house number** of the house to get at least as many presents as the number in your puzzle input?
 
 Your puzzle input is **34000000**.
+
+**Solution:** 786240
