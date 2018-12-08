@@ -33,7 +33,7 @@ hold your breath.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a3kr4r/2018_day_6_solutions/)
   * [Day 7 - The Sum of Its Parts](./day_07/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a3wmnl/2018_day_7_solutions/)
-  * [Day 8](./day_08/README.md)
+  * [Day 8 - Memory Maneuver](./day_08/README.md)
   * [Day 9](./day_09/README.md)
   * [Day 10](./day_10/README.md)
   * [Day 11](./day_11/README.md)
