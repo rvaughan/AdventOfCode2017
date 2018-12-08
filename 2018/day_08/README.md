@@ -41,3 +41,5 @@ In this example, each node of the tree is also marked with an underline starting
 The first check done on the license file is to simply add up all of the metadata entries. In this example, that sum is 1+1+2+10+11+12+2+99=138.
 
 **What is the sum of all metadata entries?**
+
+**Solution:** 49426
