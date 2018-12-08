@@ -59,3 +59,5 @@ For example, suppose you have 8 hit points, 5 damage, and 5 armor, and that the 
 In this scenario, the player wins! (Barely.)
 
 You have **100 hit points**. The boss's actual stats are in your puzzle input. What is **the least amount of gold you can spend** and still win the fight?
+
+**Solution:** 121
