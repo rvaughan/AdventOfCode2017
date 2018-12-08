@@ -38,7 +38,7 @@ hold your breath.
   * [Day 17 - Such Thing as Too Much](./day_17/README.md)
   * [Day 18 - Like a GIF For Your Yard](./day_18/README.md)
   * [Day 19 - Medicine for Rudolph](./day_19/README.md)
-  * [Day 20](./day_20/README.md)
+  * [Day 20 - Infinite Elves and Infinite Houses](./day_20/README.md)
   * [Day 21](./day_21/README.md)
   * [Day 22](./day_22/README.md)
   * [Day 23](./day_23/README.md)
