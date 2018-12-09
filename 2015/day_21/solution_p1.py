@@ -83,9 +83,10 @@ def create_shop(shop_data):
             shop.add_ring(Ring(name, cost, damage, armor))
 
     # Add empty items
-    shop.add_armor(Armor(name, 0, 0, 0))
-    shop.add_ring(Ring(name, 0, 0, 0))
-    shop.add_weapon(Weapon(name, 0, 0, 0))
+    shop.add_armor(Armor("No Armor", 0, 0, 0))
+    shop.add_ring(Ring("No Ring 1", 0, 0, 0))
+    shop.add_ring(Ring("No Ring 2", 0, 0, 0))
+    shop.add_weapon(Weapon("No Weapon", 0, 0, 0))
 
     return shop
 
