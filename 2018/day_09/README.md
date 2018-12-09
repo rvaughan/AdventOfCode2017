@@ -58,3 +58,5 @@ Here are a few more examples:
   * 30 players; last marble is worth 5807 points: high score is 37305
 
 **What is the winning Elf's score?**
+
+**Solution:** 398502
