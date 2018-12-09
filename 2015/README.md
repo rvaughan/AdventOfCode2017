@@ -40,7 +40,7 @@ hold your breath.
   * [Day 19 - Medicine for Rudolph](./day_19/README.md)
   * [Day 20 - Infinite Elves and Infinite Houses](./day_20/README.md)
   * [Day 21 - RPG Simulator 20XX](./day_21/README.md)
-  * [Day 22](./day_22/README.md)
+  * [Day 22 - Wizard Simulator 20XX](./day_22/README.md)
   * [Day 23](./day_23/README.md)
   * [Day 24](./day_24/README.md)
   * [Day 25](./day_25/README.md)
