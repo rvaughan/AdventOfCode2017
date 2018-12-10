@@ -152,4 +152,4 @@ After 3 seconds, the message appeared briefly: HI. Of course, your message will 
 
 **What message will eventually appear in the sky?**
 
-**Solution:** At timestep 1008 we see the message 'CRXKEZPZ'.
+**Solution:** At timestep 10081 we see the message 'CRXKEZPZ'.
