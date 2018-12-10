@@ -37,7 +37,7 @@ hold your breath.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a47ubw/2018_day_8_solutions/)
   * [Day 9 - Marble Mania](./day_09/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a4i97s/2018_day_9_solutions/)
-  * [Day 10](./day_10/README.md)
+  * [Day 10 - The Stars Align](./day_10/README.md)
   * [Day 11](./day_11/README.md)
   * [Day 12](./day_12/README.md)
   * [Day 13](./day_13/README.md)
