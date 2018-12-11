@@ -80,3 +80,5 @@ For example:
   * For grid serial number 42, the largest total square (with a total power of 119) is 12x12 and has a top-left corner of 232,251, so its identifier is **232,251,12**.
 
 What is the X,Y,size identifier of the square with the largest total power?
+
+**Solution:** 236,175,11
