@@ -65,3 +65,5 @@ For grid serial number 42, the largest 3x3 square's top-left is **21,61** (with 
 What is the X,Y coordinate of the top-left fuel cell of the 3x3 square with the largest total power?
 
 Your puzzle input is **3628**.
+
+**Solution:** 216,12
