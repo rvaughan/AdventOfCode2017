@@ -39,7 +39,7 @@ hold your breath.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a4i97s/2018_day_9_solutions/)
   * [Day 10 - The Stars Align](./day_10/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a4skra/2018_day_10_solutions/)
-  * [Day 11](./day_11/README.md)
+  * [Day 11 - Chronal Charge](./day_11/README.md)
   * [Day 12](./day_12/README.md)
   * [Day 13](./day_13/README.md)
   * [Day 14](./day_14/README.md)
