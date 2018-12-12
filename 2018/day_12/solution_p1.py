@@ -302,6 +302,5 @@ with open("input.txt", "r") as f:
         first -= 2
 
     score = calc_score(current_state, first)
-    assert score == 325, score
 
     print "Solution is {}".format(score)
