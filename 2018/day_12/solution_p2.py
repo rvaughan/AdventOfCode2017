@@ -298,6 +298,8 @@ with open("input.txt", "r") as f:
     num_pots = 0
     prev_sum = calc_score(current_state, first)
 
+    # This has been identified through watching the code and noticing where the
+    # diff value output (below) stops changing.
     max_steps = 121
     diff = 0
     for idx in xrange(max_steps):
@@ -313,6 +315,6 @@ with open("input.txt", "r") as f:
 
         first -= 2
 
-    score = (((50000000000 -1 ) - 122) * 22) + prev_sum
+    score = (((50000000000 - 1) - (max_steps + 1)) * diff) + prev_sum
 
     print "Solution is {}".format(score)
