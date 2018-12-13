@@ -176,3 +176,5 @@ After following their respective paths for a while, the carts eventually crash. 
 ```
 
 In this example, the location of the first crash is **7,3**.
+
+**Solution**: 64,57
