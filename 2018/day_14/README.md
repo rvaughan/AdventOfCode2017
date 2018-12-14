@@ -49,3 +49,5 @@ The Elves think their skill will improve after making a few recipes (your puzzle
 **What are the scores of the ten recipes immediately after the number of recipes in your puzzle input?**
 
 Your puzzle input is **320851**.
+
+**Solution:** 7116398711
