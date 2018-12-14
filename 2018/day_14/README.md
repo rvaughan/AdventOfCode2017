@@ -62,3 +62,5 @@ As it turns out, you got the Elves' plan backwards. They actually want to know h
   * 59414 first appears after 2018 recipes.
 
 **How many recipes appear on the scoreboard to the left of the score sequence in your puzzle input?**
+
+**Solution:** 20316365
