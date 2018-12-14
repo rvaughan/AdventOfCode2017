@@ -46,6 +46,7 @@ hold your breath.
   * [Day 13 - Mine Cart Madness](./day_13/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a5qd71/2018_day_13_solutions/)
   * [Day 14 - Chocolate Charts](./day_14/README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a61ojp/2018_day_14_solutions/)
   * [Day 15](./day_15/README.md)
   * [Day 16](./day_16/README.md)
   * [Day 17](./day_17/README.md)
