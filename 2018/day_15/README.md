@@ -299,3 +299,5 @@ Outcome: 20 * 937 = 18740
 ```
 
 **What is the outcome** of the combat described in your puzzle input?
+
+**Solution:** 197025
