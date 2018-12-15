@@ -395,3 +395,5 @@ Outcome: 30 * 38 = 1140
 ```
 
 After increasing the Elves' attack power until it is just barely enough for them to win without any Elves dying, **what is the outcome** of the combat described in your puzzle input?
+
+**Solution:** 44423
