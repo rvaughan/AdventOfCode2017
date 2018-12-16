@@ -49,7 +49,7 @@ hold your breath.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a61ojp/2018_day_14_solutions/)
   * [Day 15 - Beverage Bandits](./day_15/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a6chwa/2018_day_15_solutions/)
-  * [Day 16](./day_16/README.md)
+  * [Day 16 - Chronal Classification](./day_16/README.md)
   * [Day 17](./day_17/README.md)
   * [Day 18](./day_18/README.md)
   * [Day 19](./day_19/README.md)
