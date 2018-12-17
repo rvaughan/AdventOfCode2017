@@ -52,6 +52,7 @@ hold your breath.
   * [Day 16 - Chronal Classification](./day_16/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a6mf8a/2018_day_16_solutions/)
   * [Day 17 - Reservoir Research](./day_17/README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a6wpup/2018_day_17_solutions/)
   * [Day 18](./day_18/README.md)
   * [Day 19](./day_19/README.md)
   * [Day 20](./day_20/README.md)
