@@ -173,3 +173,5 @@ How many tiles can be reached by the water? **To prevent counting forever**, ign
 So, in the example above, counting both water at rest (~) and other sand tiles the water can hypothetically reach (|), the total number of tiles the water can reach is **57**.
 
 **How many tiles can the water reach** within the range of y values in your scan?
+
+**Solution:** 27736
