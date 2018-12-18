@@ -54,6 +54,7 @@ hold your breath.
   * [Day 17 - Reservoir Research](./day_17/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a6wpup/2018_day_17_solutions/)
   * [Day 18 - Settlers of The North Pole](./day_18/README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a77xq6/2018_day_18_solutions/)
   * [Day 19](./day_19/README.md)
   * [Day 20](./day_20/README.md)
   * [Day 21](./day_21/README.md)
