@@ -53,3 +53,5 @@ In detail, when running this program, the following events occur:
   * The instruction pointer is 6, so the instruction seti 9 0 5 stores 9 into register 5. The instruction pointer is incremented, causing it to point outside the program, and so the program ends.
 
 **What value is left in register 0** when the background process halts?
+
+**Soluton:** 888
