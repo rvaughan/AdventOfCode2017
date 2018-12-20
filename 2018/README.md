@@ -57,7 +57,7 @@ hold your breath.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a77xq6/2018_day_18_solutions/)
   * [Day 19 - Go With The Flow](./day_19/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a7j9zc/2018_day_19_solutions/)
-  * [Day 20](./day_20/README.md)
+  * [Day 20 - A Regular Map](./day_20/README.md)
   * [Day 21](./day_21/README.md)
   * [Day 22](./day_22/README.md)
   * [Day 23](./day_23/README.md)
