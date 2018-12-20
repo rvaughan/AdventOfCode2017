@@ -158,3 +158,5 @@ Furthest room requires passing 31 doors
 ```
 
 **What is the largest number of doors you would be required to pass through to reach a room?** That is, find the room for which the shortest path from your starting location to that room would require passing through the most doors; what is the fewest doors you can pass through to reach it?
+
+**Solution:** 4721
