@@ -64,3 +64,5 @@ Before you go in, you should determine the **risk level** of the area. For the t
 In the cave system above, because the mouth is at 0,0 and the target is at 10,10, adding up the risk level of all regions with an X coordinate from 0 to 10 and a Y coordinate from 0 to 10, this total is **114**.
 
 **What is the total risk level for the smallest rectangle that includes 0,0 and the target's coordinates?**
+
+**Solution**: 4479
