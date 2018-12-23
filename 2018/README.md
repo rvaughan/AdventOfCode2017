@@ -63,6 +63,6 @@ hold your breath.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a86jgt/2018_day_21_solutions/)
   * [Day 22 - Mode Maze](./day_22/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a8i1cy/2018_day_22_solutions/)
-  * [Day 23](./day_23/README.md)
+  * [Day 23 - Experimental Emergency Teleportation](./day_23/README.md)
   * [Day 24](./day_24/README.md)
   * [Day 25](./day_25/README.md)
