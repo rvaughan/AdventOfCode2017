@@ -32,12 +32,12 @@ def find_biggest_bot(bots):
 def find_bots_in_range(bots, biggest_bot):
     in_range = []
 
-    bx, by, bz, bdist = biggest_bot
+    best_x, best_y, best_z, best_dist = biggest_bot
 
     for bot in bots:
         x, y, z, _dist = bot
 
-        if abs(x - bx) + abs(y - by) + abs(z - bz) <= bdist:
+        if abs(x - best_x) + abs(y - best_y) + abs(z - best_z) <= best_dist:
             in_range.append(bot)
 
     return in_range
