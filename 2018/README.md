@@ -72,3 +72,4 @@ This year I set up a private [leaderboard](leaderboard.json).
   * [Day 24 - Immune System Simulator 20XX](./day_24/README.md)
     * [Reddit discussion list](https://www.reddit.com/r/adventofcode/comments/a91ysq/2018_day_24_solutions/)
   * [Day 25 - Four-Dimensional Adventure](./day_25/README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/a9c61w/2018_day_25_solutions/)
