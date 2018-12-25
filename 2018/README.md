@@ -18,6 +18,10 @@ I may, dependant on time, go back and tidy the code up later. However, I'm
 using the competition as a distraction from normal coding duties, so don't
 hold your breath.
 
+## Leaderboard
+
+This year I set up a private [leaderboard](leaderboard.json).
+
 ## Puzzles
 
   * [Day 1 - Chronal Calibration](./day_01/README.md)
