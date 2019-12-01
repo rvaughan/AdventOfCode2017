@@ -1,0 +1,42 @@
+{
+    owner_id: "197482",
+    members: {
+    197482: {
+    completion_day_level: { },
+    global_score: 0,
+    last_star_ts: 0,
+    name: "R Vaughan",
+    stars: 0,
+    id: "197482",
+    local_score: 0
+    },
+    440387: {
+    id: "440387",
+    stars: 0,
+    local_score: 0,
+    name: "handybitesize",
+    last_star_ts: 0,
+    global_score: 0,
+    completion_day_level: { }
+    },
+    491038: {
+    local_score: 0,
+    stars: 0,
+    id: "491038",
+    completion_day_level: { },
+    last_star_ts: 0,
+    global_score: 0,
+    name: "plod"
+    },
+    533122: {
+    name: "Chris Jackson",
+    last_star_ts: 0,
+    global_score: 0,
+    completion_day_level: { },
+    local_score: 0,
+    stars: 0,
+    id: "533122"
+    }
+    },
+    event: "2019"
+    }
