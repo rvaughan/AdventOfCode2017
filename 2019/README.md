@@ -26,4 +26,5 @@ This year I set up a private [leaderboard](leaderboard.json).
 
   * [Day 1 - The Tyranny of the Rocket Equation](./day_01/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/e4axxe/2019_day_1_solutions/)
-  
+  * [Day 2 - 1202 Program Alarm](./day_02/README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/e4u0rw/2019_day_2_solutions/)
