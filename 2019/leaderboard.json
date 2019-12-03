@@ -1,42 +1,93 @@
 {
-    owner_id: "197482",
     members: {
     197482: {
-    completion_day_level: { },
-    global_score: 0,
-    last_star_ts: 0,
-    name: "R Vaughan",
-    stars: 0,
+    local_score: 22,
     id: "197482",
-    local_score: 0
-    },
-    440387: {
-    id: "440387",
-    stars: 0,
-    local_score: 0,
-    name: "handybitesize",
-    last_star_ts: 0,
+    name: "R Vaughan",
     global_score: 0,
-    completion_day_level: { }
+    completion_day_level: {
+    1: {
+    1: {
+    get_star_ts: "1575188204"
     },
-    491038: {
-    local_score: 0,
-    stars: 0,
-    id: "491038",
-    completion_day_level: { },
-    last_star_ts: 0,
-    global_score: 0,
-    name: "plod"
-    },
-    533122: {
-    name: "Chris Jackson",
-    last_star_ts: 0,
-    global_score: 0,
-    completion_day_level: { },
-    local_score: 0,
-    stars: 0,
-    id: "533122"
+    2: {
+    get_star_ts: "1575188843"
     }
     },
+    2: {
+    1: {
+    get_star_ts: "1575320077"
+    },
+    2: {
+    get_star_ts: "1575320689"
+    }
+    },
+    3: {
+    1: {
+    get_star_ts: "1575357554"
+    },
+    2: {
+    get_star_ts: "1575358730"
+    }
+    }
+    },
+    stars: 6,
+    last_star_ts: "1575358730"
+    },
+    440387: {
+    stars: 4,
+    completion_day_level: {
+    1: {
+    1: {
+    get_star_ts: "1575277745"
+    },
+    2: {
+    get_star_ts: "1575278154"
+    }
+    },
+    2: {
+    1: {
+    get_star_ts: "1575278932"
+    },
+    2: {
+    get_star_ts: "1575279754"
+    }
+    }
+    },
+    last_star_ts: "1575279754",
+    global_score: 0,
+    id: "440387",
+    name: "handybitesize",
+    local_score: 14
+    },
+    491038: {
+    global_score: 0,
+    last_star_ts: 0,
+    completion_day_level: { },
+    stars: 0,
+    local_score: 0,
+    name: "plod",
+    id: "491038"
+    },
+    667949: {
+    last_star_ts: "1575304154",
+    completion_day_level: {
+    1: {
+    1: {
+    get_star_ts: "1575300555"
+    },
+    2: {
+    get_star_ts: "1575304154"
+    }
+    }
+    },
+    stars: 2,
+    global_score: 0,
+    name: "@cmjdiff",
+    id: "667949",
+    local_score: 4
+    }
+    },
+    owner_id: "197482",
     event: "2019"
     }
