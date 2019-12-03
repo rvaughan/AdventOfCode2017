@@ -8,6 +8,20 @@ import sys
 
 
 def get_points(wire):
+    """
+    Given a set of wire instructions, return a set of all of the points making
+    up the wire.
+
+    Parameters
+    ----------
+    wire (str)
+      The list of instructions for building the wire
+
+    Returns
+    -------
+    A set of all of the points comprising the wire when the instructions are
+    followed.
+    """
     x = 0
     y = 0
     result = set()
@@ -32,8 +46,11 @@ def calculate_distance(wire_1, wire_2):
     w1_points = get_points(wire_1)
     w2_points = get_points(wire_2)
 
+    # Find the intersections of the wires
     intersections = w1_points & w2_points
 
+    # Find the minimum intersection of the point and calculate the distance
+    # from the centre position.
     minimum_distance = min([abs(x) + abs(y) for (x,y) in intersections])
 
     return minimum_distance
