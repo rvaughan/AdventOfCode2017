@@ -32,3 +32,5 @@ This year I set up a private [leaderboard](leaderboard.json).
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/e4u0rw/2019_day_3_solutions/)
   * [Day 4 - Secure Container](./day_04/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/e5u5fv/2019_day_4_solutions/)
+  * [Day 5 - Sunny with a Chance of Asteroids](./day_05/README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/e6carb/2019_day_5_solutions/)
