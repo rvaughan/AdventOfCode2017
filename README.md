@@ -9,3 +9,5 @@ For now I've chosen to solve the puzzles using python, mainly for simplicity.
   * [2016](./2016/README.md)
   * [2017](./2017/README.md)
   * [2018](./2018/README.md)
+  * [2018](./2019/README.md)
+  * [2018](./2020/README.md)
