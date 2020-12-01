@@ -7,7 +7,11 @@ import math
 import sys
 
 
-def calculate_solution(mass):
+def calculate_solution(items):
+    for item in items:
+        for sub in range(0, len(items)):
+            if item + items[sub] == 2020:
+                return item * items[sub]
     return 0
 
 
