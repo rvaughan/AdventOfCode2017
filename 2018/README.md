@@ -1,4 +1,4 @@
-# Advent Of Code 2017
+# Advent Of Code 2018
 
 Code and solutions for [Advent of Code 2018](http://adventofcode.com/2018).
 Just maybe not very good ones :)
