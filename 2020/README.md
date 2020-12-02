@@ -26,3 +26,5 @@ This year I set up a private [leaderboard](leaderboard.json).
 
   * [Day 1 - Repair Report](./day_01/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k4e4lm/2020_day_1_solutions/)
+  * [Day 2 - Password Philosophy](./day_02/README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k52psu/2020_day_02_solutions/)
