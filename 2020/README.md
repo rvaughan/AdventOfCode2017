@@ -20,19 +20,29 @@ hold your breath.
 
 ## Leaderboard
 
-This year I set up a private [leaderboard](leaderboard.json).
+Last year I set up a private [leaderboard](leaderboard.json), which I've continued
+using this year.
 
 ## Puzzles
 
   * [Day 1 - Repair Report](./day_01/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k4e4lm/2020_day_1_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=86a_DSKf8vw) Jonathan Paulson solve it.
   * [Day 2 - Password Philosophy](./day_02/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k52psu/2020_day_02_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=ukE5YJyPTLk) Jonathan Paulson solve it.
   * [Day 3 - Toboggan Trajectory](./day_32/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k5qsrk/2020_day_03_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=PBI6rGv9Utw) Jonathan Paulson solve it.
+    * Global Nerdy's [solution](https://www.globalnerdy.com/2020/12/05/my-solution-to-advent-of-code-2020s-day-3-challenge-in-python/)
   * [Day 4 - Passport Processing](./day_4//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k6e8sw/2020_day_04_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=bhNhHHEZHMI) Jonathan Paulson solve it.
+    * [Lewis Lane](https://twitter.com/lewster32) also posted a really cool visualisation of the [generated passports](https://www.reddit.com/r/adventofcode/comments/k7ecjr/2020_day_4_javascript_passport_visualisation_tool/) which you can try out on your puzzle input [here](https://codepen.io/lewster32/pen/abmNvqZ).
   * [Day 5 - Binary Boarding](./day_5//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k71h6r/2020_day_05_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=wa0VcQugEsI) Jonathan Paulson solve it.
+    * Someone posted a rather [neat visualisation](https://www.reddit.com/r/adventofcode/comments/k7kzof/2020_day_5_watching_everyone_board_the_plane/) of the puzzle in action.
   * [Day 6 - Custom Customs](./day_6//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k7ndux/2020_day_06_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=e_66g1QcVlE) Jonathan Paulson solve it.
