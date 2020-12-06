@@ -34,3 +34,5 @@ This year I set up a private [leaderboard](leaderboard.json).
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k6e8sw/2020_day_04_solutions/)
   * [Day 5 - Binary Boarding](./day_5//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k71h6r/2020_day_05_solutions/)
+  * [Day 6 - Custom Customs](./day_6//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k7ndux/2020_day_06_solutions/)
