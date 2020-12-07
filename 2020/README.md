@@ -46,3 +46,5 @@ using this year.
   * [Day 6 - Custom Customs](./day_6//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k7ndux/2020_day_06_solutions/)
     * [Watch](https://www.youtube.com/watch?v=e_66g1QcVlE) Jonathan Paulson solve it.
+  * [Day 7 - Handy Haversacks](./day_7//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k8a31f/2020_day_07_solutions/)
