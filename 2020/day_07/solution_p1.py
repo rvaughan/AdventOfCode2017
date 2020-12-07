@@ -19,7 +19,7 @@ def add_rule(rule):
     contained = []
 
     bag = " ".join(parts[0:3]).replace('bags', 'bag')
-    print(bag)
+    # print(bag)
 
     pos = 4
     if parts[pos] != 'no':
@@ -44,7 +44,7 @@ def add_rule(rule):
 def check_rule(rule, bag_colour):
     count = 0
     
-    print(rules[rule])
+    # print(rules[rule])
 
     if rule in rules:
         for sub_rule in rules[rule]:
