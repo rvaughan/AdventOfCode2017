@@ -49,3 +49,5 @@ using this year.
   * [Day 7 - Handy Haversacks](./day_7//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k8a31f/2020_day_07_solutions/)
     * [Watch](https://www.youtube.com/watch?v=vhpLTPXoHyU) Jonathan Paulson solve it.
+  * [Day 8 - Handy Haversacks](./day_8//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k8xw8h/2020_day_08_solutions/)
