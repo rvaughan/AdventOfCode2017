@@ -54,3 +54,4 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=ZSGTr55gmIs) Jonathan Paulson solve it.
   * [Day 9 - Encoding Error](./day_09//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k9lfwj/2020_day_09_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=_57ddM5QZdI) Jonathan Paulson solve it.
