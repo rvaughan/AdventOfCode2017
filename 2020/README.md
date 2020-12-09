@@ -28,6 +28,9 @@ using this year.
   * [Day 1 - Repair Report](./day_01/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k4e4lm/2020_day_1_solutions/)
     * [Watch](https://www.youtube.com/watch?v=86a_DSKf8vw) Jonathan Paulson solve it.
+    * Due to overwhelming demand this year, the servers struggled with the load. Eric has put up a couple of postmortems:
+      * [Postmortem 1](https://www.reddit.com/r/adventofcode/comments/k4ejjz/2020_day_1_unlock_crash_postmortem/)
+      * [Postmortem 2](https://www.reddit.com/r/adventofcode/comments/k9lt09/postmortem_2_scaling_adventures/)
   * [Day 2 - Password Philosophy](./day_02/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k52psu/2020_day_02_solutions/)
     * [Watch](https://www.youtube.com/watch?v=ukE5YJyPTLk) Jonathan Paulson solve it.
