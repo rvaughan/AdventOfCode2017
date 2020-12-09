@@ -31,24 +31,26 @@ using this year.
   * [Day 2 - Password Philosophy](./day_02/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k52psu/2020_day_02_solutions/)
     * [Watch](https://www.youtube.com/watch?v=ukE5YJyPTLk) Jonathan Paulson solve it.
-  * [Day 3 - Toboggan Trajectory](./day_32/README.md)
+  * [Day 3 - Toboggan Trajectory](./day_03/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k5qsrk/2020_day_03_solutions/)
     * [Watch](https://www.youtube.com/watch?v=PBI6rGv9Utw) Jonathan Paulson solve it.
     * Global Nerdy's [solution](https://www.globalnerdy.com/2020/12/05/my-solution-to-advent-of-code-2020s-day-3-challenge-in-python/)
-  * [Day 4 - Passport Processing](./day_4//README.md)
+  * [Day 4 - Passport Processing](./day_04//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k6e8sw/2020_day_04_solutions/)
     * [Watch](https://www.youtube.com/watch?v=bhNhHHEZHMI) Jonathan Paulson solve it.
     * [Lewis Lane](https://twitter.com/lewster32) also posted a really cool visualisation of the [generated passports](https://www.reddit.com/r/adventofcode/comments/k7ecjr/2020_day_4_javascript_passport_visualisation_tool/) which you can try out on your puzzle input [here](https://codepen.io/lewster32/pen/abmNvqZ).
-  * [Day 5 - Binary Boarding](./day_5//README.md)
+  * [Day 5 - Binary Boarding](./day_05//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k71h6r/2020_day_05_solutions/)
     * [Watch](https://www.youtube.com/watch?v=wa0VcQugEsI) Jonathan Paulson solve it.
     * Someone posted a rather [neat visualisation](https://www.reddit.com/r/adventofcode/comments/k7kzof/2020_day_5_watching_everyone_board_the_plane/) of the puzzle in action.
-  * [Day 6 - Custom Customs](./day_6//README.md)
+  * [Day 6 - Custom Customs](./day_06//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k7ndux/2020_day_06_solutions/)
     * [Watch](https://www.youtube.com/watch?v=e_66g1QcVlE) Jonathan Paulson solve it.
-  * [Day 7 - Handy Haversacks](./day_7//README.md)
+  * [Day 7 - Handy Haversacks](./day_07//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k8a31f/2020_day_07_solutions/)
     * [Watch](https://www.youtube.com/watch?v=vhpLTPXoHyU) Jonathan Paulson solve it.
-  * [Day 8 - Handy Haversacks](./day_8//README.md)
+  * [Day 8 - Handheld Halting](./day_08//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k8xw8h/2020_day_08_solutions/)
     * [Watch](https://www.youtube.com/watch?v=ZSGTr55gmIs) Jonathan Paulson solve it.
+  * [Day 9 - Encoding Error](./day_09//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k9lfwj/2020_day_09_solutions/)

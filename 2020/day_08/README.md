@@ -1,4 +1,4 @@
-# Day 08 : Handy Haversacks
+# Day 08 : Handheld Halting
 
 This folder contains a solution for day 8.
 
