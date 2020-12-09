@@ -46,12 +46,14 @@ using this year.
   * [Day 6 - Custom Customs](./day_06//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k7ndux/2020_day_06_solutions/)
     * [Watch](https://www.youtube.com/watch?v=e_66g1QcVlE) Jonathan Paulson solve it.
+    * A really amusing Unreal Engine based visualisation of [days 4 - 6](https://www.reddit.com/r/adventofcode/comments/k9lv2p/2020_day_4_5_6_unreal_engine_4_video/).
   * [Day 7 - Handy Haversacks](./day_07//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k8a31f/2020_day_07_solutions/)
     * [Watch](https://www.youtube.com/watch?v=vhpLTPXoHyU) Jonathan Paulson solve it.
   * [Day 8 - Handheld Halting](./day_08//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k8xw8h/2020_day_08_solutions/)
     * [Watch](https://www.youtube.com/watch?v=ZSGTr55gmIs) Jonathan Paulson solve it.
+    * Someone put together a [debugger like view](https://www.reddit.com/r/adventofcode/comments/k94pkh/2020_day_8_part_1_terminal_display_in_python/) for this challenge.
   * [Day 9 - Encoding Error](./day_09//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k9lfwj/2020_day_09_solutions/)
     * [Watch](https://www.youtube.com/watch?v=_57ddM5QZdI) Jonathan Paulson solve it.
