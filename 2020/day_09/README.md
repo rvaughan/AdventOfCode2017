@@ -1,4 +1,4 @@
-# Day 08 : Encoding Error
+# Day 09 : Encoding Error
 
 This folder contains a solution for day 9.
 
