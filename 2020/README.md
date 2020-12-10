@@ -61,3 +61,5 @@ using this year.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/k9lfwj/2020_day_09_solutions/)
     * [Watch](https://www.youtube.com/watch?v=_57ddM5QZdI) Jonathan Paulson solve it.
   * [Day 10 - Adapter Array](./day_10//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/ka8z8x/2020_day_10_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=cE88K2kFZn0) Jonathan Paulson solve it.
