@@ -27,6 +27,9 @@ def check_path(adaptors, idx):
     if idx == len(adaptors) - 1:
         path_score[idx] = 1
 
+    # I tried initially to solve this naively, but the runtime is just
+    # far too long due to the size of the input, so we need to cache
+    # the score for a path and reuse that value when it's available.
     if idx in path_score:
         return path_score[idx]
 
