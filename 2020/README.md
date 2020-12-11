@@ -64,3 +64,6 @@ using this year.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/ka8z8x/2020_day_10_solutions/)
     * [Watch](https://www.youtube.com/watch?v=cE88K2kFZn0) Jonathan Paulson solve it.
   * [Day 11 - Seating System](./day_11//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kaw6oz/2020_day_11_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=d25r5GZa4us) Jonathan Paulson solve it.
+    * Theres [quite](https://www.reddit.com/r/adventofcode/comments/kb3tgx/2020_day_11_visualized_with_processingpy/) [a](https://www.reddit.com/r/adventofcode/comments/kb5npj/2020_day_11_fiddling_with_tolerance_values_makes/) [few](https://www.reddit.com/r/adventofcode/comments/kb5fop/2020_day_11_part_1_2_python_i_made_a/) [visualisations](https://www.reddit.com/r/adventofcode/comments/kaxudl/2020_day_11_part_1_filling_ferry_seating/) for todays puzzle.
