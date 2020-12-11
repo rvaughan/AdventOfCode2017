@@ -124,6 +124,10 @@ def run_test(test_input, expected_solution):
     return result
 
 
+# Run any tests that we've defined to help validate our code prior to
+# trying to solve the puzzle.
+
+
 puzzle_input = [
     "L.LL.LL.LL",
     "LLLLLLL.LL",
