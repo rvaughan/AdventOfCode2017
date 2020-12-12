@@ -43,3 +43,5 @@ These instructions would be handled as follows:
 At the end of these instructions, the ship's [Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry) (sum of the absolute values of its east/west position and its north/south position) from its starting position is 17 + 8 = **25**.
 
 Figure out where the navigation instructions lead. **What is the Manhattan distance between that location and the ship's starting position?**
+
+**Solution:** 2228
