@@ -126,3 +126,5 @@ Here are some other examples:
 However, with so many bus IDs in your list, surely the actual earliest timestamp will be larger than 100000000000000!
 
 **What is the earliest timestamp such that all of the listed bus IDs depart at offsets matching their positions in the list?**
+
+**Solution:** 266204454441577
