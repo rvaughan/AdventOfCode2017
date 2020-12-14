@@ -66,7 +66,7 @@ using this year.
   * [Day 11 - Seating System](./day_11//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kaw6oz/2020_day_11_solutions/)
     * [Watch](https://www.youtube.com/watch?v=d25r5GZa4us) Jonathan Paulson solve it.
-    * Theres [quite](https://www.reddit.com/r/adventofcode/comments/kb3tgx/2020_day_11_visualized_with_processingpy/) [a](https://www.reddit.com/r/adventofcode/comments/kb5npj/2020_day_11_fiddling_with_tolerance_values_makes/) [few](https://www.reddit.com/r/adventofcode/comments/kb5fop/2020_day_11_part_1_2_python_i_made_a/) [visualisations](https://www.reddit.com/r/adventofcode/comments/kaxudl/2020_day_11_part_1_filling_ferry_seating/) for todays puzzle.
+    * Theres [quite](https://www.reddit.com/r/adventofcode/comments/kb3tgx/2020_day_11_visualized_with_processingpy/) [a](https://www.reddit.com/r/adventofcode/comments/kb5npj/2020_day_11_fiddling_with_tolerance_values_makes/) [few](https://www.reddit.com/r/adventofcode/comments/kb5fop/2020_day_11_part_1_2_python_i_made_a/) [visualisations](https://www.reddit.com/r/adventofcode/comments/kaxudl/2020_day_11_part_1_filling_ferry_seating/) [for](https://www.reddit.com/r/adventofcode/comments/kcpdbi/2020_day_11_part_2luaroblox_waiting_room/) todays puzzle.
   * [Day 12 - Rain Risk](./day_12//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kbj5me/2020_day_12_solutions/)
     * [Watch](https://www.youtube.com/watch?v=C9ZfSsubfU0) Jonathan Paulson solve it.
@@ -75,3 +75,5 @@ using this year.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kc4njx/2020_day_13_solutions/)
     * [Watch](https://www.youtube.com/watch?v=x40aLK9KjYQ) Jonathan Paulson solve it.
   * [Day 14 - Docking Data](./day_14//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kcr1ct/2020_day_14_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=Zxx9Wo4-EXs) Jonathan Paulson solve it.
