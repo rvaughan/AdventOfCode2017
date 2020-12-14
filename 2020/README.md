@@ -74,3 +74,4 @@ using this year.
   * [Day 13 - Shuttle Search](./day_13//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kc4njx/2020_day_13_solutions/)
     * [Watch](https://www.youtube.com/watch?v=x40aLK9KjYQ) Jonathan Paulson solve it.
+  * [Day 14 - Docking Data](./day_14//README.md)
