@@ -54,3 +54,5 @@ result: 000000000000000000000000000001000000  (decimal 64)
 To initialize your ferry's docking program, you need the sum of all values left in memory after the initialization program completes. (The entire 36-bit address space begins initialized to the value 0 at every address.) In the above example, only two values in memory are not zero - 101 (at address 7) and 64 (at address 8) - producing a sum of **165**.
 
 Execute the initialization program. **What is the sum of all values left in memory after it completes?**
+
+**Solution:** 14925946402938
