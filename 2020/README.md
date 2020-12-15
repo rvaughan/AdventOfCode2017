@@ -77,3 +77,4 @@ using this year.
   * [Day 14 - Docking Data](./day_14//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kcr1ct/2020_day_14_solutions/)
     * [Watch](https://www.youtube.com/watch?v=Zxx9Wo4-EXs) Jonathan Paulson solve it.
+  * [Day 15 - Rambunctious Recitation](./day_15//README.md)
