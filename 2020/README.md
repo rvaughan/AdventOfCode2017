@@ -81,3 +81,5 @@ using this year.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kdf85p/2020_day_15_solutions/)
     * [Watch](https://www.youtube.com/watch?v=19_2sEQQurU) Jonathan Paulson solve it.
   * [Day 16 - Ticket Translation](./day_15//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/ke2qp6/2020_day_16_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=OhqvfoaBljY) Jonathan Paulson solve it.
