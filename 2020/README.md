@@ -80,3 +80,4 @@ using this year.
   * [Day 15 - Rambunctious Recitation](./day_15//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kdf85p/2020_day_15_solutions/)
     * [Watch](https://www.youtube.com/watch?v=19_2sEQQurU) Jonathan Paulson solve it.
+  * [Day 16 - Ticket Translation](./day_15//README.md)
