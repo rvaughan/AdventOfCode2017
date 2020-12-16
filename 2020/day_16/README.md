@@ -49,3 +49,5 @@ nearby tickets:
 It doesn't matter which position corresponds to which field; you can identify invalid **nearby tickets** by considering only whether tickets contain **values that are not valid for any field**. In this example, the values on the **first nearby ticket** are all valid for at least one field. This is not true of the other three **nearby tickets**: the values 4, 55, and 12 are are not valid for any field. Adding together all of the invalid values produces your **ticket scanning error rate**: 4 + 55 + 12 = **71**.
 
 Consider the validity of the **nearby tickets** you scanned. **What is your ticket scanning error rate?**
+
+**Solution:** 26009
