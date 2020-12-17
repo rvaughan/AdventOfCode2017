@@ -83,4 +83,8 @@ using this year.
   * [Day 16 - Ticket Translation](./day_16//README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/ke2qp6/2020_day_16_solutions/)
     * [Watch](https://www.youtube.com/watch?v=OhqvfoaBljY) Jonathan Paulson solve it.
+    * People created [some](https://www.reddit.com/r/adventofcode/comments/keeuxa/2020_day_16_part_2_visualization_of_my_part_2/) [visualisations](https://www.reddit.com/r/adventofcode/comments/keiy95/2020_day_16_part_2_an_interesting_regularity_in/) for this puzzle.
   * [Day 17 - Conway Cubes](./day_17//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/keqsfa/2020_day_17_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=QUTIbkrexes) Jonathan Paulson solve it.
+    * There's [some](https://www.reddit.com/r/adventofcode/comments/kes0n3/2020_day_17_part_2_playing_4_dimensional_life/) [visualisations](https://www.reddit.com/r/adventofcode/comments/kesy13/2020_day_17_1_3d_visualization/) for this puzzle.
