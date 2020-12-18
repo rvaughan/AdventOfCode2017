@@ -44,3 +44,5 @@ Here are a few more examples:
   - ((2 + 4 * 9) * (6 + 9 * 8 + 6) + 6) + 2 + 4 * 2 becomes **13632**.
 
 Before you can help with the homework, you need to understand it yourself. **Evaluate the expression on each line of the homework; what is the sum of the resulting values?**
+
+**Solution:** 23507031841020
