@@ -88,3 +88,4 @@ using this year.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/keqsfa/2020_day_17_solutions/)
     * [Watch](https://www.youtube.com/watch?v=QUTIbkrexes) Jonathan Paulson solve it.
     * There's [some](https://www.reddit.com/r/adventofcode/comments/kes0n3/2020_day_17_part_2_playing_4_dimensional_life/) [visualisations](https://www.reddit.com/r/adventofcode/comments/kesy13/2020_day_17_1_3d_visualization/) for this puzzle.
+  * [Day 18 - Operation Order](./day_18//README.md)
