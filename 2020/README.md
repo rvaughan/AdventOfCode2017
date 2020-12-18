@@ -89,3 +89,6 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=QUTIbkrexes) Jonathan Paulson solve it.
     * There's [some](https://www.reddit.com/r/adventofcode/comments/kes0n3/2020_day_17_part_2_playing_4_dimensional_life/) [visualisations](https://www.reddit.com/r/adventofcode/comments/kesy13/2020_day_17_1_3d_visualization/) for this puzzle.
   * [Day 18 - Operation Order](./day_18//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kfeldk/2020_day_18_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=LVCa6MJ1XK8) Jonathan Paulson solve it.
+    * There's even [some](https://www.reddit.com/r/adventofcode/comments/kfg4jd/2020_day_18_part_2_go_crunching_the_numbers/) [visuualisations](https://www.reddit.com/r/adventofcode/comments/kffygj/2020_day_18_part_2_number_crunching_in_action/) for this puzzle.
