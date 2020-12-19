@@ -154,3 +154,5 @@ aabbbbbaabbbaaaaaabbbbbababaaaaabbaaabba
 ```
 
 **After updating rules 8 and 11, how many messages completely match rule 0?**
+
+**Solution:** 439
