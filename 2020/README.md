@@ -92,4 +92,5 @@ using this year.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kfeldk/2020_day_18_solutions/)
     * [Watch](https://www.youtube.com/watch?v=LVCa6MJ1XK8) Jonathan Paulson solve it.
     * There's even [some](https://www.reddit.com/r/adventofcode/comments/kfg4jd/2020_day_18_part_2_go_crunching_the_numbers/) [visuualisations](https://www.reddit.com/r/adventofcode/comments/kffygj/2020_day_18_part_2_number_crunching_in_action/) for this puzzle.
-  * [Day 19 - Monster Messages](./day_18//README.md)
+  * [Day 19 - Monster Messages](./day_19//README.md)
+  * [Day 20 - Jurassic Jigsaw](./day_20//README.md)
