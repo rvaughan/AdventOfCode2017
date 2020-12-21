@@ -94,3 +94,4 @@ using this year.
     * There's even [some](https://www.reddit.com/r/adventofcode/comments/kfg4jd/2020_day_18_part_2_go_crunching_the_numbers/) [visuualisations](https://www.reddit.com/r/adventofcode/comments/kffygj/2020_day_18_part_2_number_crunching_in_action/) for this puzzle.
   * [Day 19 - Monster Messages](./day_19//README.md)
   * [Day 20 - Jurassic Jigsaw](./day_20//README.md)
+  * [Day 21 - Allergen Assessment](./day_21//README.md)
