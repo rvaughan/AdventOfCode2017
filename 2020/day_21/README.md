@@ -28,3 +28,5 @@ The first food in the list has four ingredients (written in a language you don't
 The first step is to determine which ingredients **can't possibly contain** any of the allergens in any food in your list. In the above example, none of the ingredients kfcds, nhms, sbzzf, or trh can contain an allergen. Counting the number of times any of these ingredients appear in any ingredients list produces 5: they all appear once each except sbzzf, which appears twice.
 
 Determine which ingredients cannot possibly contain any of the allergens in your list. **How many times do any of those ingredients appear?**
+
+**Solution:** 2485
