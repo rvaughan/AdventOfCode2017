@@ -118,3 +118,5 @@ Once the game ends, you can calculate the winning player's **score**. The bottom
 So, once the game ends, the winning player's score is **306**.
 
 Play the small crab in a game of Combat using the two decks you just dealt. **What is the winning player's score?**
+
+**Solution:** 32598
