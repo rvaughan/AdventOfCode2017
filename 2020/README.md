@@ -95,3 +95,4 @@ using this year.
   * [Day 19 - Monster Messages](./day_19//README.md)
   * [Day 20 - Jurassic Jigsaw](./day_20//README.md)
   * [Day 21 - Allergen Assessment](./day_21//README.md)
+  * [Day 22 - Crab Combat](./day_22//README.md)
