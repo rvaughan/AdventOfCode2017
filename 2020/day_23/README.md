@@ -99,3 +99,5 @@ The crab is going to hide your stars - one each - under the **two cups that will
 In the above example (389125467), this would be 934001 and then 159792; multiplying these together produces **149245887792**.
 
 Determine which two cups will end up immediately clockwise of cup 1. **What do you get if you multiply their labels together?**
+
+**Solution:** 562136730660
