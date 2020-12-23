@@ -96,3 +96,4 @@ using this year.
   * [Day 20 - Jurassic Jigsaw](./day_20//README.md)
   * [Day 21 - Allergen Assessment](./day_21//README.md)
   * [Day 22 - Crab Combat](./day_22//README.md)
+  * [Day 23 - Crab Cups](./day_23//README.md)
