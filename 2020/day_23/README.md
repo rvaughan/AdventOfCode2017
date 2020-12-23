@@ -83,3 +83,5 @@ After the crab is done, what order will the cups be in? Starting **after the cup
 Using your labeling, simulate 100 moves. **What are the labels on the cups after cup 1?**
 
 Your puzzle input is **942387615**.
+
+**Solution:** 36542897
