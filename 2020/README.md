@@ -93,8 +93,23 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=LVCa6MJ1XK8) Jonathan Paulson solve it.
     * There's even [some](https://www.reddit.com/r/adventofcode/comments/kfg4jd/2020_day_18_part_2_go_crunching_the_numbers/) [visuualisations](https://www.reddit.com/r/adventofcode/comments/kffygj/2020_day_18_part_2_number_crunching_in_action/) for this puzzle.
   * [Day 19 - Monster Messages](./day_19//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kg1mro/2020_day_19_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=S3uPaqHcq3I) Jonathan Paulson solve it.
   * [Day 20 - Jurassic Jigsaw](./day_20//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kgo01p/2020_day_20_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=H0rTE9r9YmQ) Jonathan Paulson solve it.
+    * There's some [visualisations](https://www.reddit.com/r/adventofcode/comments/kijvc0/2020_day_20_part_2_rough_seas_and_sea_monsters/) of the solutions as well.
   * [Day 21 - Allergen Assessment](./day_21//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/khaiyk/2020_day_21_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=5TOgCuSsfZg) Jonathan Paulson solve it.
   * [Day 22 - Crab Combat](./day_22//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/khyjgv/2020_day_22_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=iD4R7wSNrdw) Jonathan Paulson solve it.
   * [Day 23 - Crab Cups](./day_23//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kimluc/2020_day_23_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=62chpxJA9pQ) Jonathan Paulson solve it.
+    * There's some [visualisations](https://www.reddit.com/r/adventofcode/comments/kiuyu5/2020_day_23_part_1/) of the [solution](https://www.reddit.com/r/adventofcode/comments/kit8p0/2020_day_23_part_1_arranging_the_cups/) as well.
   * [Day 24 - Lobby Layout](./day_24//README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kj96iw/2020_day_24_solutions/)
+    * [Watch](https://www.youtube.com/watch?v=xNv7d2crKoc) Jonathan Paulson solve it.
+    * There's some [visualisations](https://www.reddit.com/r/adventofcode/comments/kjairs/2020_day_24_part_2_hexagon_game_of_life/) of the [solutions](https://www.reddit.com/r/adventofcode/comments/kjaf1x/2020_day_24_part_2_go_due_to_unforeseen_christmas/) as well.
