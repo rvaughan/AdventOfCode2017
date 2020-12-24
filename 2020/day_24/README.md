@@ -90,3 +90,5 @@ Day 100: 2208
 After executing this process a total of 100 times, there would be **2208** black tiles facing up.
 
 **How many tiles will be black after 100 days?**
+
+**Solution:** 4120
