@@ -48,3 +48,5 @@ wseweeenwnesenwwwswnew
 In the above example, 10 tiles are flipped once (to black), and 5 more are flipped twice (to black, then back to white). After all of these instructions have been followed, a total of **10** tiles are **black**.
 
 Go through the renovation crew's list and determine which tiles they need to flip. After all of the instructions have been followed, **how many tiles are left with the black side up?**
+
+**Solution:** 512
