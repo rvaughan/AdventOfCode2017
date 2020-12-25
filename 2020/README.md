@@ -113,3 +113,4 @@ using this year.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/kj96iw/2020_day_24_solutions/)
     * [Watch](https://www.youtube.com/watch?v=xNv7d2crKoc) Jonathan Paulson solve it.
     * There's some [visualisations](https://www.reddit.com/r/adventofcode/comments/kjairs/2020_day_24_part_2_hexagon_game_of_life/) of the [solutions](https://www.reddit.com/r/adventofcode/comments/kjaf1x/2020_day_24_part_2_go_due_to_unforeseen_christmas/) as well.
+  * [Day 25 - Combo Breaker](./day_25//README.md)
