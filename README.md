@@ -6,6 +6,7 @@ competition run every December.
 There's some videos by the creator [Eric Wastl](https://twitter.com/ericwastl):
 
   * [Advent of Code: Behind the Scenes](https://www.youtube.com/watch?v=CFWuwNDOnIo)
+  * [FOSDEM 2021 Talk](https://ftp.osuosl.org/pub/fosdem/2021/D.perl/adventofcode.webm)
 
 For now I've chosen to solve the puzzles using python, mainly for simplicity.
 
