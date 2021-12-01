@@ -25,4 +25,4 @@ using this year.
 
 ## Puzzles
 
-  * [Day 1 - ???](./day_01/README.md)
+  * [Day 1 - Sonar Sweep](./day_01/README.md)
