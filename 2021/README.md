@@ -28,6 +28,7 @@ using this year.
   * [Day 1 - Sonar Sweep](./day_01/README.md)
     * [Watch](https://www.youtube.com/watch?v=pkLfyRwDMMw) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/r66vow/2021_day_1_solutions/)
-  * [Day 1 - Dive!](./day_02/README.md)
+  * [Day 2 - Dive!](./day_02/README.md)
     * [Watch](https://www.youtube.com/watch?v=e3_iiz_6bFw) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/r6zd93/2021_day_2_solutions/)
+  * [Day 3 - Binary Diagnostic](./day_03/README.md)

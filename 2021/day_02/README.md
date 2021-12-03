@@ -1,4 +1,4 @@
-# Day 01 : Dive!
+# Day 02 : Dive!
 
 This folder contains a solution for day 2.
 
