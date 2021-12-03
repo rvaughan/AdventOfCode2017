@@ -32,3 +32,5 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=e3_iiz_6bFw) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/r6zd93/2021_day_2_solutions/)
   * [Day 3 - Binary Diagnostic](./day_03/README.md)
+    * [Watch](https://www.youtube.com/watch?v=bFpsqFSCCsM) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/r7r0ff/2021_day_3_solutions/)
