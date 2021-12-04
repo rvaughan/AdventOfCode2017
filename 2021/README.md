@@ -34,3 +34,4 @@ using this year.
   * [Day 3 - Binary Diagnostic](./day_03/README.md)
     * [Watch](https://www.youtube.com/watch?v=bFpsqFSCCsM) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/r7r0ff/2021_day_3_solutions/)
+  * [Day 4 - Giant Squid](./day_04/README.md)
