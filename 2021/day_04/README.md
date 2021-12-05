@@ -1,4 +1,4 @@
-# Day 03 : Giant Squid
+# Day 04 : Giant Squid
 
 This folder contains a solution for day 4.
 
