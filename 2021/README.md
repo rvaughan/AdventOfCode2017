@@ -41,3 +41,6 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=21OXFXOtGOU) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/r9824c/2021_day_5_solutions/)
   * [Day 6 - Lanternfish](./day_06/README.md)
+  * [Day 5 - Hydrothermal Venture](./day_05/README.md)
+    * [Watch](https://www.youtube.com/watch?v=fHlWM8CIrlI) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/r9z49j/2021_day_6_solutions/)
