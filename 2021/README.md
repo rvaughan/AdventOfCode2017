@@ -44,3 +44,5 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=fHlWM8CIrlI) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/r9z49j/2021_day_6_solutions/)
   * [Day 7 - The Treachery of Whales](./day_07/README.md)
+    * [Watch](https://www.youtube.com/watch?v=I_GB8DMGvVA) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rar7ty/2021_day_7_solutions/)
