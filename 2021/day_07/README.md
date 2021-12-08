@@ -1,6 +1,6 @@
 # Day 07 : The Treachery of Whales
 
-This folder contains a solution for day 6.
+This folder contains a solution for day 7.
 
 ## Problem Description
 

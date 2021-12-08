@@ -46,3 +46,4 @@ using this year.
   * [Day 7 - The Treachery of Whales](./day_07/README.md)
     * [Watch](https://www.youtube.com/watch?v=I_GB8DMGvVA) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rar7ty/2021_day_7_solutions/)
+  * [Day 8 - Seven Segment Search](./day_08/README.md)
