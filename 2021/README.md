@@ -47,3 +47,5 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=I_GB8DMGvVA) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rar7ty/2021_day_7_solutions/)
   * [Day 8 - Seven Segment Search](./day_08/README.md)
+    * [Watch](https://www.youtube.com/watch?v=DhQPrF-LBoE) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rbj87a/2021_day_8_solutions/)
