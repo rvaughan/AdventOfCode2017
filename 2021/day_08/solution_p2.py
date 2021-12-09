@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This code holds the solution for part 1 of day 8 of the Advent of Code for 2021.
+This code holds the solution for part 2 of day 8 of the Advent of Code for 2021.
 """
 
 import sys
