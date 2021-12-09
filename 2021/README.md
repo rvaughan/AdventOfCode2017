@@ -50,3 +50,5 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=DhQPrF-LBoE) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rbj87a/2021_day_8_solutions/)
   * [Day 9 - Smoke Basin](./day_09/README.md)
+    * [Watch](https://www.youtube.com/watch?v=rWUFJ0yIDGo) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rca6vp/2021_day_9_solutions/)
