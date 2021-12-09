@@ -29,3 +29,5 @@ In the above example, there are four **low points**, all highlighted: two are in
 The **risk level** of a low point is 1 plus its height. In the above example, the risk levels of the low points are ```2```, ```1```, ```6```, and ```6```. The sum of the risk levels of all low points in the heightmap is therefore **15**.
 
 Find all of the low points on your heightmap. **What is the sum of the risk levels of all low points on your heightmap?**
+
+**Solution:** 489
