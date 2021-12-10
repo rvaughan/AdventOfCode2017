@@ -54,3 +54,4 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=rWUFJ0yIDGo) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rca6vp/2021_day_9_solutions/)
     * Some people have [also](https://www.reddit.com/r/adventofcode/comments/rccihm/2021_day_9_flooding_the_world/) [put](https://www.reddit.com/r/adventofcode/comments/rcbdn8/2021_day_9_map_of_basins/) [together](https://www.reddit.com/r/adventofcode/comments/rcccxz/2021_day_9_ocean_floor_visualization_in_minecraft/) [some](https://www.reddit.com/r/adventofcode/comments/rcdrds/2021_day_9_visualization_of_the_heights_in_3d/) [visualisations](https://www.reddit.com/r/adventofcode/comments/rccbr9/2021_day_9_finding_low_points_and_basins/)
+  * [Day 10 - Syntax Scoring](./day_10/README.md)
