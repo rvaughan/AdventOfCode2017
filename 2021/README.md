@@ -57,3 +57,4 @@ using this year.
   * [Day 10 - Syntax Scoring](./day_10/README.md)
     * [Watch](https://www.youtube.com/watch?v=nIlDvz45N1w) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rd0s54/2021_day_10_solutions/)
+  * [Day 11 - Dumbo Octopus](./day_11/README.md)
