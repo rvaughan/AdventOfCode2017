@@ -1,449 +1,400 @@
 {
-    "event": "2018",
+    "event": "2017",
+    "owner_id": "197482",
     "members": {
         "197482": {
             "completion_day_level": {
                 "1": {
                     "1": {
-                        "get_star_ts": 1543649029
+                        "get_star_ts": 1512214572
                     },
                     "2": {
-                        "get_star_ts": 1543649470
+                        "get_star_ts": 1512215148
                     }
                 },
                 "2": {
                     "1": {
-                        "get_star_ts": 1543736151
+                        "get_star_ts": 1512215922
                     },
                     "2": {
-                        "get_star_ts": 1543737491
+                        "get_star_ts": 1512217415
                     }
                 },
                 "3": {
                     "1": {
-                        "get_star_ts": 1543826852
+                        "get_star_ts": 1512386905
                     },
                     "2": {
-                        "get_star_ts": 1543829162
+                        "get_star_ts": 1512395305
                     }
                 },
                 "4": {
                     "1": {
-                        "get_star_ts": 1543914003
+                        "get_star_ts": 1512395825
                     },
                     "2": {
-                        "get_star_ts": 1543921127
+                        "get_star_ts": 1512397441
                     }
                 },
                 "5": {
                     "1": {
-                        "get_star_ts": 1543997626
+                        "get_star_ts": 1512457013
                     },
                     "2": {
-                        "get_star_ts": 1544004027
+                        "get_star_ts": 1512457232
                     }
                 },
                 "6": {
                     "1": {
-                        "get_star_ts": 1544090141
+                        "get_star_ts": 1512537853
                     },
                     "2": {
-                        "get_star_ts": 1544091529
+                        "get_star_ts": 1512538661
                     }
                 },
                 "7": {
                     "1": {
-                        "get_star_ts": 1544161804
+                        "get_star_ts": 1512630270
                     },
                     "2": {
-                        "get_star_ts": 1544162018
+                        "get_star_ts": 1512664485
                     }
                 },
                 "8": {
                     "1": {
-                        "get_star_ts": 1544254994
+                        "get_star_ts": 1512714222
                     },
                     "2": {
-                        "get_star_ts": 1544255921
+                        "get_star_ts": 1512714855
                     }
                 },
                 "9": {
                     "1": {
-                        "get_star_ts": 1544343790
+                        "get_star_ts": 1512804454
                     },
                     "2": {
-                        "get_star_ts": 1544343898
+                        "get_star_ts": 1512804989
                     }
                 },
                 "10": {
                     "1": {
-                        "get_star_ts": 1544432859
+                        "get_star_ts": 1512885635
                     },
                     "2": {
-                        "get_star_ts": 1544432929
+                        "get_star_ts": 1512892885
                     }
                 },
                 "11": {
                     "1": {
-                        "get_star_ts": 1544516380
+                        "get_star_ts": 1512970638
                     },
                     "2": {
-                        "get_star_ts": 1544518042
+                        "get_star_ts": 1512970889
                     }
                 },
                 "12": {
                     "1": {
-                        "get_star_ts": 1544605885
+                        "get_star_ts": 1513056637
                     },
                     "2": {
-                        "get_star_ts": 1544694323
+                        "get_star_ts": 1513057592
                     }
                 },
                 "13": {
                     "1": {
-                        "get_star_ts": 1544688564
+                        "get_star_ts": 1513143546
                     },
                     "2": {
-                        "get_star_ts": 1544688754
+                        "get_star_ts": 1513145689
                     }
                 },
                 "14": {
                     "1": {
-                        "get_star_ts": 1544773570
+                        "get_star_ts": 1513231215
                     },
                     "2": {
-                        "get_star_ts": 1544777903
+                        "get_star_ts": 1513238821
                     }
                 },
                 "15": {
                     "1": {
-                        "get_star_ts": 1544883279
+                        "get_star_ts": 1513317956
                     },
                     "2": {
-                        "get_star_ts": 1544883450
+                        "get_star_ts": 1513322512
                     }
                 },
                 "16": {
                     "1": {
-                        "get_star_ts": 1544945645
+                        "get_star_ts": 1513402610
                     },
                     "2": {
-                        "get_star_ts": 1544948639
+                        "get_star_ts": 1513407017
                     }
                 },
                 "17": {
                     "1": {
-                        "get_star_ts": 1545031702
+                        "get_star_ts": 1513491483
                     },
                     "2": {
-                        "get_star_ts": 1545031813
+                        "get_star_ts": 1513494135
                     }
                 },
                 "18": {
                     "1": {
-                        "get_star_ts": 1545117790
+                        "get_star_ts": 1513575983
                     },
                     "2": {
-                        "get_star_ts": 1545118799
+                        "get_star_ts": 1513585612
                     }
                 },
                 "19": {
                     "1": {
-                        "get_star_ts": 1545205546
+                        "get_star_ts": 1513666506
                     },
                     "2": {
-                        "get_star_ts": 1545211357
+                        "get_star_ts": 1513666733
                     }
                 },
                 "20": {
                     "1": {
-                        "get_star_ts": 1545285765
+                        "get_star_ts": 1513755399
                     },
                     "2": {
-                        "get_star_ts": 1545286003
+                        "get_star_ts": 1513756841
                     }
                 },
                 "21": {
                     "1": {
-                        "get_star_ts": 1545383342
+                        "get_star_ts": 1513856699
                     },
                     "2": {
-                        "get_star_ts": 1545384139
+                        "get_star_ts": 1513856730
                     }
                 },
                 "22": {
                     "1": {
-                        "get_star_ts": 1545460547
+                        "get_star_ts": 1513922290
                     },
                     "2": {
-                        "get_star_ts": 1545461091
+                        "get_star_ts": 1513928454
                     }
                 },
                 "23": {
                     "1": {
-                        "get_star_ts": 1545553472
+                        "get_star_ts": 1514013999
                     },
                     "2": {
-                        "get_star_ts": 1545553707
+                        "get_star_ts": 1514015185
                     }
                 },
                 "24": {
                     "1": {
-                        "get_star_ts": 1545633631
+                        "get_star_ts": 1514099642
                     },
                     "2": {
-                        "get_star_ts": 1545634099
+                        "get_star_ts": 1514099713
                     }
                 },
                 "25": {
                     "1": {
-                        "get_star_ts": 1545722085
+                        "get_star_ts": 1514182841
                     },
                     "2": {
-                        "get_star_ts": 1545722208
+                        "get_star_ts": 1514182933
                     }
                 }
             },
-            "id": "197482",
-            "local_score": 430,
-            "name": "R Vaughan",
             "stars": 50,
-            "last_star_ts": 1545722208,
-            "global_score": 0
+            "id": "197482",
+            "local_score": 450,
+            "global_score": 0,
+            "last_star_ts": 1514182933,
+            "name": "R Vaughan"
         },
         "440387": {
-            "stars": 36,
-            "last_star_ts": 1574777174,
             "global_score": 0,
+            "last_star_ts": 1545320471,
+            "name": "handybitesize",
+            "stars": 27,
             "completion_day_level": {
                 "1": {
                     "1": {
-                        "get_star_ts": 1543828282
+                        "get_star_ts": 1543851088
                     },
                     "2": {
-                        "get_star_ts": 1543828835
+                        "get_star_ts": 1543851426
                     }
                 },
                 "2": {
                     "1": {
-                        "get_star_ts": 1543831543
+                        "get_star_ts": 1543851712
                     },
                     "2": {
-                        "get_star_ts": 1543832226
+                        "get_star_ts": 1543852038
                     }
                 },
                 "3": {
                     "1": {
-                        "get_star_ts": 1543833785
+                        "get_star_ts": 1543855781
                     },
                     "2": {
-                        "get_star_ts": 1543835110
+                        "get_star_ts": 1543931072
                     }
                 },
                 "4": {
                     "1": {
-                        "get_star_ts": 1543917725
+                        "get_star_ts": 1543931455
                     },
                     "2": {
-                        "get_star_ts": 1543925574
+                        "get_star_ts": 1543931597
                     }
                 },
                 "5": {
                     "1": {
-                        "get_star_ts": 1544003013
+                        "get_star_ts": 1543931998
                     },
                     "2": {
-                        "get_star_ts": 1544003827
+                        "get_star_ts": 1543932073
                     }
                 },
                 "6": {
                     "1": {
-                        "get_star_ts": 1544090037
+                        "get_star_ts": 1543935110
                     },
                     "2": {
-                        "get_star_ts": 1544090369
+                        "get_star_ts": 1543935240
                     }
                 },
                 "7": {
                     "1": {
-                        "get_star_ts": 1544212086
+                        "get_star_ts": 1543936527
                     },
                     "2": {
-                        "get_star_ts": 1544533322
+                        "get_star_ts": 1544017321
                     }
                 },
                 "8": {
                     "1": {
-                        "get_star_ts": 1544388971
+                        "get_star_ts": 1544018553
                     },
                     "2": {
-                        "get_star_ts": 1544389025
+                        "get_star_ts": 1544018634
                     }
                 },
                 "9": {
                     "1": {
-                        "get_star_ts": 1544390892
+                        "get_star_ts": 1544019873
                     },
                     "2": {
-                        "get_star_ts": 1544519091
+                        "get_star_ts": 1544020232
                     }
                 },
                 "10": {
                     "1": {
-                        "get_star_ts": 1544452160
+                        "get_star_ts": 1544545497
                     },
                     "2": {
-                        "get_star_ts": 1544452186
+                        "get_star_ts": 1545318548
                     }
                 },
                 "11": {
                     "1": {
-                        "get_star_ts": 1544519475
-                    },
-                    "2": {
-                        "get_star_ts": 1544528775
+                        "get_star_ts": 1544549827
                     }
                 },
                 "12": {
                     "1": {
-                        "get_star_ts": 1544608140
+                        "get_star_ts": 1544713134
                     },
                     "2": {
-                        "get_star_ts": 1544633499
+                        "get_star_ts": 1544713870
                     }
                 },
                 "13": {
                     "1": {
-                        "get_star_ts": 1544701627
-                    },
-                    "2": {
-                        "get_star_ts": 1544706222
+                        "get_star_ts": 1545305397
                     }
                 },
                 "14": {
                     "1": {
-                        "get_star_ts": 1544779974
+                        "get_star_ts": 1545320471
+                    }
+                },
+                "24": {
+                    "1": {
+                        "get_star_ts": 1543842936
                     },
                     "2": {
-                        "get_star_ts": 1545041439
-                    }
-                },
-                "16": {
-                    "1": {
-                        "get_star_ts": 1545065206
-                    },
-                    "2": {
-                        "get_star_ts": 1545211089
-                    }
-                },
-                "18": {
-                    "1": {
-                        "get_star_ts": 1545218991
-                    },
-                    "2": {
-                        "get_star_ts": 1545219733
-                    }
-                },
-                "19": {
-                    "1": {
-                        "get_star_ts": 1545297631
-                    }
-                },
-                "20": {
-                    "1": {
-                        "get_star_ts": 1545307391
-                    },
-                    "2": {
-                        "get_star_ts": 1545307498
-                    }
-                },
-                "23": {
-                    "1": {
-                        "get_star_ts": 1574777174
+                        "get_star_ts": 1543843961
                     }
                 }
             },
-            "id": "440387",
-            "name": "handybitesize",
-            "local_score": 274
+            "local_score": 216,
+            "id": "440387"
         },
         "491038": {
-            "completion_day_level": {
-                "1": {
-                    "1": {
-                        "get_star_ts": 1544122996
-                    },
-                    "2": {
-                        "get_star_ts": 1544123535
-                    }
-                },
-                "2": {
-                    "1": {
-                        "get_star_ts": 1544127294
-                    }
-                }
-            },
+            "local_score": 0,
             "id": "491038",
+            "completion_day_level": {},
+            "stars": 0,
+            "last_star_ts": "0",
             "name": "plod",
-            "local_score": 21,
-            "stars": 3,
-            "global_score": 0,
-            "last_star_ts": 1544127294
+            "global_score": 0
         },
         "638560": {
-            "name": "Toby Maxwell-Lyte",
-            "local_score": 0,
-            "completion_day_level": {},
-            "id": "638560",
-            "stars": 0,
             "global_score": 0,
-            "last_star_ts": "0"
+            "name": "Toby Maxwell-Lyte",
+            "last_star_ts": "0",
+            "completion_day_level": {},
+            "stars": 0,
+            "id": "638560",
+            "local_score": 0
         },
         "667949": {
-            "id": "667949",
+            "stars": 0,
             "completion_day_level": {},
-            "name": "@cmjdiff",
+            "id": "667949",
             "local_score": 0,
             "global_score": 0,
-            "last_star_ts": "0",
-            "stars": 0
+            "name": "@cmjdiff",
+            "last_star_ts": "0"
         },
         "696996": {
-            "stars": 0,
             "global_score": 0,
             "last_star_ts": "0",
             "name": "tomgallard",
-            "local_score": 0,
             "completion_day_level": {},
+            "stars": 0,
+            "local_score": 0,
             "id": "696996"
         },
         "754943": {
-            "local_score": 0,
-            "name": "Gareth Hendry",
-            "completion_day_level": {},
-            "id": "754943",
-            "stars": 0,
             "global_score": 0,
-            "last_star_ts": "0"
+            "name": "Gareth Hendry",
+            "last_star_ts": "0",
+            "completion_day_level": {},
+            "stars": 0,
+            "id": "754943",
+            "local_score": 0
         },
         "758120": {
-            "id": "758120",
-            "completion_day_level": {},
-            "name": "James Tancock",
-            "local_score": 0,
-            "global_score": 0,
             "last_star_ts": "0",
-            "stars": 0
+            "name": "James Tancock",
+            "global_score": 0,
+            "local_score": 0,
+            "id": "758120",
+            "stars": 0,
+            "completion_day_level": {}
         },
         "1177054": {
             "completion_day_level": {},
-            "id": "1177054",
-            "local_score": 0,
-            "name": "wose2008",
             "stars": 0,
+            "local_score": 0,
+            "id": "1177054",
+            "global_score": 0,
             "last_star_ts": "0",
-            "global_score": 0
+            "name": "wose2008"
         }
-    },
-    "owner_id": "197482"
+    }
 }

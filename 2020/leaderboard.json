@@ -1,1 +1,388 @@
-{"event":"2020","members":{"638560":{"name":"Toby Maxwell-Lyte","global_score":0,"last_star_ts":0,"completion_day_level":{},"stars":0,"local_score":0,"id":"638560"},"440387":{"id":"440387","local_score":0,"completion_day_level":{},"stars":0,"global_score":0,"last_star_ts":0,"name":"handybitesize"},"758120":{"last_star_ts":0,"global_score":0,"name":"James Tancock","local_score":0,"id":"758120","stars":0,"completion_day_level":{}},"491038":{"name":"plod","global_score":0,"last_star_ts":0,"completion_day_level":{},"stars":0,"local_score":0,"id":"491038"},"197482":{"completion_day_level":{"1":{"1":{"get_star_ts":"1606808304"},"2":{"get_star_ts":"1606808621"}}},"stars":2,"id":"197482","local_score":0,"name":"R Vaughan","global_score":0,"last_star_ts":"1606808621"},"754943":{"completion_day_level":{},"stars":0,"id":"754943","local_score":0,"name":"Gareth Hendry","global_score":0,"last_star_ts":0},"696996":{"name":"tomgallard","last_star_ts":0,"global_score":0,"stars":0,"completion_day_level":{},"id":"696996","local_score":0},"667949":{"id":"667949","local_score":0,"completion_day_level":{},"stars":0,"global_score":0,"last_star_ts":0,"name":"@cmjdiff"}},"owner_id":"197482"}
+{
+    "event": "2020",
+    "owner_id": "197482",
+    "members": {
+        "197482": {
+            "name": "R Vaughan",
+            "local_score": 432,
+            "stars": 50,
+            "id": "197482",
+            "global_score": 0,
+            "last_star_ts": 1608881152,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": 1606808304
+                    },
+                    "2": {
+                        "get_star_ts": 1606808621
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": 1606891529
+                    },
+                    "2": {
+                        "get_star_ts": 1606892194
+                    }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": 1606979198
+                    },
+                    "2": {
+                        "get_star_ts": 1606979946
+                    }
+                },
+                "4": {
+                    "1": {
+                        "get_star_ts": 1607063138
+                    },
+                    "2": {
+                        "get_star_ts": 1607067961
+                    }
+                },
+                "5": {
+                    "1": {
+                        "get_star_ts": 1607158616
+                    },
+                    "2": {
+                        "get_star_ts": 1607159062
+                    }
+                },
+                "6": {
+                    "1": {
+                        "get_star_ts": 1607244957
+                    },
+                    "2": {
+                        "get_star_ts": 1607245371
+                    }
+                },
+                "7": {
+                    "1": {
+                        "get_star_ts": 1607326521
+                    },
+                    "2": {
+                        "get_star_ts": 1607327285
+                    }
+                },
+                "8": {
+                    "1": {
+                        "get_star_ts": 1607409805
+                    },
+                    "2": {
+                        "get_star_ts": 1607412302
+                    }
+                },
+                "9": {
+                    "1": {
+                        "get_star_ts": 1607497218
+                    },
+                    "2": {
+                        "get_star_ts": 1607498198
+                    }
+                },
+                "10": {
+                    "1": {
+                        "get_star_ts": 1607581759
+                    },
+                    "2": {
+                        "get_star_ts": 1607585556
+                    }
+                },
+                "11": {
+                    "1": {
+                        "get_star_ts": 1607678002
+                    },
+                    "2": {
+                        "get_star_ts": 1607707174
+                    }
+                },
+                "12": {
+                    "1": {
+                        "get_star_ts": 1607758815
+                    },
+                    "2": {
+                        "get_star_ts": 1607762086
+                    }
+                },
+                "13": {
+                    "1": {
+                        "get_star_ts": 1607842279
+                    },
+                    "2": {
+                        "get_star_ts": 1607844287
+                    }
+                },
+                "14": {
+                    "1": {
+                        "get_star_ts": 1607929344
+                    },
+                    "2": {
+                        "get_star_ts": 1607931650
+                    }
+                },
+                "15": {
+                    "1": {
+                        "get_star_ts": 1608017453
+                    },
+                    "2": {
+                        "get_star_ts": 1608017891
+                    }
+                },
+                "16": {
+                    "1": {
+                        "get_star_ts": 1608097474
+                    },
+                    "2": {
+                        "get_star_ts": 1608100939
+                    }
+                },
+                "17": {
+                    "1": {
+                        "get_star_ts": 1608191638
+                    },
+                    "2": {
+                        "get_star_ts": 1608192501
+                    }
+                },
+                "18": {
+                    "1": {
+                        "get_star_ts": 1608276938
+                    },
+                    "2": {
+                        "get_star_ts": 1608278533
+                    }
+                },
+                "19": {
+                    "1": {
+                        "get_star_ts": 1608371749
+                    },
+                    "2": {
+                        "get_star_ts": 1608372443
+                    }
+                },
+                "20": {
+                    "1": {
+                        "get_star_ts": 1608449871
+                    },
+                    "2": {
+                        "get_star_ts": 1608450054
+                    }
+                },
+                "21": {
+                    "1": {
+                        "get_star_ts": 1608536875
+                    },
+                    "2": {
+                        "get_star_ts": 1608538012
+                    }
+                },
+                "22": {
+                    "1": {
+                        "get_star_ts": 1608621291
+                    },
+                    "2": {
+                        "get_star_ts": 1608622743
+                    }
+                },
+                "23": {
+                    "1": {
+                        "get_star_ts": 1608709346
+                    },
+                    "2": {
+                        "get_star_ts": 1608709520
+                    }
+                },
+                "24": {
+                    "1": {
+                        "get_star_ts": 1608799263
+                    },
+                    "2": {
+                        "get_star_ts": 1608799453
+                    }
+                },
+                "25": {
+                    "1": {
+                        "get_star_ts": 1608881068
+                    },
+                    "2": {
+                        "get_star_ts": 1608881152
+                    }
+                }
+            }
+        },
+        "440387": {
+            "local_score": 151,
+            "stars": 21,
+            "id": "440387",
+            "name": "handybitesize",
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": 1638292739
+                    },
+                    "2": {
+                        "get_star_ts": 1638292912
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": 1638293468
+                    },
+                    "2": {
+                        "get_star_ts": 1638293686
+                    }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": 1638436596
+                    },
+                    "2": {
+                        "get_star_ts": 1638436973
+                    }
+                },
+                "4": {
+                    "1": {
+                        "get_star_ts": 1638535809
+                    },
+                    "2": {
+                        "get_star_ts": 1638537934
+                    }
+                },
+                "5": {
+                    "1": {
+                        "get_star_ts": 1638543770
+                    },
+                    "2": {
+                        "get_star_ts": 1638544191
+                    }
+                },
+                "6": {
+                    "1": {
+                        "get_star_ts": 1638544726
+                    },
+                    "2": {
+                        "get_star_ts": 1638544950
+                    }
+                },
+                "7": {
+                    "1": {
+                        "get_star_ts": 1638548173
+                    },
+                    "2": {
+                        "get_star_ts": 1638551348
+                    }
+                },
+                "8": {
+                    "1": {
+                        "get_star_ts": 1638552985
+                    },
+                    "2": {
+                        "get_star_ts": 1638739882
+                    }
+                },
+                "9": {
+                    "1": {
+                        "get_star_ts": 1638740937
+                    },
+                    "2": {
+                        "get_star_ts": 1638741682
+                    }
+                },
+                "10": {
+                    "1": {
+                        "get_star_ts": 1638801489
+                    },
+                    "2": {
+                        "get_star_ts": 1638814819
+                    }
+                },
+                "11": {
+                    "1": {
+                        "get_star_ts": 1638886012
+                    }
+                }
+            },
+            "global_score": 0,
+            "last_star_ts": 1638886012
+        },
+        "491038": {
+            "completion_day_level": {},
+            "global_score": 0,
+            "last_star_ts": "0",
+            "name": "plod",
+            "stars": 0,
+            "local_score": 0,
+            "id": "491038"
+        },
+        "638560": {
+            "stars": 0,
+            "id": "638560",
+            "local_score": 0,
+            "name": "Toby Maxwell-Lyte",
+            "global_score": 0,
+            "last_star_ts": "0",
+            "completion_day_level": {}
+        },
+        "667949": {
+            "completion_day_level": {},
+            "global_score": 0,
+            "last_star_ts": "0",
+            "name": "@cmjdiff",
+            "stars": 0,
+            "local_score": 0,
+            "id": "667949"
+        },
+        "696996": {
+            "last_star_ts": "0",
+            "global_score": 0,
+            "completion_day_level": {},
+            "stars": 0,
+            "local_score": 0,
+            "id": "696996",
+            "name": "tomgallard"
+        },
+        "754943": {
+            "name": "Gareth Hendry",
+            "local_score": 0,
+            "stars": 0,
+            "id": "754943",
+            "completion_day_level": {},
+            "global_score": 0,
+            "last_star_ts": "0"
+        },
+        "758120": {
+            "name": "James Tancock",
+            "local_score": 0,
+            "stars": 0,
+            "id": "758120",
+            "last_star_ts": "0",
+            "global_score": 0,
+            "completion_day_level": {}
+        },
+        "1177054": {
+            "last_star_ts": 1607121426,
+            "global_score": 0,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": 1607117925
+                    },
+                    "2": {
+                        "get_star_ts": 1607118482
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": 1607121426
+                    }
+                }
+            },
+            "id": "1177054",
+            "stars": 3,
+            "local_score": 8,
+            "name": "wose2008"
+        }
+    }
+}
