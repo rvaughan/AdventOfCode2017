@@ -60,3 +60,4 @@ using this year.
   * [Day 11 - Dumbo Octopus](./day_11/README.md)
     * [Watch](https://www.youtube.com/watch?v=_Vbk_coXevQ) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rds32p/2021_day_11_solutions/)
+  * [Day 12 - Passage Pathing](./day_12/README.md)
