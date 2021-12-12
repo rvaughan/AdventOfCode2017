@@ -1,6 +1,6 @@
 # Day 12 : Passage Pathing
 
-This folder contains a solution for day 11.
+This folder contains a solution for day 12.
 
 ## Problem Description
 

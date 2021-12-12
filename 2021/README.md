@@ -60,6 +60,8 @@ using this year.
   * [Day 11 - Dumbo Octopus](./day_11/README.md)
     * [Watch](https://www.youtube.com/watch?v=_Vbk_coXevQ) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rds32p/2021_day_11_solutions/)
+    * There's [some](https://www.reddit.com/r/adventofcode/comments/re000o/2021_day_11_part_2_c_trying_to_do_everything_on/) [visualisations](https://www.reddit.com/r/adventofcode/comments/re39fo/2021_day_11lua_day_11_visualization_done_in_pico8/) [of](https://www.reddit.com/r/adventofcode/comments/reggnn/2021_day_11_part_b_flashing_octopi_synchronization/) [this](https://www.reddit.com/r/adventofcode/comments/re55by/2021_day_11processing_this_day_seemed_like_a_good/) too.
   * [Day 12 - Passage Pathing](./day_12/README.md)
     * [Watch](https://www.youtube.com/watch?v=zjq2fGmz2Sg) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rehj2r/2021_day_12_solutions/)
+    * Some simple [visualisations](https://www.reddit.com/r/adventofcode/comments/rej6oc/2021_day_12_part_2_cave_graph_shaded_by_frequency/).
