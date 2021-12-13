@@ -65,3 +65,4 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=zjq2fGmz2Sg) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rehj2r/2021_day_12_solutions/)
     * Some simple [visualisations](https://www.reddit.com/r/adventofcode/comments/rej6oc/2021_day_12_part_2_cave_graph_shaded_by_frequency/).
+  * [Day 13 - Transparent Origami](./day_13/README.md)
