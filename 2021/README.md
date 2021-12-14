@@ -69,3 +69,6 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=mjZ1YKxAhPA) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rf7onx/2021_day_13_solutions/)
   * [Day 14 - Extended Polymerization](./day_14/README.md)
+    * [Watch](https://www.youtube.com/watch?v=7zvA-o47Uo0) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rfzq6f/2021_day_14_solutions/)
+  
