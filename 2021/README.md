@@ -71,4 +71,5 @@ using this year.
   * [Day 14 - Extended Polymerization](./day_14/README.md)
     * [Watch](https://www.youtube.com/watch?v=7zvA-o47Uo0) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rfzq6f/2021_day_14_solutions/)
+    * There's also some visualisations [for](https://www.reddit.com/r/adventofcode/comments/rg2odo/2021_day_14_components_of_the_polymer_and_its/) [today](https://www.reddit.com/r/adventofcode/comments/rg5h8e/2021_day_14_visualization_with_a_chart/).
   
