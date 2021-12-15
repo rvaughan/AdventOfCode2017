@@ -73,3 +73,6 @@ using this year.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rfzq6f/2021_day_14_solutions/)
     * There's also some visualisations [for](https://www.reddit.com/r/adventofcode/comments/rg2odo/2021_day_14_components_of_the_polymer_and_its/) [today](https://www.reddit.com/r/adventofcode/comments/rg5h8e/2021_day_14_visualization_with_a_chart/).
   * [Day 15 - Chiton](./day_15/README.md)
+    * [Watch](https://www.youtube.com/watch?v=hig93Etxims) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rgqzt5/2021_day_15_solutions/)
+    * [Good walkthrough](https://github.com/mebeim/aoc/blob/master/2021/README.md#day-15---chiton)
