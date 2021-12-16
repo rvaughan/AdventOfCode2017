@@ -105,3 +105,5 @@ Here are a few more examples of hexadecimal-encoded transmissions:
   * ```A0016C880162017C3686B18A3D4780``` is an operator packet that contains an operator packet that contains an operator packet that contains five literal values; it has a version sum of ```31```.
 
 Decode the structure of your hexadecimal-encoded BITS transmission; what do you get if you add up the version numbers in all packets?
+
+**Solution:** 906
