@@ -1,4 +1,4 @@
-# Day 14 : Chiton
+# Day 15 : Chiton
 
 This folder contains a solution for day 15.
 

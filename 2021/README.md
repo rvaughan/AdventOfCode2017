@@ -76,3 +76,4 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=hig93Etxims) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rgqzt5/2021_day_15_solutions/)
     * [Good walkthrough](https://github.com/mebeim/aoc/blob/master/2021/README.md#day-15---chiton)
+  * [Day 16 - Packet Decoder](./day_16/README.md)
