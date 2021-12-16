@@ -136,3 +136,5 @@ For example:
   * ```9C0141080250320F1802104A08``` produces ```1```, because ```1 + 3 = 2 * 2```.
 
 **What do you get if you evaluate the expression represented by your hexadecimal-encoded BITS transmission?**
+
+**Solution:** 819324480368
