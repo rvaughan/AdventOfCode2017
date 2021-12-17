@@ -6,11 +6,11 @@ This folder contains a solution for day 17.
 
 ### Part 1
 
-You finally decode the Elves' message. HI, the message says. You continue searching for the sleigh keys.
+You finally decode the Elves' message. ```HI```, the message says. You continue searching for the sleigh keys.
 
 Ahead of you is what appears to be a large [ocean trench](https://en.wikipedia.org/wiki/Oceanic_trench). Could the keys have fallen into it? You'd better send a probe to investigate.
 
-The probe launcher on your submarine can fire the probe with any [integer](https://en.wikipedia.org/wiki/Integer) velocity in the x (forward) and y (upward, or downward if negative) directions. For example, an initial ```x,y``` velocity like ```0,10``` would fire the probe straight up, while an initial velocity like ```10,-1``` would fire the probe forward at a slight downward angle.
+The probe launcher on your submarine can fire the probe with any [integer](https://en.wikipedia.org/wiki/Integer) velocity in the ```x``` (forward) and ```y``` (upward, or downward if negative) directions. For example, an initial ```x,y``` velocity like ```0,10``` would fire the probe straight up, while an initial velocity like ```10,-1``` would fire the probe forward at a slight downward angle.
 
 The probe's ```x,y``` position starts at ```0,0```. Then, it will follow some trajectory by moving in **steps**. On each step, these changes occur in the following order:
 
@@ -121,3 +121,5 @@ If you're going to fire a highly scientific probe out of a super cool probe laun
 In the above example, using an initial velocity of ```6,9``` is the best you can do, causing the probe to reach a maximum ```y``` position of ```45```. (Any higher initial ```y``` velocity causes the probe to overshoot the target area entirely.)
 
 Find the initial velocity that causes the probe to reach the highest ```y``` position and still eventually be within the target area after any step. **What is the highest y position it reaches on this trajectory?**
+
+**Solution:** 5995
