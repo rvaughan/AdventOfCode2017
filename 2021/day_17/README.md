@@ -149,3 +149,5 @@ In the above example, there are **112** different initial velocity values that m
 ```
 
 **How many distinct initial velocity values cause the probe to be within the target area after any step?**
+
+**Solution:** 3202
