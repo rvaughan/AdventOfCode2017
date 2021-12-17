@@ -77,4 +77,10 @@ using this year.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rgqzt5/2021_day_15_solutions/)
     * [Good walkthrough](https://github.com/mebeim/aoc/blob/master/2021/README.md#day-15---chiton)
   * [Day 16 - Packet Decoder](./day_16/README.md)
+    * [Watch](https://www.youtube.com/watch?v=9dNktV06MVQ) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rhj2hm/2021_day_16_solutions/)
+    * There's also some people who [have](https://www.reddit.com/r/adventofcode/comments/rhv7pl/2021_day_16_visualization_with_labels_explaining/) [put](https://www.reddit.com/r/adventofcode/comments/rhx1v7/2021_day_16clojure2d_short_life_of_syntax_tree/) [together](https://www.reddit.com/r/adventofcode/comments/ri02kh/2021_day_16_part_2_python_packet_pretty_printer/) [visualisations](https://www.reddit.com/r/adventofcode/comments/ribqmx/2021_day_16_parts_12_tree_visualization_with_color/).
   * [Day 17 - Trick Shot](./day_17/README.md)
+    * [Watch](https://www.youtube.com/watch?v=C3BjIjPIUPc) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/ri9kdq/2021_day_17_solutions/)
+    * Some [visualisations](https://www.reddit.com/r/adventofcode/comments/ribe2o/2021_day_17_python_plot_of_all_trick_shots/) [too](https://www.reddit.com/r/adventofcode/comments/rib9sx/2021_day_17_all_the_trick_shots/).
