@@ -84,3 +84,4 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=C3BjIjPIUPc) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/ri9kdq/2021_day_17_solutions/)
     * Some [visualisations](https://www.reddit.com/r/adventofcode/comments/ribe2o/2021_day_17_python_plot_of_all_trick_shots/) [too](https://www.reddit.com/r/adventofcode/comments/rib9sx/2021_day_17_all_the_trick_shots/).
+  * [Day 18 - Snailfish](./day_18/README.md)
