@@ -10,7 +10,7 @@ You descend into the ocean trench and encounter some [snailfish](https://en.wiki
 
 Snailfish numbers aren't like regular numbers. Instead, every snailfish number is a **pair** - an ordered list of two elements. Each element of the pair can be either a regular number or another pair.
 
-Pairs are written as ```[x,y]```, where x and y are the elements within the pair. Here are some example snailfish numbers, one snailfish number per line:
+Pairs are written as ```[x,y]```, where ```x``` and ```y``` are the elements within the pair. Here are some example snailfish numbers, one snailfish number per line:
 
 ```
 [1,2]
@@ -183,3 +183,5 @@ The final sum is:
 The magnitude of this final sum is **4140**.
 
 Add up all of the snailfish numbers from the homework assignment in the order they appear. **What is the magnitude of the final sum?**
+
+**Solution:** 3884
