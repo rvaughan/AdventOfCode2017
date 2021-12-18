@@ -1,12 +1,12 @@
 {
+    "event": "2021",
     "members": {
         "197482": {
-            "local_score": 234,
-            "last_star_ts": 1639385094,
             "name": "R Vaughan",
+            "stars": 36,
             "id": "197482",
-            "stars": 26,
             "global_score": 0,
+            "last_star_ts": 1639813169,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -111,8 +111,49 @@
                     "2": {
                         "get_star_ts": 1639385094
                     }
+                },
+                "14": {
+                    "1": {
+                        "get_star_ts": 1639465741
+                    },
+                    "2": {
+                        "get_star_ts": 1639468870
+                    }
+                },
+                "15": {
+                    "1": {
+                        "get_star_ts": 1639554531
+                    },
+                    "2": {
+                        "get_star_ts": 1639554697
+                    }
+                },
+                "16": {
+                    "1": {
+                        "get_star_ts": 1639635312
+                    },
+                    "2": {
+                        "get_star_ts": 1639635675
+                    }
+                },
+                "17": {
+                    "1": {
+                        "get_star_ts": 1639723605
+                    },
+                    "2": {
+                        "get_star_ts": 1639723856
+                    }
+                },
+                "18": {
+                    "1": {
+                        "get_star_ts": 1639812869
+                    },
+                    "2": {
+                        "get_star_ts": 1639813169
+                    }
                 }
-            }
+            },
+            "local_score": 324
         },
         "440387": {
             "completion_day_level": {
@@ -195,49 +236,89 @@
                     "2": {
                         "get_star_ts": 1639141327
                     }
+                },
+                "11": {
+                    "1": {
+                        "get_star_ts": 1639412379
+                    },
+                    "2": {
+                        "get_star_ts": 1639412629
+                    }
+                },
+                "12": {
+                    "1": {
+                        "get_star_ts": 1639418932
+                    },
+                    "2": {
+                        "get_star_ts": 1639419126
+                    }
+                },
+                "13": {
+                    "1": {
+                        "get_star_ts": 1639421623
+                    },
+                    "2": {
+                        "get_star_ts": 1639422071
+                    }
+                },
+                "14": {
+                    "1": {
+                        "get_star_ts": 1639474066
+                    },
+                    "2": {
+                        "get_star_ts": 1639481326
+                    }
+                },
+                "15": {
+                    "1": {
+                        "get_star_ts": 1639561595
+                    },
+                    "2": {
+                        "get_star_ts": 1639575799
+                    }
                 }
             },
+            "last_star_ts": 1639575799,
             "global_score": 0,
-            "stars": 20,
-            "local_score": 160,
-            "last_star_ts": 1639141327,
-            "name": "handybitesize",
-            "id": "440387"
+            "local_score": 240,
+            "id": "440387",
+            "stars": 30,
+            "name": "handybitesize"
         },
         "491038": {
-            "global_score": 0,
-            "completion_day_level": {},
-            "last_star_ts": "0",
             "name": "plod",
-            "local_score": 0,
+            "stars": 0,
             "id": "491038",
-            "stars": 0
+            "local_score": 0,
+            "last_star_ts": "0",
+            "global_score": 0,
+            "completion_day_level": {}
         },
         "638560": {
-            "stars": 0,
-            "id": "638560",
-            "local_score": 0,
-            "last_star_ts": "0",
             "name": "Toby Maxwell-Lyte",
+            "id": "638560",
+            "stars": 0,
+            "last_star_ts": "0",
+            "global_score": 0,
             "completion_day_level": {},
-            "global_score": 0
+            "local_score": 0
         },
         "667949": {
-            "global_score": 0,
             "completion_day_level": {},
-            "id": "667949",
-            "name": "@cmjdiff",
+            "global_score": 0,
             "last_star_ts": "0",
             "local_score": 0,
-            "stars": 0
+            "id": "667949",
+            "stars": 0,
+            "name": "@cmjdiff"
         },
         "696996": {
-            "id": "696996",
             "name": "tomgallard",
-            "last_star_ts": 1638366976,
-            "local_score": 14,
             "stars": 2,
+            "id": "696996",
+            "local_score": 14,
             "global_score": 0,
+            "last_star_ts": 1638366976,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -250,33 +331,32 @@
             }
         },
         "754943": {
-            "id": "754943",
-            "last_star_ts": "0",
-            "local_score": 0,
             "name": "Gareth Hendry",
             "stars": 0,
+            "id": "754943",
+            "local_score": 0,
+            "last_star_ts": "0",
             "global_score": 0,
             "completion_day_level": {}
         },
         "758120": {
+            "local_score": 0,
             "completion_day_level": {},
-            "global_score": 0,
-            "stars": 0,
-            "id": "758120",
             "last_star_ts": "0",
-            "name": "James Tancock",
-            "local_score": 0
+            "global_score": 0,
+            "id": "758120",
+            "stars": 0,
+            "name": "James Tancock"
         },
         "1177054": {
-            "global_score": 0,
             "completion_day_level": {},
-            "id": "1177054",
             "last_star_ts": "0",
-            "name": "wose2008",
+            "global_score": 0,
             "local_score": 0,
-            "stars": 0
+            "id": "1177054",
+            "stars": 0,
+            "name": "wose2008"
         }
     },
-    "event": "2021",
     "owner_id": "197482"
 }
