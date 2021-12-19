@@ -102,5 +102,9 @@ using this year.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/ri9kdq/2021_day_17_solutions/)
     * Some [visualisations](https://www.reddit.com/r/adventofcode/comments/ribe2o/2021_day_17_python_plot_of_all_trick_shots/) [too](https://www.reddit.com/r/adventofcode/comments/rib9sx/2021_day_17_all_the_trick_shots/).
   * [Day 18 - Snailfish](./day_18/README.md)
+    * Watch Jonathan Paulson [solve](https://www.youtube.com/watch?v=C3BjIjPIUPc) and [explain](https://www.youtube.com/watch?v=EoKjpAIOIOU).
+    * [Watch](https://www.youtube.com/watch?v=TtuzquDv-lc) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rizw2c/2021_day_18_solutions/)
   * [Day 19 - Beacon Scanner](./day_19/README.md)
+    * [Watch](https://www.youtube.com/watch?v=v6uDe_HhLUA) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rjpf7f/2021_day_19_solutions/)
