@@ -389,3 +389,5 @@ The full list of beacons (relative to scanner ```0```) is:
 In total, there are **79** beacons.
 
 Assemble the full map of beacons. **How many beacons are there?**
+
+**Solution:** 323
