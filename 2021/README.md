@@ -109,3 +109,4 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=v6uDe_HhLUA) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rjpf7f/2021_day_19_solutions/)
   * [Day 20 - Trench Map](./day_20/README.md)
+  * [Day 21 - Dirac Dice](./day_21/README.md)
