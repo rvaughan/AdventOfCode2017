@@ -109,4 +109,11 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=v6uDe_HhLUA) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rjpf7f/2021_day_19_solutions/)
   * [Day 20 - Trench Map](./day_20/README.md)
+    * Watch Jonathan Paulson [solve](https://www.youtube.com/watch?v=zDCLWtnW0Mg) it.
+    * [Watch](https://www.youtube.com/watch?v=wcGhrhTPZrQ) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rkf5ek/2021_day_20_solutions/)
+    * I also found some [visualisations](https://www.reddit.com/r/adventofcode/comments/rl2jgs/2021_day_19_visualisation_of_scanners_red_and/)
   * [Day 21 - Dirac Dice](./day_21/README.md)
+    * Watch Jonathan Paulson [solve](https://www.youtube.com/watch?v=a6ZdJEntKkk) it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rl6p8y/2021_day_21_solutions/)
+    * I also [found](https://www.reddit.com/r/adventofcode/comments/rl0675/2021_day_20_adjusted_to_avoid_flashing/) [some](https://www.reddit.com/r/adventofcode/comments/rkrq04/day_20_test_viz_looks_like_the_borg/) [visualisations](https://www.reddit.com/r/adventofcode/comments/rkpykg/2021_day_20_visualization_of_the_enhance/)
