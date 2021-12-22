@@ -115,6 +115,10 @@ using this year.
     * I also found some [visualisations](https://www.reddit.com/r/adventofcode/comments/rl2jgs/2021_day_19_visualisation_of_scanners_red_and/)
   * [Day 21 - Dirac Dice](./day_21/README.md)
     * Watch Jonathan Paulson [solve](https://www.youtube.com/watch?v=a6ZdJEntKkk) it.
+    * [Watch](https://www.youtube.com/watch?v=tEPgMuqZZGE) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rl6p8y/2021_day_21_solutions/)
     * I also [found](https://www.reddit.com/r/adventofcode/comments/rl0675/2021_day_20_adjusted_to_avoid_flashing/) [some](https://www.reddit.com/r/adventofcode/comments/rkrq04/day_20_test_viz_looks_like_the_borg/) [visualisations](https://www.reddit.com/r/adventofcode/comments/rkpykg/2021_day_20_visualization_of_the_enhance/)
   * [Day 22 - Reactor Reboot](./day_22/README.md)
+    * Watch Jonathan Paulson [solve](https://www.youtube.com/watch?v=7gW_h0RTDd8) it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rlxhmg/2021_day_22_solutions/)
+    * There are also some visualisations for [solutions](https://www.reddit.com/r/adventofcode/comments/rlzq3d/2021_day_22_visualization/).
