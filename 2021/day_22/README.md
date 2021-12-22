@@ -8,9 +8,9 @@ This folder contains a solution for day 22.
 
 Operating at these extreme ocean depths has overloaded the submarine's reactor; it needs to be rebooted.
 
-The reactor core is made up of a large 3-dimensional grid made up entirely of cubes, one cube per integer 3-dimensional coordinate (x,y,z). Each cube can be either on or off; at the start of the reboot process, they are all off. (Could it be an old model of a reactor you've seen [before](https://adventofcode.com/2020/day/17?)
+The reactor core is made up of a large 3-dimensional grid made up entirely of cubes, one cube per integer 3-dimensional coordinate (```x,y,z```). Each cube can be either **on** or **off**; at the start of the reboot process, they are all off. (Could it be an old model of a reactor you've seen [before](https://adventofcode.com/2020/day/17?)
 
-To reboot the reactor, you just need to set all of the cubes to either on or off by following a list of **reboot steps** (your puzzle input). Each step specifies a [cuboid](https://en.wikipedia.org/wiki/Cuboid) (the set of all cubes that have coordinates which fall within ranges for x, y, and z) and whether to turn all of the cubes in that cuboid on or off.
+To reboot the reactor, you just need to set all of the cubes to either **on** or **off** by following a list of **reboot steps** (your puzzle input). Each step specifies a [cuboid](https://en.wikipedia.org/wiki/Cuboid) (the set of all cubes that have coordinates which fall within ranges for ```x```, ```y```, and ```z```) and whether to turn all of the cubes in that cuboid **on** or **off**.
 
 For example, given these reboot steps:
 
@@ -129,3 +129,5 @@ on x=967..23432,y=45373..81175,z=27513..53682
 The last two steps are fully outside the initialization procedure area; all other steps are fully within it. After executing these steps in the initialization procedure region, **590784** cubes are on.
 
 Execute the reboot steps. Afterward, considering only cubes in the region ```x=-50..50,y=-50..50,z=-50..50```, **how many cubes are on?**
+
+**Solution:** 602574
