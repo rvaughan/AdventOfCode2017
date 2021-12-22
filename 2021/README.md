@@ -117,3 +117,4 @@ using this year.
     * Watch Jonathan Paulson [solve](https://www.youtube.com/watch?v=a6ZdJEntKkk) it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rl6p8y/2021_day_21_solutions/)
     * I also [found](https://www.reddit.com/r/adventofcode/comments/rl0675/2021_day_20_adjusted_to_avoid_flashing/) [some](https://www.reddit.com/r/adventofcode/comments/rkrq04/day_20_test_viz_looks_like_the_borg/) [visualisations](https://www.reddit.com/r/adventofcode/comments/rkpykg/2021_day_20_visualization_of_the_enhance/)
+  * [Day 22 - Reactor Reboot](./day_22/README.md)
