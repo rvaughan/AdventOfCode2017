@@ -122,3 +122,4 @@ using this year.
     * Watch Jonathan Paulson [solve](https://www.youtube.com/watch?v=7gW_h0RTDd8) it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rlxhmg/2021_day_22_solutions/)
     * There are also some visualisations for [solutions](https://www.reddit.com/r/adventofcode/comments/rlzq3d/2021_day_22_visualization/).
+  * [Day 23 - Amphipod](./day_23/README.md)
