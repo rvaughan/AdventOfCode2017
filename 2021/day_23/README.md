@@ -358,3 +358,5 @@ In this updated example, the least energy required to organize these amphipods i
 ```
 
 Using the initial configuration from the full diagram, **what is the least energy required to organize the amphipods?**
+
+**Solution:** 56324
