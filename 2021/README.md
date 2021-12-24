@@ -125,6 +125,9 @@ using this year.
     * There are also some visualisations for [solutions](https://www.reddit.com/r/adventofcode/comments/rlzq3d/2021_day_22_visualization/).
   * [Day 23 - Amphipod](./day_23/README.md)
     * Watch Jonathan Paulson [solve](https://www.youtube.com/watch?v=g-Abez9dN14) it.
+    * [Watch](https://www.youtube.com/watch?v=qSE9iYyPCZU) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rmnozs/2021_day_23_solutions/)
     * There are also some visualisations for [solutions](https://www.reddit.com/r/adventofcode/comments/rmr1ug/2021_day_23_amphipod_movements/).
   * [Day 24 - Arithmetic Logic Unit](./day_24/README.md)
+    * Watch Jonathan Paulson [solve](https://www.youtube.com/watch?v=wsicd2wqeE8) it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rnejv5/2021_day_24_solutions/)
