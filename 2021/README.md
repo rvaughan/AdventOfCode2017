@@ -127,3 +127,4 @@ using this year.
     * Watch Jonathan Paulson [solve](https://www.youtube.com/watch?v=g-Abez9dN14) it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rmnozs/2021_day_23_solutions/)
     * There are also some visualisations for [solutions](https://www.reddit.com/r/adventofcode/comments/rmr1ug/2021_day_23_amphipod_movements/).
+  * [Day 24 - Arithmetic Logic Unit](./day_24/README.md)
