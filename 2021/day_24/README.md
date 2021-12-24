@@ -78,3 +78,5 @@ To enable as many submarine features as possible, find the largest valid fourtee
 As the submarine starts booting up things like the [Retro Encabulator](https://www.youtube.com/watch?v=RXJKdh1KZ0w), you realize that maybe you don't need all these submarine features after all.
 
 **What is the smallest model number accepted by MONAD?**
+
+**Solution:** 12911816171712
