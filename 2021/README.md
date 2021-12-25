@@ -130,5 +130,11 @@ using this year.
     * There are also some visualisations for [solutions](https://www.reddit.com/r/adventofcode/comments/rmr1ug/2021_day_23_amphipod_movements/).
   * [Day 24 - Arithmetic Logic Unit](./day_24/README.md)
     * Watch Jonathan Paulson [solve](https://www.youtube.com/watch?v=wsicd2wqeE8) it.
+    * [Watch](https://www.youtube.com/watch?v=Eswmo7Y7C4U) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rnejv5/2021_day_24_solutions/)
+    * There are also some visualisations for [solutions](https://www.reddit.com/r/adventofcode/comments/rnowx1/2021_day_24_validating_submarine_model_number/).
   * [Day 25 - Sea Cucumber](./day_25/README.md)
+    * Watch Jonathan Paulson [solve](https://www.youtube.com/watch?v=UvjFl-xvM5c) it.
+    * [Watch](https://www.youtube.com/watch?v=E7ymZuWYcHk) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/ro2uav/2021_day_25_solutions/)
+    * There are also some [visualisations](https://www.reddit.com/r/adventofcode/comments/ro4c23/2021_day_25_visualization_of_the_sea_cucumbers/) for [solutions](https://www.reddit.com/r/adventofcode/comments/ro3bc4/2021_day_25_moving_sea_cucumbers/).
