@@ -303,3 +303,5 @@ vvv.....>>
 In this example, the sea cucumbers stop moving after ```58``` steps.
 
 Find somewhere safe to land your submarine. **What is the first step on which no sea cucumbers move?**
+
+**Solution:** 432
