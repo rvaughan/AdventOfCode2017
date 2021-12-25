@@ -131,3 +131,4 @@ using this year.
   * [Day 24 - Arithmetic Logic Unit](./day_24/README.md)
     * Watch Jonathan Paulson [solve](https://www.youtube.com/watch?v=wsicd2wqeE8) it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/rnejv5/2021_day_24_solutions/)
+  * [Day 25 - Sea Cucumber](./day_25/README.md)
