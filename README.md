@@ -3,7 +3,7 @@
 This repository contains my solutions for the annual [Advent of Code](https://adventofcode.com)
 competition run every December.
 
-There's some videos by the creator [Eric Wastl](https://twitter.com/ericwastl):
+There's some videos by the creator [Eric Wastl](http://was.tl/) ([Twitter](https://twitter.com/ericwastl)):
 
   * [Advent of Code: Behind the Scenes](https://www.youtube.com/watch?v=CFWuwNDOnIo)
   * [FOSDEM 2021 Talk](https://ftp.osuosl.org/pub/fosdem/2021/D.perl/adventofcode.webm)
