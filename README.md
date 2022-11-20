@@ -1,6 +1,6 @@
 # Advent of Code
 
-This repository contains solutions for the annual [Advent of Code](https://adventofcode.com)
+This repository contains my solutions for the annual [Advent of Code](https://adventofcode.com)
 competition run every December.
 
 There's some videos by the creator [Eric Wastl](https://twitter.com/ericwastl):
