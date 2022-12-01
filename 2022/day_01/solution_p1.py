@@ -7,9 +7,17 @@ import sys
 
 
 def calculate_solution(items):
-    result = 0
+    max_stars = 0
 
-    return result
+    count = 0
+    for item in items:
+        if item == '' or item == '\n':
+            max_stars = max(max_stars, count)
+            count = 0
+        else:
+            count += int(item)
+
+    return max_stars
 
 
 def run_test(test_input, expected_solution):
@@ -30,9 +38,23 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263]
+test_list = [
+"1000",
+"2000",
+"3000",
+"",
+"4000",
+"",
+"5000",
+"6000",
+"",
+"7000",
+"8000",
+"9000",
+"",
+"10000"]
 
-result = run_test(test_list, 7)
+result = run_test(test_list, 24000)
 
 print('')
 print('-----------------')
@@ -44,7 +66,7 @@ print('')
 # above is working correctly. Let's use the actual captcha now.
 
 with open('input.txt', 'r') as f:
-    input_data = [int(line) for line in f]
+    input_data = [line for line in f]
     answer = calculate_solution(input_data)
 
     print(f'Solution is {answer}')
