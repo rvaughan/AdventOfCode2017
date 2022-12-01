@@ -25,7 +25,7 @@ using this year.
 
 ## Puzzles
 
-  * [Day 1 - ???](./day_01/README.md)
+  * [Day 1 - Calorie Counting](./day_01/README.md)
   * Day 2
   * Day 3
   * Day 4
