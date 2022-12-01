@@ -29,7 +29,7 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=XpkFsqqYi6A) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=BkG_PBcVP1Y) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/z9ezjb/2022_day_1_solutions/)
-  * Day 2
+  * [Day 1 - ???](./day_02/README.md)
   * Day 3
   * Day 4
   * Day 5
