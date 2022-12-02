@@ -33,7 +33,7 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=X1XH774hId0) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=oNAChDCtk9Q) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zac2v2/2022_day_2_solutions/)
-  * Day 3
+  * [Day 3 - ???](./day_03/README.md)
   * Day 4
   * Day 5
   * Day 6
