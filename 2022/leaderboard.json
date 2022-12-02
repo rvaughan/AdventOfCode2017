@@ -1,1 +1,210 @@
-{"owner_id":197482,"event":"2022","members":{"758120":{"local_score":0,"last_star_ts":0,"id":758120,"completion_day_level":{},"name":"James Tancock","stars":0,"global_score":0},"667949":{"last_star_ts":0,"local_score":0,"stars":0,"global_score":0,"completion_day_level":{},"id":667949,"name":"@cmjdiff"},"638560":{"local_score":0,"last_star_ts":0,"name":"Toby Maxwell-Lyte","completion_day_level":{},"id":638560,"stars":0,"global_score":0},"491038":{"last_star_ts":0,"local_score":0,"stars":0,"global_score":0,"completion_day_level":{},"name":"plod","id":491038},"696996":{"last_star_ts":0,"local_score":0,"stars":0,"global_score":0,"completion_day_level":{},"name":"tomgallard","id":696996},"440387":{"global_score":0,"stars":0,"name":"handybitesize","completion_day_level":{},"id":440387,"last_star_ts":0,"local_score":0},"2265481":{"last_star_ts":0,"local_score":0,"global_score":0,"stars":0,"completion_day_level":{},"id":2265481,"name":"Ben Morris"},"754943":{"last_star_ts":0,"local_score":0,"stars":0,"global_score":0,"completion_day_level":{},"id":754943,"name":"Gareth Hendry"},"1177054":{"stars":0,"global_score":0,"completion_day_level":{},"name":"wose2008","id":1177054,"last_star_ts":0,"local_score":0},"2258566":{"completion_day_level":{},"name":"JDGriff1","id":2258566,"global_score":0,"stars":0,"local_score":0,"last_star_ts":0},"197482":{"last_star_ts":1669878709,"local_score":24,"global_score":0,"stars":2,"completion_day_level":{"1":{"2":{"star_index":1370,"get_star_ts":1669878709},"1":{"get_star_ts":1669878237,"star_index":0}}},"name":"R Vaughan","id":197482},"2260182":{"last_star_ts":0,"local_score":0,"stars":0,"global_score":0,"name":"Mike Jones","completion_day_level":{},"id":2260182}}}
+{
+    "owner_id": 197482,
+    "event": "2022",
+    "members": {
+        "197482": {
+            "stars": 4,
+            "last_star_ts": 1669964681,
+            "local_score": 52,
+            "global_score": 0,
+            "name": "R Vaughan",
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "star_index": 0,
+                        "get_star_ts": 1669878237
+                    },
+                    "2": {
+                        "star_index": 1370,
+                        "get_star_ts": 1669878709
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": 1669963108,
+                        "star_index": 274236
+                    },
+                    "2": {
+                        "get_star_ts": 1669964681,
+                        "star_index": 281116
+                    }
+                }
+            },
+            "id": 197482
+        },
+        "440387": {
+            "local_score": 22,
+            "last_star_ts": 1669907891,
+            "global_score": 0,
+            "stars": 2,
+            "id": 440387,
+            "name": "handybitesize",
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "star_index": 107368,
+                        "get_star_ts": 1669907730
+                    },
+                    "2": {
+                        "star_index": 107969,
+                        "get_star_ts": 1669907891
+                    }
+                }
+            }
+        },
+        "491038": {
+            "last_star_ts": 0,
+            "local_score": 0,
+            "global_score": 0,
+            "stars": 0,
+            "id": 491038,
+            "completion_day_level": {},
+            "name": "plod"
+        },
+        "638560": {
+            "stars": 0,
+            "last_star_ts": 0,
+            "global_score": 0,
+            "local_score": 0,
+            "completion_day_level": {},
+            "name": "Toby Maxwell-Lyte",
+            "id": 638560
+        },
+        "667949": {
+            "name": "@cmjdiff",
+            "completion_day_level": {},
+            "id": 667949,
+            "stars": 0,
+            "local_score": 0,
+            "last_star_ts": 0,
+            "global_score": 0
+        },
+        "696996": {
+            "name": "tomgallard",
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "star_index": 41866,
+                        "get_star_ts": 1669889013
+                    },
+                    "2": {
+                        "get_star_ts": 1669889285,
+                        "star_index": 42949
+                    }
+                }
+            },
+            "id": 696996,
+            "stars": 2,
+            "last_star_ts": 1669889285,
+            "local_score": 24,
+            "global_score": 0
+        },
+        "754943": {
+            "id": 754943,
+            "completion_day_level": {},
+            "name": "Gareth Hendry",
+            "stars": 0,
+            "last_star_ts": 0,
+            "local_score": 0,
+            "global_score": 0
+        },
+        "758120": {
+            "id": 758120,
+            "name": "James Tancock",
+            "completion_day_level": {},
+            "stars": 0,
+            "last_star_ts": 0,
+            "global_score": 0,
+            "local_score": 0
+        },
+        "1177054": {
+            "id": 1177054,
+            "name": "wose2008",
+            "completion_day_level": {},
+            "last_star_ts": 0,
+            "local_score": 0,
+            "global_score": 0,
+            "stars": 0
+        },
+        "1328362": {
+            "local_score": 14,
+            "last_star_ts": 1669929551,
+            "global_score": 0,
+            "stars": 2,
+            "id": 1328362,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "star_index": 180918,
+                        "get_star_ts": 1669929005
+                    },
+                    "2": {
+                        "get_star_ts": 1669929551,
+                        "star_index": 182600
+                    }
+                }
+            },
+            "name": "OiYouYeahYou"
+        },
+        "2258566": {
+            "name": "JDGriff1",
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "star_index": 133978,
+                        "get_star_ts": 1669915060
+                    },
+                    "2": {
+                        "get_star_ts": 1669915525,
+                        "star_index": 135674
+                    }
+                }
+            },
+            "id": 2258566,
+            "last_star_ts": 1669915525,
+            "local_score": 18,
+            "global_score": 0,
+            "stars": 2
+        },
+        "2260182": {
+            "stars": 2,
+            "local_score": 20,
+            "last_star_ts": 1669912758,
+            "global_score": 0,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": 1669912657,
+                        "star_index": 125588
+                    },
+                    "2": {
+                        "get_star_ts": 1669912758,
+                        "star_index": 125908
+                    }
+                }
+            },
+            "name": "Mike Jones",
+            "id": 2260182
+        },
+        "2265481": {
+            "last_star_ts": 1669920983,
+            "local_score": 16,
+            "global_score": 0,
+            "stars": 2,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "star_index": 154094,
+                        "get_star_ts": 1669920857
+                    },
+                    "2": {
+                        "get_star_ts": 1669920983,
+                        "star_index": 154505
+                    }
+                }
+            },
+            "name": "Ben Morris",
+            "id": 2265481
+        }
+    }
+}
