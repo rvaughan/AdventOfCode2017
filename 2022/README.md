@@ -30,6 +30,9 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=BkG_PBcVP1Y) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/z9ezjb/2022_day_1_solutions/)
   * [Day 2 - Rock Paper Scissors](./day_02/README.md)
+    * [Watch](https://www.youtube.com/watch?v=X1XH774hId0) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=oNAChDCtk9Q) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zac2v2/2022_day_2_solutions/)
   * Day 3
   * Day 4
   * Day 5
