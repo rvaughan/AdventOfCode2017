@@ -38,6 +38,8 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=xqO_z2gkXkM) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zb865p/2022_day_3_solutions/)
   * [Day 4 - Camp Cleanup](./day_04/README.md)
+    * [Watch](https://www.youtube.com/watch?v=15qPSEFoR0U) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zc0zta/2022_day_4_solutions/)
   * Day 5
   * Day 6
   * Day 7
