@@ -40,7 +40,7 @@ using this year.
   * [Day 4 - Camp Cleanup](./day_04/README.md)
     * [Watch](https://www.youtube.com/watch?v=15qPSEFoR0U) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zc0zta/2022_day_4_solutions/)
-  * Day 5
+  * [Day 5 - ???](./day_05/README.md)
   * Day 6
   * Day 7
   * Day 8
