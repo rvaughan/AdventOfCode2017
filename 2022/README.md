@@ -40,6 +40,7 @@ using this year.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zb865p/2022_day_3_solutions/)
   * [Day 4 - Camp Cleanup](./day_04/README.md)
     * [Watch](https://www.youtube.com/watch?v=15qPSEFoR0U) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=d4s7Tuo2L3w) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zc0zta/2022_day_4_solutions/)
     * Found a couple of neat visualisations posted for this one:
       * The [mount of wasted effort](https://www.reddit.com/r/adventofcode/comments/zc4sdc/2022_day_4_mount_of_wasted_effort/).
