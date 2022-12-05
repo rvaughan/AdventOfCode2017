@@ -49,6 +49,10 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=Fg7wLU5xhQo) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=jMwr1Uc4g-o) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zcxid5/2022_day_5_solutions/)
+    * Found some visualisations:
+      * [Stacks viz](https://www.reddit.com/r/adventofcode/comments/zd37jy/2022_day_5_stacks_visualization/).
+      * [Minecraft-like](https://www.reddit.com/r/adventofcode/comments/zd7azc/2022_day_5_part_1_python_yet_another_terminal/)
+      * [Cratemover 9001](https://www.reddit.com/r/adventofcode/comments/zd2tfz/2022_day_5_the_cratemover_9001/)
   * Day 6
   * Day 7
   * Day 8
