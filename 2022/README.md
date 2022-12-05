@@ -45,7 +45,7 @@ using this year.
     * Found a couple of neat visualisations posted for this one:
       * The [mount of wasted effort](https://www.reddit.com/r/adventofcode/comments/zc4sdc/2022_day_4_mount_of_wasted_effort/).
       * Then just a simple [overlap](https://www.reddit.com/r/adventofcode/comments/zc4llt/2022_day_4_camp_cleanupnim_visualization_with/) viz. [Code](https://pietroppeter.github.io/adventofnim/2022/day04.html#viz)
-  * [Day 5 - ???](./day_05/README.md)
+  * [Day 5 - Supply Stacks](./day_05/README.md)
   * Day 6
   * Day 7
   * Day 8
