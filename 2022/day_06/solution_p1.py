@@ -9,6 +9,26 @@ import sys
 def calculate_solution(items):
     result = 0
 
+    start_pos = 0
+    done = False
+    while not done:
+        done = True
+        if start_pos + 4 >= len(items):
+            break
+
+        header = items[start_pos:start_pos+4]
+
+        seen = set()
+        for x in header:
+            if x in seen:
+                start_pos += 1
+                done = False
+            else:
+                seen.add(x)
+
+        if done:
+            result = start_pos + 4
+
     return result
 
 
@@ -19,7 +39,8 @@ def run_test(test_input, expected_solution):
     result = calculate_solution(test_input)
 
     if result != expected_solution:
-        print(f'Test for {test_input} FAILED. Got a result of {result}, not {expected_solution}')
+        print(
+            f'Test for {test_input} FAILED. Got a result of {result}, not {expected_solution}')
         sys.exit(-1)
 
     print(f'Test for {test_input} passed.')
@@ -30,9 +51,12 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263]
+result = run_test("mjqjpqmgbljsphdztnvjfqwrcgsmlb", 7)
 
-result = run_test(test_list, 7)
+result = run_test("bvwbjplbgvbhsrlpgdmjqwftvncz", 5)
+result = run_test("nppdvjthqldpwncqszvftbrmjlhg", 6)
+result = run_test("nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg", 10)
+result = run_test("zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw", 11)
 
 print('')
 print('-----------------')
@@ -44,7 +68,7 @@ print('')
 # above is working correctly. Let's use the actual captcha now.
 
 with open('input.txt', 'r') as f:
-    input_data = [int(line) for line in f]
-    answer = calculate_solution(input_data)
+    input_data = [line for line in f]
+    answer = calculate_solution(input_data[0])
 
     print(f'Solution is {answer}')
