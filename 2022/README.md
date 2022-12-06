@@ -53,7 +53,7 @@ using this year.
       * [Stacks viz](https://www.reddit.com/r/adventofcode/comments/zd37jy/2022_day_5_stacks_visualization/).
       * [Minecraft-like](https://www.reddit.com/r/adventofcode/comments/zd7azc/2022_day_5_part_1_python_yet_another_terminal/)
       * [Cratemover 9001](https://www.reddit.com/r/adventofcode/comments/zd2tfz/2022_day_5_the_cratemover_9001/)
-  * [Day 6 - ???](./day_06/README.md)
+  * [Day 6 - Tuning Trouble](./day_06/README.md)
   * Day 7
   * Day 8
   * Day 9
