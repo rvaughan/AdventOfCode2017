@@ -60,6 +60,11 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=pBEet-lcFkg) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zdw0u6/2022_day_6_solutions/)
   * [Day 7 - No Space Left On Device](./day_07/README.md)
+    * [Watch](https://www.youtube.com/watch?v=ZPM5xclRInk) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=YLHPABNNgZU) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zesk40/2022_day_7_solutions/)
+    * Visualisations:
+      * [Tree Map](https://www.reddit.com/r/adventofcode/comments/zeux34/2022_day_7_animated_visualization_of_stepping/)
   * Day 8
   * Day 9
   * Day 10
