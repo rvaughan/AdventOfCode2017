@@ -59,7 +59,7 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=LvwsB-JpJmQ) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=pBEet-lcFkg) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zdw0u6/2022_day_6_solutions/)
-  * [Day 7 - ???](./day_07/README.md)
+  * [Day 7 - No Space Left On Device](./day_07/README.md)
   * Day 8
   * Day 9
   * Day 10
