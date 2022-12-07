@@ -59,12 +59,16 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=LvwsB-JpJmQ) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=pBEet-lcFkg) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zdw0u6/2022_day_6_solutions/)
+    * Visualisations:
+      * [Search for markers](https://www.reddit.com/r/adventofcode/comments/ze5pgc/2022_day_6_search_for_markers_in_the_examples/)
+      * [Sliding](https://www.reddit.com/r/adventofcode/comments/zdymjf/2022_day_6_open_hailing_frequencies/)
   * [Day 7 - No Space Left On Device](./day_07/README.md)
     * [Watch](https://www.youtube.com/watch?v=ZPM5xclRInk) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=YLHPABNNgZU) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zesk40/2022_day_7_solutions/)
     * Visualisations:
       * [Tree Map](https://www.reddit.com/r/adventofcode/comments/zeux34/2022_day_7_animated_visualization_of_stepping/)
+      * [Radial map](https://www.reddit.com/r/adventofcode/comments/zetofx/2022_day_7_my_input_as_an_actual_directory_tree/)
   * [Day 8 - ???](./day_08/README.md)
   * Day 9
   * Day 10
