@@ -65,7 +65,7 @@ using this year.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zesk40/2022_day_7_solutions/)
     * Visualisations:
       * [Tree Map](https://www.reddit.com/r/adventofcode/comments/zeux34/2022_day_7_animated_visualization_of_stepping/)
-  * Day 8
+  * [Day 8 - ???](./day_08/README.md)
   * Day 9
   * Day 10
   * Day 11
