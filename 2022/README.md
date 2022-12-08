@@ -69,7 +69,7 @@ using this year.
     * Visualisations:
       * [Tree Map](https://www.reddit.com/r/adventofcode/comments/zeux34/2022_day_7_animated_visualization_of_stepping/)
       * [Radial map](https://www.reddit.com/r/adventofcode/comments/zetofx/2022_day_7_my_input_as_an_actual_directory_tree/)
-  * [Day 8 - ???](./day_08/README.md)
+  * [Day 8 - Treetop Tree House](./day_08/README.md)
   * Day 9
   * Day 10
   * Day 11
