@@ -10,13 +10,13 @@ class Folder(object):
         self.parent = parent
         self.name = name
         self.folders = {}
-        self.files = []
+        self.files = {}
 
     def add_folder(self, child):
         self.folders[child.name] = child
 
     def add_file(self, child):
-        self.files.append(child)
+        self.files[child.name] = child
 
     def calc_sizes(self):
         sizes = []
@@ -28,10 +28,9 @@ class Folder(object):
         for _, sub in self.folders.items():
             sub_sizes += sub.calc_sizes()
 
-        for x in sub_sizes:
-            size += x
+        size = sum([x for x in sub_sizes])
 
-        for child in self.files:
+        for _, child in self.files.items():
             # print(f'  - {child.name} {child.size}')
             size += child.get_size()
 
@@ -42,6 +41,18 @@ class Folder(object):
 
         return sizes
 
+    def get_size(self):
+        size = 0
+
+        for _, sub in self.folders.items():
+            size += sub.get_size()
+
+        for _, child in self.files.items():
+            # print(f'  - {child.name} {child.size}')
+            size += child.get_size()
+
+        return size
+    
     def get_parent(self):
         return self.parent
 
@@ -92,7 +103,7 @@ def calculate_solution(items):
 
     total_space = 70000000
     update_size = 30000000
-    used_space = max(size for size in sizes)
+    used_space = root.get_size()
     free_space = total_space - used_space
     space_needed = update_size - free_space
 
@@ -111,7 +122,7 @@ def run_test(test_input, expected_solution):
     """
     Helper method for running some unit tests whilst minimising repetative code.
     """
-    result=calculate_solution(test_input.split('\n'))
+    result = calculate_solution(test_input.split('\n'))
 
     if result != expected_solution:
         print(
@@ -126,7 +137,7 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list="""$ cd /
+test_list = """$ cd /
 $ ls
 dir a
 14848514 b.txt
@@ -150,7 +161,7 @@ $ ls
 5626152 d.ext
 7214296 k"""
 
-result=run_test(test_list, 24933642)
+result = run_test(test_list, 24933642)
 
 print('')
 print('-----------------')
@@ -162,7 +173,7 @@ print('')
 # above is working correctly. Let's use the actual captcha now.
 
 with open('input.txt', 'r') as f:
-    input_data=[line.strip() for line in f]
-    answer=calculate_solution(input_data)
+    input_data = [line.strip() for line in f]
+    answer = calculate_solution(input_data)
 
     print(f'Solution is {answer}')
