@@ -70,6 +70,14 @@ using this year.
       * [Tree Map](https://www.reddit.com/r/adventofcode/comments/zeux34/2022_day_7_animated_visualization_of_stepping/)
       * [Radial map](https://www.reddit.com/r/adventofcode/comments/zetofx/2022_day_7_my_input_as_an_actual_directory_tree/)
   * [Day 8 - Treetop Tree House](./day_08/README.md)
+    * [Watch](https://www.youtube.com/watch?v=pWyMbh5fE0I) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=Gjl8yun9-jM) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zfpnka/2022_day_8_solutions/)
+    * Visualisations:
+      * [Shrink and Grow](https://www.reddit.com/r/adventofcode/comments/zfw6ij/2022_day_8_shrink_invisible_grow_with_a_good_view/)
+      * [3D](https://www.reddit.com/r/adventofcode/comments/zfu5vn/2022_day_8_visualization_of_the_forest/)
+      * [View distances](https://www.reddit.com/r/adventofcode/comments/zfspmq/2022_day_8_tree_heights_visibility_view_distances/)
+      * [Viz](https://www.reddit.com/r/adventofcode/comments/zfrzg8/2022_day_8_python_visualising_the_trees/)
   * Day 9
   * Day 10
   * Day 11
