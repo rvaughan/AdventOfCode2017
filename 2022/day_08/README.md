@@ -37,3 +37,5 @@ All of the trees around the edge of the grid are **visible** - since they are al
 With 16 trees visible on the edge and another 5 visible in the interior, a total of **21** trees are visible in this arrangement.
 
 Consider your map; **how many trees are visible from outside the grid?**
+
+**Solution:** 1715
