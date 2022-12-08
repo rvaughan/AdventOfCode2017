@@ -78,7 +78,7 @@ using this year.
       * [3D](https://www.reddit.com/r/adventofcode/comments/zfu5vn/2022_day_8_visualization_of_the_forest/)
       * [View distances](https://www.reddit.com/r/adventofcode/comments/zfspmq/2022_day_8_tree_heights_visibility_view_distances/)
       * [Viz](https://www.reddit.com/r/adventofcode/comments/zfrzg8/2022_day_8_python_visualising_the_trees/)
-  * Day 9
+  * [Day 9 - ???](./day_09/README.md)
   * Day 10
   * Day 11
   * Day 12
