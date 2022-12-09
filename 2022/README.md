@@ -79,6 +79,9 @@ using this year.
       * [View distances](https://www.reddit.com/r/adventofcode/comments/zfspmq/2022_day_8_tree_heights_visibility_view_distances/)
       * [Viz](https://www.reddit.com/r/adventofcode/comments/zfrzg8/2022_day_8_python_visualising_the_trees/)
   * [Day 9 - Rope Bridge](./day_09/README.md)
+    * [Watch](https://www.youtube.com/watch?v=D-ce_rFtfD8) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=QfSPVrWKGcU) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zgnice/2022_day_9_solutions/)
   * Day 10
   * Day 11
   * Day 12
