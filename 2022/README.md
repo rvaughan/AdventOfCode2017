@@ -103,3 +103,8 @@ using this year.
   * Day 23
   * Day 24
   * Day 25
+
+## Other people
+
+  * [FasterThanLime](https://fasterthanli.me/series/advent-of-code-2022) is solving the puzzles in Rust each day, and also blogging about what they learnt when doing the puzzles.
+  * [Simon Willison](https://github.com/simonw/advent-of-code-2022-in-rust) is also looking to solve each day using Rust.
