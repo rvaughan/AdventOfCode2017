@@ -82,7 +82,7 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=D-ce_rFtfD8) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=QfSPVrWKGcU) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zgnice/2022_day_9_solutions/)
-  * Day 10
+  * [Day 10 - ???](./day_10/README.md)
   * Day 11
   * Day 12
   * Day 13
