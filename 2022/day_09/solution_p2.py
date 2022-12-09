@@ -23,12 +23,46 @@ def dump_grid(start, knots):
     print('------------------------------')
 
 
+def follow(first, second):
+    delta_x = first[1] - second[1]
+    delta_y = first[0] - second[0]
+
+    if (abs(delta_x) > 1 and delta_y == 0) or (abs(delta_y) > 1 and delta_x == 0):
+        # Moving in a straight line left/right, or up/down
+        return (second[0] + delta_y//2, second[1] + delta_x//2)
+    elif abs(delta_x) > 1 or abs(delta_y) > 1:
+        # The first knot is in a diagonal position from the second knot.
+
+        # Get all of the cells around the first knot
+        around_first = set([(first[0] + ny, first[1] + nx)
+                          for nx in (0, 1, -1) for ny in (0, 1, -1) if not nx == ny == 0])
+
+        # Get all of the cells around the second knot
+        around_second = set([(second[0] + ny, second[1] + nx)
+                          for nx in (1, -1) for ny in (1, -1)])
+
+        # Return the cell that intersects
+        return around_first.intersection(around_second).pop()
+    
+    # No move required
+    return second
+
+
 def calculate_solution(moves):
     num_knots = 10
 
-    start= (10, 10)
-    positions= []
-    knots= []
+    # The delta positions to be applied for the various moves that can be made.
+    move_deltas = {
+        'R': (0, 1),
+        'L': (0, -1),
+        'U': (-1, 0),
+        'D': (1, 0)
+    }
+
+    # We will start in the middle of the grid
+    start = (10, 10)
+    positions = []
+    knots = []
 
     for knot in range(num_knots):
         knots.append(start)
@@ -38,44 +72,21 @@ def calculate_solution(moves):
     # dump_grid(start, knots)
 
     for move in moves:
-        direction, cells= move.split(' ')
+        direction, cells = move.split(' ')
 
         for _ in range(int(cells)):
-            if direction == 'L':
-                knots[0] = (knots[0][0], knots[0][1] - 1)
-                for idx in range(1, num_knots):
-                    if (knots[idx-1][1] - knots[idx][1] == -2):
-                        knots[idx] = (knots[idx][0], knots[idx][1] - 1)
-                        if knots[idx-1][0] != knots[idx][0]:
-                            knots[idx] = (knots[idx-1][0], knots[idx][1])
-                        positions[idx].add(knots[idx])
-            elif direction == 'R':
-                knots[0] = (knots[0][0], knots[0][1] + 1)
-                for idx in range(1, num_knots):
-                    if (knots[idx-1][1] - knots[idx][1] == 2):
-                        knots[idx] = (knots[idx][0], knots[idx][1] + 1)
-                        if knots[idx-1][0] != knots[idx][0]:
-                            knots[idx] = (knots[idx-1][0], knots[idx][1])
-                        positions[idx].add(knots[idx])
-            elif direction == 'U':
-                knots[0] = (knots[0][0] - 1, knots[0][1])
-                for idx in range(1, num_knots):
-                    if ((knots[idx-1][0] - knots[idx][0] == -2) or (knots[idx-1][1] - knots[idx][1] == -2)):
-                        knots[idx] = (knots[idx][0] - 1, knots[idx][1])
-                        if knots[idx-1][1] != knots[idx][1]:
-                            knots[idx] = (knots[idx][0], knots[idx-1][1])
-                        positions[idx].add(knots[idx])
-            elif direction == 'D':
-                knots[0] = (knots[0][0] + 1, knots[0][1])
-                for idx in range(1, num_knots):
-                    if (knots[idx-1][0] - knots[idx][0] == 2):
-                        knots[idx] = (knots[idx][0] + 1, knots[idx][1])
-                        if knots[idx-1][1] != knots[idx][1]:
-                            knots[idx] = (knots[idx][0], knots[idx-1][1])
-                        positions[idx].add(knots[idx])
+            change = move_deltas[direction]
 
-            print(knots)
-            dump_grid(start, knots)
+            # Move the head of the rope
+            knots[0] = (knots[0][0] + change[0], knots[0][1] + change[1])
+
+            # Let the rest of the knots on the rope follow along.
+            for idx in range(1, num_knots):
+                knots[idx] = follow(knots[idx-1], knots[idx])
+                positions[idx].add(knots[idx])
+
+            # print(knots)
+            # dump_grid(start, knots)
 
     return len(positions[num_knots-1])
 
@@ -84,7 +95,7 @@ def run_test(test_input, expected_solution):
     """
     Helper method for running some unit tests whilst minimising repetative code.
     """
-    result= calculate_solution(test_input.split('\n'))
+    result = calculate_solution(test_input.split('\n'))
 
     if result != expected_solution:
         print(
@@ -100,26 +111,26 @@ def run_test(test_input, expected_solution):
 # trying to solve the puzzle.
 
 test_list = """R 4
-U 4"""
-# L 3
-# D 1
-# R 4
-# D 1
-# L 5
-# R 2"""
+U 4
+L 3
+D 1
+R 4
+D 1
+L 5
+R 2"""
 
-result = run_test(test_list, 0)
+result = run_test(test_list, 1)
 
-# test_list = """R 5
-# U 8
-# L 8
-# D 3
-# R 17
-# D 10
-# L 25
-# U 20"""
+test_list = """R 5
+U 8
+L 8
+D 3
+R 17
+D 10
+L 25
+U 20"""
 
-# result = run_test(test_list, 36)
+result = run_test(test_list, 36)
 
 print('')
 print('-----------------')
@@ -131,7 +142,7 @@ print('')
 # above is working correctly. Let's use the actual captcha now.
 
 with open('input.txt', 'r') as f:
-    input_data= [line.strip() for line in f]
-    answer= calculate_solution(input_data)
+    input_data = [line.strip() for line in f]
+    answer = calculate_solution(input_data)
 
     print(f'Solution is {answer}')
