@@ -87,7 +87,7 @@ using this year.
       * [Dancing Rope](https://www.reddit.com/r/adventofcode/comments/zgpx4e/day_9_dancing_roping_thingy_w_source_code/)
       * [Viz](https://www.reddit.com/r/adventofcode/comments/zgpdzo/2022_day_9_visualization/)
       * [Dragging a rope](https://www.reddit.com/r/adventofcode/comments/zgoxxu/2022_day_9_part_2_dragging_a_rope_around/)
-  * [Day 10 - ???](./day_10/README.md)
+  * [Day 10 - Cathode-Ray Tube](./day_10/README.md)
   * Day 11
   * Day 12
   * Day 13
