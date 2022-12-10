@@ -32,6 +32,7 @@ def calculate_solution(instructions):
             instruction, delay = get_next_instruction(instructions, idx)
             # print(f'   + {instruction} begins execution')
 
+        # The point the CRT is drawing on - which starts from zero, not 1.
         point = (cycle % 40) - 1
         if point == (signal_strength - 1) or point == signal_strength or point == (signal_strength + 1):
             result.append('#')
@@ -39,6 +40,7 @@ def calculate_solution(instructions):
             result.append('.')
 
         if cycle == report_cycle:
+            # Reached the end of the screen line.
             print(''.join(result))
             result = []
             report_cycle += 40
