@@ -12,7 +12,7 @@ The Elves yell something about meeting back up with them upriver, but the river 
 
 Situations like this must be why the Elves prioritized getting the communication system on your handheld device working. You pull it out of your pack, but the amount of water slowly draining from a big crack in its screen tells you it probably won't be of much immediate use.
 
-**Unless**, that is, you can design a replacement for the device's video system! It seems to be some kind of [cathode-ray tube](https://en.wikipedia.org/wiki/Cathode-ray_tube) screen and simple CPU that are both driven by a precise clock circuit. The clock circuit ticks at a constant rate; each tick is called a cycle.
+**Unless**, that is, you can design a replacement for the device's video system! It seems to be some kind of [cathode-ray tube](https://en.wikipedia.org/wiki/Cathode-ray_tube) screen and simple CPU that are both driven by a precise **clock circuit**. The clock circuit ticks at a constant rate; each tick is called a **cycle**.
 
 Start by figuring out the signal being sent by the CPU. The CPU has a single register, ```X```, which starts with the value ```1```. It supports only two instructions:
 
@@ -192,7 +192,7 @@ noop
 
 The interesting signal strengths can be determined as follows:
 
-  * During the 20th cycle, register X has the value 21, so the signal strength is 20 * 21 = 420. (The 20th cycle occurs in the middle of the second addx -1, so the value of register X is the starting value, 1, plus all of the other addx values up to that point: 1 + 15 - 11 + 6 - 3 + 5 - 1 - 8 + 13 + 4 = **21**.)
+  * During the 20th cycle, register X has the value 21, so the signal strength is 20 * 21 = **420**. (The 20th cycle occurs in the middle of the second addx -1, so the value of register X is the starting value, 1, plus all of the other addx values up to that point: 1 + 15 - 11 + 6 - 3 + 5 - 1 - 8 + 13 + 4 = 21.)
   * During the 60th cycle, register X has the value 19, so the signal strength is 60 * 19 = **1140**.
   * During the 100th cycle, register X has the value 18, so the signal strength is 100 * 18 = **1800**.
   * During the 140th cycle, register X has the value 21, so the signal strength is 140 * 21 = **2940**.
@@ -202,3 +202,5 @@ The interesting signal strengths can be determined as follows:
 The sum of these signal strengths is **13140**.
 
 Find the signal strength during the 20th, 60th, 100th, 140th, 180th, and 220th cycles. **What is the sum of these six signal strengths?**
+
+**Solution:** 15360
