@@ -87,7 +87,11 @@ using this year.
       * [Dancing Rope](https://www.reddit.com/r/adventofcode/comments/zgpx4e/day_9_dancing_roping_thingy_w_source_code/)
       * [Viz](https://www.reddit.com/r/adventofcode/comments/zgpdzo/2022_day_9_visualization/)
       * [Dragging a rope](https://www.reddit.com/r/adventofcode/comments/zgoxxu/2022_day_9_part_2_dragging_a_rope_around/)
+      * [Pulling an elastic rope](https://www.reddit.com/r/adventofcode/comments/zhjl57/2022_day_9_part_2_pulling_an_elastic_rope/)
   * [Day 10 - Cathode-Ray Tube](./day_10/README.md)
+    * [Watch](https://www.youtube.com/watch?v=NGQ8fIDRV0I) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=RpmT8ntU9L0) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zhjfo4/2022_day_10_solutions/)
   * Day 11
   * Day 12
   * Day 13
