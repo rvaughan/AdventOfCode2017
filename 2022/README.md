@@ -95,6 +95,12 @@ using this year.
   * [Day 11 - Monkey in the Middle](./day_11/README.md)
     * [Watch](https://www.youtube.com/watch?v=W9vVJ8gDxj4) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zifqmh/2022_day_11_solutions/)
+    * Visualisations:
+      * [Monkey Business](https://www.reddit.com/r/adventofcode/comments/zis2z4/2022_day_11_part_1_monkey_business/)
+      * [Stacks](https://www.reddit.com/r/adventofcode/comments/zitldq/2022_day_11_part_1_simple_stack_visualisation_of/)
+      * [Throws](https://www.reddit.com/r/adventofcode/comments/zin0kd/2022_day_11_part_2_monkey_have_monkey_throw/)
+      * [Clock Style](https://www.reddit.com/r/adventofcode/comments/zimxrf/2022_day_11_clockstyled_visualization_of_the/)
+      * [Pew Pew](https://www.reddit.com/r/adventofcode/comments/zimtcu/2022_day_11_first_20_rounds_of_monkey_business/)
   * [Day 12 - ???](./day_12/README.md)
   * Day 13
   * Day 14
