@@ -60,10 +60,17 @@ def calculate_solution(monkey_data):
     # Calculate the combined products of all of the divisors so that we can use
     # this is as a common divisor. This allows us to deal more easily with the
     # large numbers that we would otherwise have to deal with.
+    # This works because the modulo operation is commutative.
     # All of the divisors prime BTW.
-    common_divisor = 1
+    common_multiple = 1
     for monkey in monkeys:
-        common_divisor *= (common_divisor * monkey['test'])
+        common_multiple *= (common_multiple * monkey['test'])
+
+    # This can be further improved using the lcm (least common multiple) function.
+    # This actually makes the code about twice as fast as the calculated number
+    # is even smaller.
+    import math
+    common_multiple = math.lcm(*[x['test'] for x in monkeys])
 
     for _ in range(10000):
         for idx in range(len(monkeys)):
@@ -75,7 +82,7 @@ def calculate_solution(monkey_data):
 
                 # Keep the number something tractable so that the math operations
                 # don't take forever.
-                worry_level %= common_divisor
+                worry_level %= common_multiple
 
                 if (worry_level % monkey['test'] == 0):
                     monkeys[monkey[True]]['items'].append(worry_level)
