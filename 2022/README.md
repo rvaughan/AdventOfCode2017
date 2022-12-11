@@ -95,7 +95,7 @@ using this year.
   * [Day 11 - Monkey in the Middle](./day_11/README.md)
     * [Watch](https://www.youtube.com/watch?v=W9vVJ8gDxj4) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zifqmh/2022_day_11_solutions/)
-  * Day 12
+  * [Day 12 - ???](./day_12/README.md)
   * Day 13
   * Day 14
   * Day 15
