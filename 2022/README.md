@@ -92,7 +92,7 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=NGQ8fIDRV0I) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=RpmT8ntU9L0) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zhjfo4/2022_day_10_solutions/)
-  * [Day 11 - ???](./day_11/README.md)
+  * [Day 11 - Monkey in the Middle](./day_11/README.md)
   * Day 12
   * Day 13
   * Day 14
