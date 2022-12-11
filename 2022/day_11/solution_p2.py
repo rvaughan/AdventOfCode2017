@@ -58,14 +58,14 @@ def calculate_solution(monkey_data):
     monkeys = load_monkeys(monkey_data)
 
     # Calculate the combined products of all of the divisors so that we can use
-    # this is a common divisor. This allows us to deal more easily with the large
-    # numbers that we have to deal with.
-    # Are all of the divisors prime?
-    lowest_common_divisor = 1
+    # this is as a common divisor. This allows us to deal more easily with the
+    # large numbers that we would otherwise have to deal with.
+    # All of the divisors prime BTW.
+    common_divisor = 1
     for monkey in monkeys:
-        lowest_common_divisor *= (lowest_common_divisor * monkey['test'])
+        common_divisor *= (common_divisor * monkey['test'])
 
-    for round in range(10000):
+    for _ in range(10000):
         for idx in range(len(monkeys)):
             monkey = monkeys[idx]
             items = monkey['items']
@@ -73,9 +73,9 @@ def calculate_solution(monkey_data):
             for item in items:
                 worry_level = calc_worry(monkey, item)
 
-                # Bring the number back to something tractable so that the math
-                # operations don't take forever.
-                worry_level %= lowest_common_divisor
+                # Keep the number something tractable so that the math operations
+                # don't take forever.
+                worry_level %= common_divisor
 
                 if (worry_level % monkey['test'] == 0):
                     monkeys[monkey[True]]['items'].append(worry_level)
