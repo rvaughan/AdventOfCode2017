@@ -101,7 +101,7 @@ using this year.
       * [Throws](https://www.reddit.com/r/adventofcode/comments/zin0kd/2022_day_11_part_2_monkey_have_monkey_throw/)
       * [Clock Style](https://www.reddit.com/r/adventofcode/comments/zimxrf/2022_day_11_clockstyled_visualization_of_the/)
       * [Pew Pew](https://www.reddit.com/r/adventofcode/comments/zimtcu/2022_day_11_first_20_rounds_of_monkey_business/)
-  * [Day 12 - ???](./day_12/README.md)
+  * [Day 12 - Hill Climbing Algorithm](./day_12/README.md)
   * Day 13
   * Day 14
   * Day 15
