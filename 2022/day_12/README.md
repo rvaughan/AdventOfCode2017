@@ -39,3 +39,5 @@ In the above diagram, the symbols indicate whether the path exits each square mo
 This path reaches the goal in **31** steps, the fewest possible.
 
 **What is the fewest steps required to move from your current position to the location that should get the best signal?**
+
+**Solution:** 330
