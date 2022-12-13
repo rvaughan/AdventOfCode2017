@@ -94,6 +94,7 @@ using this year.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zhjfo4/2022_day_10_solutions/)
   * [Day 11 - Monkey in the Middle](./day_11/README.md)
     * [Watch](https://www.youtube.com/watch?v=W9vVJ8gDxj4) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=63-uEScYUvM) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zifqmh/2022_day_11_solutions/)
     * Visualisations:
       * [Monkey Business](https://www.reddit.com/r/adventofcode/comments/zis2z4/2022_day_11_part_1_monkey_business/)
@@ -102,6 +103,14 @@ using this year.
       * [Clock Style](https://www.reddit.com/r/adventofcode/comments/zimxrf/2022_day_11_clockstyled_visualization_of_the/)
       * [Pew Pew](https://www.reddit.com/r/adventofcode/comments/zimtcu/2022_day_11_first_20_rounds_of_monkey_business/)
   * [Day 12 - Hill Climbing Algorithm](./day_12/README.md)
+    * [Watch](https://www.youtube.com/watch?v=DRODVXPgUcI) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=sBe_7Mzb47Y) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zjnruc/2022_day_12_solutions/)
+    * Visualisations:
+      * [Path viz](https://www.reddit.com/r/adventofcode/comments/zjx80i/2022_day_12_paths_visualized_using_matplotlib/)
+      * [Running up that hill](https://www.reddit.com/r/adventofcode/comments/zjyov9/2022_day_12_running_up_that_hill/)
+      * [Unity](https://www.reddit.com/r/adventofcode/comments/zka27a/2022_day_12_part_1_and_2_c_unity_a_little/)
+      * [Plotly](https://www.reddit.com/r/adventofcode/comments/zkcors/2022_day_12_python_using_plotly_it_took_me_a/)
   * Day 13
   * Day 14
   * Day 15
