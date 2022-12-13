@@ -112,6 +112,9 @@ using this year.
       * [Unity](https://www.reddit.com/r/adventofcode/comments/zka27a/2022_day_12_part_1_and_2_c_unity_a_little/)
       * [Plotly](https://www.reddit.com/r/adventofcode/comments/zkcors/2022_day_12_python_using_plotly_it_took_me_a/)
   * [Day 13 - Distress Signal](./day_13/README.md)
+    * [Watch](https://www.youtube.com/watch?v=_l22L_0BHIo) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=dksdTAYB_X8) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zkmyh4/2022_day_13_solutions/)
   * Day 14
   * Day 15
   * Day 16
