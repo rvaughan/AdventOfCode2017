@@ -119,3 +119,5 @@ Using these rules, you can determine which of the pairs in the example are in th
 What are the indices of the pairs that are already **in the right order**? (The first pair has index 1, the second pair has index 2, and so on.) In the above example, the pairs in the right order are 1, 2, 4, and 6; the sum of these indices is **13**.
 
 Determine which pairs of packets are already in the right order. **What is the sum of the indices of those pairs?**
+
+**Solution:** 5682
