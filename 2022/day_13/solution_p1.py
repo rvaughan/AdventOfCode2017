@@ -149,6 +149,8 @@ def calculate_solution(items):
         left = items[idx]
         right = items[idx + 1]
 
+        # The logical leap here is that you can essentially treat the input as
+        # JSON arrays to make processing and handling a lot easier.
         correct_order = compare(json.loads(left), json.loads(right))
         if correct_order == -1:
             correct.append(pair)
