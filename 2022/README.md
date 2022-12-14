@@ -116,6 +116,15 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=dksdTAYB_X8) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zkmyh4/2022_day_13_solutions/)
   * [Day 14 - Regolith Reservoir](./day_14/README.md)
+    * [Watch](https://www.youtube.com/watch?v=YWjtJUK-UmY) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=lL2enOcBHVg) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zli1rd/2022_day_14_solutions/)
+    * Visualisations:
+      * [Falling sand](https://www.reddit.com/r/adventofcode/comments/zllwat/2022_day_14_sand_falling_animated/)
+      * [Sandy](https://www.reddit.com/r/adventofcode/comments/zllpnu/2022_day_14_sandy/)
+      * [Sand, coloured by age](https://www.reddit.com/r/adventofcode/comments/zllor9/2022_day_14_sand_colored_by_age/)
+      * [Lots of sand](https://www.reddit.com/r/adventofcode/comments/zlkyv8/2022_day14_part2_lots_of_sand/)
+      * [Mr Sandman](https://www.reddit.com/r/adventofcode/comments/zlky9w/2022_day14_part1_mr_sandman/)
   * Day 15
   * Day 16
   * Day 17
