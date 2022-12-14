@@ -18,21 +18,10 @@ def build_grid(lines, rows=1000, cols=1000):
             rock_start = [int(x) for x in rock_positions[idx].split(',')]
             rock_end = [int(x) for x in rock_positions[idx+1].split(',')]
 
-            row_direction = 1
-            if rock_start[0] > rock_end[0]:
-                rock_end[0] -= 1
-                row_direction = -1
-            elif rock_start[0] == rock_end[0]:
-                rock_end[0] += 1
+            rock_start[0], rock_end[0], rock_start[1], rock_end[1] = min(rock_start[0], rock_end[0]), max(rock_start[0], rock_end[0]), min(rock_start[1], rock_end[1]), max(rock_start[1], rock_end[1])
 
-            col_direction = 1
-            if rock_start[1] > rock_end[1]:
-                col_direction = -1
-            elif rock_start[1] == rock_end[1]:
-                rock_end[1] += 1
-
-            for row in range(rock_start[1], rock_end[1], col_direction):
-                for col in range(rock_start[0], rock_end[0], row_direction):
+            for row in range(rock_start[1], rock_end[1]+1):
+                for col in range(rock_start[0], rock_end[0]+1):
                     grid[row][col] = '#'
                     max_depth = max(max_depth, row)
 

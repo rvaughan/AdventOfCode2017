@@ -33,9 +33,9 @@ def build_grid(lines, rows=1000, cols=1000):
     return grid, max_depth
 
 
-def dump_grid(grid, start_row = 0, end_row = 1000, start_col = 0, end_col = 1000):
+def dump_grid(grid, start_row=0, end_row=1000, start_col=0, end_col=1000):
     for row in range(start_row, end_row):
-        line=[]
+        line = []
         for col in range(start_col, end_col):
             line.append(grid[row][col])
 
@@ -43,46 +43,52 @@ def dump_grid(grid, start_row = 0, end_row = 1000, start_col = 0, end_col = 1000
 
 
 def calculate_solution(items):
-    grid, max_depth=build_grid(items)
+    grid, max_depth = build_grid(items)
 
-    start_pos=[0, 500]
+    start_pos = [0, 500]
 
     # dump_grid(grid, 0, 11, 490, 510)
     # x
 
-    sand_grains=0
+    sand_grains = 0
     complete = False
     while not complete:
-        sg_pos=start_pos.copy()
-        stopped=False
+        sg_pos = start_pos.copy()
+        stopped = False
+        # print(f'Dropping sand grain {sand_grains+1}')
         while not stopped:
             # print(sg_pos)
 
             if grid[sg_pos[0]][sg_pos[1]] != '.':
-                if grid[sg_pos[0]][sg_pos[1]-1] != '.':
-                    if grid[sg_pos[0]][sg_pos[1]+1] != '.':
-                        # Stopped - so back up one cell
-                        sg_pos[0] -= 1
-
-                        if sg_pos[0] == -1:
-                            complete = True
-                        else:
-                            sand_grains += 1
-                        
-                        stopped=True
-                        print(f'Sand grain {sand_grains} stopped [{complete} {sg_pos[0]}]')
-                    else:
-                        # Move right
-                        sg_pos[1] += 1
+                # Special case - bail out early
+                if sg_pos == start_pos:
+                    complete = True
+                    stopped = True
                 else:
-                    # Move left
-                    sg_pos[1] -= 1
+                    if grid[sg_pos[0]][sg_pos[1]-1] != '.':
+                        if grid[sg_pos[0]][sg_pos[1]+1] != '.':
+                            # Stopped - so back up one cell
+                            sg_pos[0] -= 1
+
+                            if sg_pos[0] == -1:
+                                complete = True
+                            else:
+                                sand_grains += 1
+
+                            stopped = True
+                            # print(f'Sand grain {sand_grains} stopped [{complete} {sg_pos[0]}]')
+                        else:
+                            # Move right
+                            sg_pos[1] += 1
+                    else:
+                        # Move left
+                        sg_pos[1] -= 1
             else:
                 # Move down one cell
                 sg_pos[0] += 1
 
             if stopped:
-                grid[sg_pos[0]][sg_pos[1]]='o'
+                grid[sg_pos[0]][sg_pos[1]] = 'o'
                 # if sand_grains == 93:
                 #     print('')
                 #     dump_grid(grid, 0, 12, 489, 512)
@@ -100,7 +106,7 @@ def run_test(test_input, expected_solution):
     """
     Helper method for running some unit tests whilst minimising repetative code.
     """
-    result=calculate_solution(test_input.split('\n'))
+    result = calculate_solution(test_input.split('\n'))
 
     if result != expected_solution:
         print(
@@ -115,11 +121,10 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list="""498,4 -> 498,6 -> 496,6
+test_list = """498,4 -> 498,6 -> 496,6
 503,4 -> 502,4 -> 502,9 -> 494,9"""
 
-result=run_test(test_list, 93)
-x
+result = run_test(test_list, 93)
 
 print('')
 print('-----------------')
@@ -131,7 +136,7 @@ print('')
 # above is working correctly. Let's use the actual captcha now.
 
 with open('input.txt', 'r') as f:
-    input_data=[line.strip() for line in f]
-    answer=calculate_solution(input_data)
+    input_data = [line.strip() for line in f]
+    answer = calculate_solution(input_data)
 
     print(f'Solution is {answer}')
