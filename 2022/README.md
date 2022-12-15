@@ -126,6 +126,12 @@ using this year.
       * [Lots of sand](https://www.reddit.com/r/adventofcode/comments/zlkyv8/2022_day14_part2_lots_of_sand/)
       * [Mr Sandman](https://www.reddit.com/r/adventofcode/comments/zlky9w/2022_day14_part1_mr_sandman/)
   * [Day 15 - Beacon Exclusion Zone](./day_15/README.md)
+    * [Watch](https://www.youtube.com/watch?v=aTs4O7tENbE) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=w7m48_uCvWI) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zmcn64/2022_day_15_solutions/)
+    * Visualisations:
+      * [Batch Visualisation](https://www.reddit.com/r/adventofcode/comments/zmdqyz/2022_day_15_part_2_batch_visualization/)
+      * [Sensor Scanning](https://www.reddit.com/r/adventofcode/comments/zmfab4/2022_day_15_sensor_scanning_for_beacons/)
   * Day 16
   * Day 17
   * Day 18
