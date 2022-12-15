@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This code holds the solution for part 1 of day 15 of the Advent of Code for 2022.
+This code holds the solution for part 2 of day 15 of the Advent of Code for 2022.
 """
 import sys
 
@@ -59,22 +59,47 @@ def in_range(x, y, sensors):
     return True
 
 
-def calculate_solution(details, search_row):
+def calculate_solution(details, max_distance):
     sensors, beacons, min_x, max_x, min_y, max_y = build_grid(details)
 
     result = 0
-    for x in range(min_x, max_x):
-        if not in_range(x, search_row, sensors) and (x, search_row) not in beacons:
-            result += 1
+    found = False
+    # Check the distance from each of the sensors.
+    for (sensor_x, sensor_y, distance) in sensors:
+        if found:
+            # Stop if we think we've found the solution.
+            break
+
+        # check all points that are d+1 away from the sensor position.
+        for dist_x in range(distance + 2):
+            if found:
+                # Stop if we think we've found the solution.
+                break
+
+            dist_y = (distance + 1) - dist_x
+
+            for signx, signy in [(-1, -1), (-1, 1), (1, -1), (1, 1)]:
+                x = sensor_x + (dist_x * signx)
+                y = sensor_y + (dist_y * signy)
+
+                if not (0 <= x <= max_distance and 0 <= y <= max_distance):
+                    # Ignore anything outside of the specified bounds.
+                    continue
+
+                if in_range(x, y, sensors) and (not found):
+                    # Should be the right solution.
+                    result = x * 4000000 + y
+                    found = True
+                    break
 
     return result
 
 
-def run_test(test_input, check_row, expected_solution):
+def run_test(test_input, max_distance, expected_solution):
     """
     Helper method for running some unit tests whilst minimising repetative code.
     """
-    result = calculate_solution(test_input.split('\n'), check_row)
+    result = calculate_solution(test_input.split('\n'), max_distance)
 
     if result != expected_solution:
         print(
@@ -104,7 +129,7 @@ Sensor at x=16, y=7: closest beacon is at x=15, y=3
 Sensor at x=14, y=3: closest beacon is at x=15, y=3
 Sensor at x=20, y=1: closest beacon is at x=15, y=3"""
 
-result = run_test(test_list, 10, 26)
+result = run_test(test_list, 20, 56000011)
 
 print('')
 print('-----------------')
@@ -117,6 +142,6 @@ print('')
 
 with open('input.txt', 'r') as f:
     input_data = [line.strip() for line in f]
-    answer = calculate_solution(input_data, 2000000)
+    answer = calculate_solution(input_data, 4000000)
 
     print(f'Solution is {answer}')
