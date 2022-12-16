@@ -20,9 +20,11 @@ def get_valves(config):
             'paths': {}
         }
 
+    # Get a list of all of the pipes in the system, but ignore the ones where
+    # the flow is 0.
     keys = sorted([x for x in list(valves.keys()) if valves[x]['flow'] != 0])
 
-    def bfs(frontier, end):
+    def breadth_first_search(frontier, end):
         depth = 1
         while True:
             next_frontier = set()
@@ -34,10 +36,12 @@ def get_valves(config):
             frontier = next_frontier
             depth += 1
 
+    # Work out all of the paths from the different pipes, and their depths. Need
+    # to include the AA pipe here, as it's our starting point.
     for k in keys + ['AA']:
         for k2 in keys:
             if k2 != k:
-                valves[k]['paths'][k2] = bfs(valves[k]['tunnels'], k2)
+                valves[k]['paths'][k2] = breadth_first_search(valves[k]['tunnels'], k2)
 
     return valves
 
@@ -58,6 +62,7 @@ def calculate_solution(config):
         if current_room not in opened:
             search(opened.union([current_room]), flowed + valves[current_room]['flow'] * depth_to_go, current_room, depth_to_go - 1, elephants_turn)
             if not elephants_turn:
+                # Now we've opened the first room, we can get the elephant to search as well.
                 search(set([current_room]).union(opened), flowed +
                        valves[current_room]['flow'] * depth_to_go, 'AA', 25, True)
         else:
@@ -106,6 +111,8 @@ print('')
 print('-----------------')
 print('All Tests PASSED.')
 print('-----------------')
+print('')
+print('This will take a little time to calculate...')
 print('')
 
 # Ok, so if we reach here, then we can be reasonably sure that the code
