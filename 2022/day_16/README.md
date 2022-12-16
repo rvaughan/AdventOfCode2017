@@ -238,3 +238,5 @@ Valves BB, CC, DD, EE, HH, and JJ are open, releasing 81 pressure.
 With the elephant helping, after 26 minutes, the best you could do would release a total of **1707** pressure.
 
 **With you and an elephant working together for 26 minutes, what is the most pressure you could release?**
+
+**Solution:** 2741
