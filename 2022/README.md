@@ -135,7 +135,7 @@ using this year.
   * [Day 16 - Proboscidea Volcanium](./day_16/README.md)
     * [Watch](https://www.youtube.com/watch?v=IIaj7MSFEcU) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zn6k1l/2022_day_16_solutions/)
-  * Day 17
+  * [Day 17 - ???](./day_17/README.md)
   * Day 18
   * Day 19
   * Day 20
