@@ -21,6 +21,7 @@ def get_valves(config):
     for key in sorted(valves.keys()):
         bitmap_idx[key] = 1 << len(bitmap_idx)
 
+    # Add the links to the bitmap index to the main valves map.
     valves = {
         bitmap_idx[valve]: (flow_rate, tuple(map(bitmap_idx.get, lead_to))) for valve, (flow_rate, lead_to) in valves.items()
     }
@@ -30,31 +31,45 @@ def get_valves(config):
 
 def calculate_solution(config):
     valves, bitmap_idx = get_valves(config)
-    
+
     TOTAL_TIME = 30
 
+    # Store our starting position.
+    # The tuple is the bitmap id, whether the pipe is opened, and the pressure.
     states = [(bitmap_idx['AA'], 0, 0)]
 
+    # Map for holding the best path(s)
     best = {}
 
-    for t in range(1, TOTAL_TIME + 1):
+    for minute in range(1, TOTAL_TIME + 1):
+        # States found in this time period.
         new_states = []
         for loc, opened, pressure in states:
             key = (loc, opened)
+
+            # If we've already recorded this key, and we have discovered a better
+            # path, then skip it.
             if key in best and pressure <= best[key]:
                 continue
 
             best[key] = pressure
 
+            # What's the flow rate, and which tunnels can we use?
             flow_rate, lead_to = valves[loc]
+
+            # If we've not already opened the pipe and there is a flow rate...
             if loc & opened == 0 and flow_rate > 0:
-                new_states.append((loc, opened | loc, pressure + flow_rate * (TOTAL_TIME - t)))
-            
+                # Record this as a new state
+                new_states.append(
+                    (loc, opened | loc, pressure + flow_rate * (TOTAL_TIME - minute)))
+
+            # Add the states that we can get to from this point
             for dest in lead_to:
                 new_states.append((dest, opened, pressure))
 
         states = new_states
 
+    # Finally, simply return the maximum pressure found.
     return max(pressure for _, _, pressure in states)
 
 
