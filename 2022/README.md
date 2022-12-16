@@ -133,6 +133,8 @@ using this year.
       * [Batch Visualisation](https://www.reddit.com/r/adventofcode/comments/zmdqyz/2022_day_15_part_2_batch_visualization/)
       * [Sensor Scanning](https://www.reddit.com/r/adventofcode/comments/zmfab4/2022_day_15_sensor_scanning_for_beacons/)
   * [Day 16 - Proboscidea Volcanium](./day_16/README.md)
+    * [Watch](https://www.youtube.com/watch?v=IIaj7MSFEcU) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zn6k1l/2022_day_16_solutions/)
   * Day 17
   * Day 18
   * Day 19
