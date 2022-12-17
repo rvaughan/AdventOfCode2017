@@ -136,6 +136,8 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=IIaj7MSFEcU) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zn6k1l/2022_day_16_solutions/)
   * [Day 17 - Pyroclastic Flow](./day_17/README.md)
+    * [Watch](https://www.youtube.com/watch?v=QXTBseFzkW4) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/znykq2/2022_day_17_solutions/)
   * Day 18
   * Day 19
   * Day 20
@@ -149,3 +151,4 @@ using this year.
 
   * [FasterThanLime](https://fasterthanli.me/series/advent-of-code-2022) is solving the puzzles in Rust each day, and also blogging about what they learnt when doing the puzzles.
   * [Simon Willison](https://github.com/simonw/advent-of-code-2022-in-rust) is also looking to solve each day using Rust.
+  * [Jonathan Paulson](https://github.com/jonathanpaulson/AdventOfCode)
