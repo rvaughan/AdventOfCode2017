@@ -135,10 +135,24 @@ using this year.
   * [Day 16 - Proboscidea Volcanium](./day_16/README.md)
     * [Watch](https://www.youtube.com/watch?v=IIaj7MSFEcU) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zn6k1l/2022_day_16_solutions/)
+    * Visualisations:
+      * [A little visualisation](https://www.reddit.com/r/adventofcode/comments/znrbt7/2022_day_16_part_1_c_unity_a_little_visualization/)
+      * [Map](https://www.reddit.com/r/adventofcode/comments/znrpog/2022_day_16_the_caves_pretty_complicated_but_i/)
+      * [Cave graph](https://www.reddit.com/r/adventofcode/comments/znpccn/2022_day_16_part_2_this_cave_looks_like_a_graph/)
   * [Day 17 - Pyroclastic Flow](./day_17/README.md)
     * [Watch](https://www.youtube.com/watch?v=QXTBseFzkW4) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/znykq2/2022_day_17_solutions/)
+    * Visualisations:
+      * [One long game of Tetris](https://www.reddit.com/r/adventofcode/comments/zo0ugn/2022_day_17_part_1_one_long_game_of_tetris/)
+      * [Elftris](https://www.reddit.com/r/adventofcode/comments/zo7fkx/2022_day_17_part_1_elftris/)
+      * [Rock falls](https://www.reddit.com/r/adventofcode/comments/zo27vf/2022_day_17_part_2_rocks_fall_nobody_dies/)
   * [Day 18 - Boiling Boulders](./day_18/README.md)
+    * [Watch](https://www.youtube.com/watch?v=hSzNkzQ6Ghk) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=xPIMCrbRPOI) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zoqhvy/2022_day_18_solutions/)
+    * Visualisations:
+      * [Rising tides](https://www.reddit.com/r/adventofcode/comments/zoscon/2022_day_18_part_2_go_rising_tides/)
+      * [Lava drop](https://www.reddit.com/r/adventofcode/comments/zosde3/2022_day_18_part_2_visualizing_the_lava_drop/)
   * Day 19
   * Day 20
   * Day 21
