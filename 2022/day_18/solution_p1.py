@@ -4,10 +4,33 @@ This code holds the solution for part 1 of day 18 of the Advent of Code for 2022
 """
 import sys
 
+FACE_OFFSETS = [
+    (0, 0, 1),
+    (0, 0, -1),
+    (0, 1, 0),
+    (0, -1, 0),
+    (1, 0, 0),
+    (-1, 0, 0),
+]
 
-def calculate_solution(items):
+
+def create_listmap(func, sequence) -> list:
+    """
+    >>> lmap(int, "12345")
+    [1, 2, 3, 4, 5]
+    """
+    return list(map(func, sequence))
+
+
+def calculate_solution(data):
+    lava = { tuple(create_listmap(int, line.split(','))) for line in data }
+
     result = 0
-
+    for x, y, z in lava:
+        for dx, dy, dz in FACE_OFFSETS:
+            if (x + dx, y + dy, z + dz) not in lava:
+                result += 1
+    
     return result
 
 
@@ -18,7 +41,8 @@ def run_test(test_input, expected_solution):
     result = calculate_solution(test_input.split('\n'))
 
     if result != expected_solution:
-        print(f'Test for {test_input} FAILED. Got a result of {result}, not {expected_solution}')
+        print(
+            f'Test for {test_input} FAILED. Got a result of {result}, not {expected_solution}')
         sys.exit(-1)
 
     print(f'Test for {test_input} passed.')
@@ -29,10 +53,26 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = """
-"""
+test_list = """1,1,1
+2,1,1"""
 
-result = run_test(test_list, 7)
+result = run_test(test_list, 10)
+
+test_list = """2,2,2
+1,2,2
+3,2,2
+2,1,2
+2,3,2
+2,2,1
+2,2,3
+2,2,4
+2,2,6
+1,2,5
+3,2,5
+2,1,5
+2,3,5"""
+
+result = run_test(test_list, 64)
 
 print('')
 print('-----------------')
