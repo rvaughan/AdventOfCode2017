@@ -138,7 +138,7 @@ using this year.
   * [Day 17 - Pyroclastic Flow](./day_17/README.md)
     * [Watch](https://www.youtube.com/watch?v=QXTBseFzkW4) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/znykq2/2022_day_17_solutions/)
-  * [Day 18 - ???](./day_18/README.md)
+  * [Day 18 - Boiling Boulders](./day_18/README.md)
   * Day 19
   * Day 20
   * Day 21
