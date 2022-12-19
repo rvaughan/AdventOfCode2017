@@ -154,6 +154,10 @@ using this year.
       * [Rising tides](https://www.reddit.com/r/adventofcode/comments/zoscon/2022_day_18_part_2_go_rising_tides/)
       * [Lava drop](https://www.reddit.com/r/adventofcode/comments/zosde3/2022_day_18_part_2_visualizing_the_lava_drop/)
   * [Day 19 - Not Enough Minerals](./day_19/README.md)
+    * [Watch](https://www.youtube.com/watch?v=yT3yHDp6hss) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zpihwi/2022_day_19_solutions/)
+    * Visualisations:
+      * [Unity](https://www.reddit.com/r/adventofcode/comments/zpxela/2022_day_19_part_1_c_unity_a_little_visualization/)
   * Day 20
   * Day 21
   * Day 22
