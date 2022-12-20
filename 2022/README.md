@@ -165,7 +165,7 @@ using this year.
     * Visualisations:
       * [Sort based encryption](https://www.reddit.com/r/adventofcode/comments/zqh4gc/2022_day_20_sort_based_encryption/)
       * [Going in Circles](https://www.reddit.com/r/adventofcode/comments/zqiq6e/2022_day_20_going_in_circles/)
-  * Day 21
+  * [Day 21 - ???](./day_21/README.md)
   * Day 22
   * Day 23
   * Day 24
