@@ -159,6 +159,12 @@ using this year.
     * Visualisations:
       * [Unity](https://www.reddit.com/r/adventofcode/comments/zpxela/2022_day_19_part_1_c_unity_a_little_visualization/)
   * [Day 20 - Grove Positioning System](./day_20/README.md)
+    * [Watch](https://www.youtube.com/watch?v=ZiMVl6bUZbg) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=QgS36OQxAgE) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zqezkn/2022_day_20_solutions/)
+    * Visualisations:
+      * [Sort based encryption](https://www.reddit.com/r/adventofcode/comments/zqh4gc/2022_day_20_sort_based_encryption/)
+      * [Going in Circles](https://www.reddit.com/r/adventofcode/comments/zqiq6e/2022_day_20_going_in_circles/)
   * Day 21
   * Day 22
   * Day 23
