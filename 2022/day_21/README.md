@@ -49,3 +49,5 @@ Then, monkey ```sjmn``` has one of its numbers (```30```, from monkey ```drzm```
 This process continues until root yells a number: **152**.
 
 However, your actual situation involves considerably more monkeys. **What number will the monkey named root yell?**
+
+**Solution:** 324122188240430
