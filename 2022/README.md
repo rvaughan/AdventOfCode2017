@@ -165,8 +165,20 @@ using this year.
     * Visualisations:
       * [Sort based encryption](https://www.reddit.com/r/adventofcode/comments/zqh4gc/2022_day_20_sort_based_encryption/)
       * [Going in Circles](https://www.reddit.com/r/adventofcode/comments/zqiq6e/2022_day_20_going_in_circles/)
+      * [Bucket Cycle Mixer](https://www.reddit.com/r/adventofcode/comments/zqm9mu/2022_day_20part_1ish_bucket_cycle_mixer/)
   * [Day 21 - Monkey Math](./day_21/README.md)
+    * [Watch](https://www.youtube.com/watch?v=vIRyCvJdWfw) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=wKaQxkxv-vM) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zrav4h/2022_day_21_solutions/)
+    * Visualisations:
+      * [Reuse](https://www.reddit.com/r/adventofcode/comments/zrizw7/2022_day_21_reused_the_visualization_of_day/)
+      * [Reverse Monkey Notation](https://www.reddit.com/r/adventofcode/comments/zrw7ed/2022_day_21_reverse_monkey_notation/)
+      * [Unity](https://www.reddit.com/r/adventofcode/comments/zry6b9/2022_day_21_part_1_and_2_c_unity_a_little/)
+      * [Monkey Puzzle Tree](https://www.reddit.com/r/adventofcode/comments/zsk96e/2022_day_21_thats_one_huge_monkey_puzzle_tree/)
   * [Day 22 - Monkey Map](./day_22/README.md)
+    * [Watch](https://www.youtube.com/watch?v=sXVTvOuALHs) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=pAtv9bAQ4uA) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zsct8w/2022_day_22_solutions/)
   * [Day 23 - ???](./day_23/README.md)
   * Day 24
   * Day 25
