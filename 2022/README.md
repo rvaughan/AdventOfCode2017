@@ -167,7 +167,7 @@ using this year.
       * [Going in Circles](https://www.reddit.com/r/adventofcode/comments/zqiq6e/2022_day_20_going_in_circles/)
   * [Day 21 - Monkey Math](./day_21/README.md)
   * [Day 22 - Monkey Map](./day_22/README.md)
-  * Day 23
+  * [Day 23 - ???](./day_23/README.md)
   * Day 24
   * Day 25
 
