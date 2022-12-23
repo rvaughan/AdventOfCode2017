@@ -179,7 +179,7 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=sXVTvOuALHs) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=pAtv9bAQ4uA) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zsct8w/2022_day_22_solutions/)
-  * [Day 23 - ???](./day_23/README.md)
+  * [Day 23 - Unstable Diffusion](./day_23/README.md)
   * Day 24
   * Day 25
 
