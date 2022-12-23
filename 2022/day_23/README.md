@@ -246,3 +246,5 @@ In the example above, the **first round where no Elf moved** was round 20:
 ```
 
 Figure out where the Elves need to go. **What is the number of the first round where no Elf moves?**
+
+**Solution:** 942
