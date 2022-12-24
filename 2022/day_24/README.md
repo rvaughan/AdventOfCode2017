@@ -26,9 +26,9 @@ Fortunately, it's easy to see all of this from the entrance to the valley, so yo
 #####.#
 ```
 
-The walls of the valley are drawn as #; everything else is ground. Clear ground - where there is currently no blizzard - is drawn as .. Otherwise, blizzards are drawn with an arrow indicating their direction of motion: up (^), down (v), left (<), or right (>).
+The walls of the valley are drawn as #; everything else is ground. Clear ground - where there is currently no blizzard - is drawn as ```.```. Otherwise, blizzards are drawn with an arrow indicating their direction of motion: up (```^```), down (```v```), left (```<```), or right (```>```).
 
-The above map includes two blizzards, one moving right (>) and one moving down (v). In one minute, each blizzard moves one position in the direction it is pointing:
+The above map includes two blizzards, one moving right (```>```) and one moving down (```v```). In one minute, each blizzard moves one position in the direction it is pointing:
 
 ```bash
 #.#####
@@ -52,7 +52,7 @@ Due to conservation of blizzard energy, as a blizzard reaches the wall of the va
 #####.#
 ```
 
-Because blizzards are made of tiny snowflakes, they pass right through each other. After another minute, both blizzards temporarily occupy the same position, marked 2:
+Because blizzards are made of tiny snowflakes, they pass right through each other. After another minute, both blizzards temporarily occupy the same position, marked ```2```:
 
 ```bash
 #.#####
@@ -103,7 +103,7 @@ Here is a more complex example:
 
 Your expedition begins in the only non-wall position in the top row and needs to reach the only non-wall position in the bottom row. On each minute, you can **move** up, down, left, or right, or you can **wait** in place. You and the blizzards act **simultaneously**, and you cannot share a position with a blizzard.
 
-In the above example, the fastest way to reach your goal requires **18** steps. Drawing the position of the expedition as E, one way to achieve this is:
+In the above example, the fastest way to reach your goal requires **18** steps. Drawing the position of the expedition as ```E```, one way to achieve this is:
 
 ```bash
 Initial state:
