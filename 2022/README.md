@@ -180,8 +180,22 @@ using this year.
     * [Watch](https://www.youtube.com/watch?v=pAtv9bAQ4uA) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zsct8w/2022_day_22_solutions/)
   * [Day 23 - Unstable Diffusion](./day_23/README.md)
+    * [Watch](https://www.youtube.com/watch?v=bF0hXXUnaAg) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=dz5Sx9sUfRA) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zt6xz5/2022_day_23_solutions/)
+    * Visualisations:
+      * [Browser](https://www.reddit.com/r/adventofcode/comments/ztnsc6/2022_day_23_i_made_a_visualization_in_a_canvas/)
+      * [Unity](https://www.reddit.com/r/adventofcode/comments/ztsjwv/2022_day_23_part_1_and_2_c_unity_a_little/)
   * [Day 24 - Blizzard Basin](./day_24/README.md)
+    * [Watch](https://www.youtube.com/watch?v=Zb87yH0wvjg) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=4NngtSErK24) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zu28ij/2022_day_24_solutions/)
+    * Visualisations:
+      * [Reachability and Solvability](https://www.reddit.com/r/adventofcode/comments/zuqt8u/2022_day_24_reachability_and_solvability/)
   * [Day 25 - Full of Hot Air](./day_25/README.md)
+    * [Watch](https://www.youtube.com/watch?v=uK2J9i1kW1s) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=emGvddhDsYA) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zur1an/2022_day_25_solutions/)
 
 ## Other people
 
