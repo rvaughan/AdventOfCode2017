@@ -181,7 +181,7 @@ using this year.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/zsct8w/2022_day_22_solutions/)
   * [Day 23 - Unstable Diffusion](./day_23/README.md)
   * [Day 24 - Blizzard Basin](./day_24/README.md)
-  * [Day 25 - ???](./day_25/README.md)
+  * [Day 25 - Full of Hot Air](./day_25/README.md)
 
 ## Other people
 
