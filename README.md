@@ -18,6 +18,7 @@ For now I've chosen to solve the puzzles using python, mainly for simplicity.
   * [2020](./2020/README.md)
   * [2021](./2021/README.md)
   * [2022](./2022/README.md)
+  * [2023](./2023/README.md)
 
 If you enjoy these then you might also like the [Synacor Challenge](https://challenge.synacor.com/) from
 the same author. I've also got a [code repository](https://github.com/rvaughan/synacor-challenge) for my paltry efforts at solving this puzzle.
