@@ -20,12 +20,11 @@ hold your breath.
 
 ## Leaderboard
 
-Last year I set up a private [leaderboard](leaderboard.json), which I've continued
-using this year.
+I'm reusing my private [leaderboard](leaderboard.json) from previous years - even managed to get some new recruits to play this year!
 
 ## Puzzles
 
-  * [Day 1 - Trebuchet?!](./day_01/README.md)
+  * [Day 1 - Trebuchet?!](./day_01/README.md). Solved part 1 with a fairly simple digit matcher, and part 2 using a quick and dirty string look ahead. Inefficient (probably) but works on this kind of length of string well enough.
     * [Watch](https://www.youtube.com/watch?v=rnidYOt9m2o) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=T_us6npCcxw) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1883ibu/2023_day_1_solutions/)
