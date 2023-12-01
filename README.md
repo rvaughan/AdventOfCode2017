@@ -8,6 +8,8 @@ There's some videos by the creator [Eric Wastl](http://was.tl/) ([Twitter](https
   * [Advent of Code: Behind the Scenes](https://www.youtube.com/watch?v=CFWuwNDOnIo)
   * [FOSDEM 2021 Talk](https://ftp.osuosl.org/pub/fosdem/2021/D.perl/adventofcode.webm)
 
+While you wait for the challenges to unlock [VeloxxMusic](https://www.twitch.tv/veloxxmusic) has run an unlock party the past couple of years.
+
 For now I've chosen to solve the puzzles using python, mainly for simplicity.
 
   * [2015](./2015/README.md)
