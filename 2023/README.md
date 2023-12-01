@@ -25,7 +25,7 @@ using this year.
 
 ## Puzzles
 
-  * [Day 1 - xxx](./day_01/README.md)
+  * [Day 1 - Trebuchet?!](./day_01/README.md)
   * [Day 2 - xxx](./day_02/README.md)
   * [Day 3 - xxx](./day_03/README.md)
   * [Day 4 - xxx](./day_04/README.md)
