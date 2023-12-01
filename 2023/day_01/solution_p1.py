@@ -5,8 +5,32 @@ This code holds the solution for part 1 of day 1 of the Advent of Code for 2023.
 import sys
 
 
+def calculate_line_solution(items):
+    result = 0
+
+    first_digit = True
+    first = 0
+    last = 0
+
+    for item in items:
+        for x in item:
+            if x in ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']:
+                if first_digit:
+                    first = x
+                    last = x
+                    first_digit = False
+                else:
+                    last = x
+
+    result = int(f'{first}{last}')
+
+    return result
+
+
 def calculate_solution(items):
     result = 0
+    for item in items:
+        result += calculate_line_solution(item)
 
     return result
 
@@ -29,10 +53,38 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = """
+test_list= """
+1abc2
 """
 
-result = run_test(test_list, 7)
+result = run_test(test_list, 12)
+
+test_list= """
+pqr3stu8vwx
+"""
+
+result = run_test(test_list, 38)
+
+test_list= """
+a1b2c3d4e5f
+"""
+
+result = run_test(test_list, 15)
+
+test_list= """
+treb7uchet
+"""
+
+result = run_test(test_list, 77)
+
+test_list = """
+1abc2
+pqr3stu8vwx
+a1b2c3d4e5f
+treb7uchet
+"""
+
+result = run_test(test_list, 142)
 
 print('')
 print('-----------------')
