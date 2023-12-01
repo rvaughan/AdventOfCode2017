@@ -14,7 +14,7 @@ def calculate_line_solution(items):
 
     for item in items:
         for x in item:
-            if x in ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']:
+            if x.isnumeric():
                 if first_digit:
                     first = x
                     last = x

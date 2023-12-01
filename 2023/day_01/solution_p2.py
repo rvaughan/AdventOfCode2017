@@ -32,7 +32,7 @@ def calculate_line_solution(items):
 
     pos = 0
     while pos < len(items):
-        if items[pos] in ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']:
+        if items[pos].isnumeric():
             first_digit, first, last = set_digit(first_digit, int(items[pos]), first, last)
         else:
             remaining = items[pos:]
