@@ -26,6 +26,9 @@ using this year.
 ## Puzzles
 
   * [Day 1 - Trebuchet?!](./day_01/README.md)
+    * [Watch](https://www.youtube.com/watch?v=rnidYOt9m2o) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=T_us6npCcxw) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1883ibu/2023_day_1_solutions/)
   * [Day 2 - xxx](./day_02/README.md)
   * [Day 3 - xxx](./day_03/README.md)
   * [Day 4 - xxx](./day_04/README.md)
