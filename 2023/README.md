@@ -28,6 +28,11 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=rnidYOt9m2o) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=T_us6npCcxw) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1883ibu/2023_day_1_solutions/)
+    * The visualisations seemed to have started earlier this year:
+        * A neat little [terminal visualisation](https://www.reddit.com/r/adventofcode/comments/1887jd2/2023_day_1_part_2_terminal_visualization/)
+        * One that shows the [movements](https://www.reddit.com/r/adventofcode/comments/1885scv/2023_day_1_hither_and_yonder/) through the lines!
+        * Someone built a new [website](https://www.reddit.com/r/adventofcode/comments/18396dj/2023_day_0_inspired_by_another_reddit_post_i_also/) for demonstrating their results in the style of Advent of Code.
+        * A neat little [Browser Extension](https://www.reddit.com/r/adventofcode/comments/17s0lq5/advent_of_code_charts_browser_extension_to/) that let's you see your private leaderboard in a slightly more interesting way.
   * [Day 2 - Cube Conundrum](./day_02/README.md). Fairly simple string manipulation (probably should have used a regex) and a little bit of maths checking.
     * [Watch](https://www.youtube.com/watch?v=IWCc11nh2QQ) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=pILyGb8NznI) William Y. Feng explain the problem.
