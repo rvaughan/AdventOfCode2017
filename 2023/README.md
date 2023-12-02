@@ -28,7 +28,10 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=rnidYOt9m2o) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=T_us6npCcxw) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1883ibu/2023_day_1_solutions/)
-  * [Day 2 - Cube Conundrum](./day_02/README.md)
+  * [Day 2 - Cube Conundrum](./day_02/README.md). Fairly simple string manipulation (probably should have used a regex) and a little bit of maths checking.
+    * [Watch](https://www.youtube.com/watch?v=IWCc11nh2QQ) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=pILyGb8NznI) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/188w447/2023_day_2_solutions/)
   * [Day 3 - xxx](./day_03/README.md)
   * [Day 4 - xxx](./day_04/README.md)
   * [Day 5 - xxx](./day_05/README.md)
