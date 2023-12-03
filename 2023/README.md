@@ -37,7 +37,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=IWCc11nh2QQ) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=pILyGb8NznI) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/188w447/2023_day_2_solutions/)
-  * [Day 3 - xxx](./day_03/README.md)
+  * [Day 3 - Gear Ratios](./day_03/README.md)
   * [Day 4 - xxx](./day_04/README.md)
   * [Day 5 - xxx](./day_05/README.md)
   * [Day 6 - xxx](./day_06/README.md)
