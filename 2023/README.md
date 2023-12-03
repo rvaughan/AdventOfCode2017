@@ -40,6 +40,9 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
   * [Day 3 - Gear Ratios](./day_03/README.md). That was a slightly awkward one, needing you to use a grid data structure to calculate.
     * [Watch](https://www.youtube.com/watch?v=Cz528600v-M) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/189m3qw/2023_day_3_solutions/)
+    * Visualisations:
+        * [Plot of the data](https://www.reddit.com/r/adventofcode/comments/189mh3w/2023_day_2_what_if_redgreenblue_were_xyz_and_i/) by x, y, z instead of colour.
+        * [Video of the colours](https://www.reddit.com/r/adventofcode/comments/1890hhm/2023_day_2_part_2python_terminal_visualization/) as you process them.
   * [Day 4 - xxx](./day_04/README.md)
   * [Day 5 - xxx](./day_05/README.md)
   * [Day 6 - xxx](./day_06/README.md)
