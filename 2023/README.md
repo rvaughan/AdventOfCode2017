@@ -42,9 +42,12 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
         * [Video of the colours](https://www.reddit.com/r/adventofcode/comments/1890hhm/2023_day_2_part_2python_terminal_visualization/) as you process them.
   * [Day 3 - Gear Ratios](./day_03/README.md). That was a slightly awkward one, needing you to use a grid data structure to calculate.
     * [Watch](https://www.youtube.com/watch?v=Cz528600v-M) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=6t1dR_-U_zE) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/189m3qw/2023_day_3_solutions/)
     * Visualisations:
         * A colour coded [schematic](https://www.reddit.com/r/adventofcode/comments/189o4dj/2023_day_3_color_coded_schematic/) of the puzzle.
+        * A [terminal visualisation](https://www.reddit.com/r/adventofcode/comments/189qda4/2023_day_3python_terminal_visualization/).
+        * A [console visualisation](https://www.reddit.com/r/adventofcode/comments/189sgvx/2023_day_3_console_visualization/)
   * [Day 4 - xxx](./day_04/README.md)
   * [Day 5 - xxx](./day_05/README.md)
   * [Day 6 - xxx](./day_06/README.md)
