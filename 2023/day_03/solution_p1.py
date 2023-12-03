@@ -5,8 +5,74 @@ This code holds the solution for part 1 of day 3 of the Advent of Code for 2023.
 import sys
 
 
+def print_row(row):
+    print(''.join(row))
+
+
 def calculate_solution(items):
     result = 0
+
+    grid = []
+
+    numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
+
+    row = 0
+    for row_data in items:
+        build_row = []
+        for col in row_data:
+            thing = 'Y' if col != '.' and col not in numbers else '.'
+            build_row.append(thing)
+
+        grid.append(build_row)
+        # print_row(grid[row])
+        row += 1
+
+    row = 0
+    for row_data in items:
+        col_idx = 0
+        part_number = ''
+        col = row_data
+        # print(col)
+
+        min_pos = 0
+        max_pos = 0
+
+        while col_idx < len(col):
+            if col[col_idx] in numbers:
+                min_pos = min(min_pos, col_idx)
+                max_pos = max(max_pos, col_idx)
+                part_number += row_data[col_idx]
+            else:
+                if part_number != '':
+                    # print(col_idx, part_number, min_pos, max_pos)
+                    part_number = int(part_number)
+
+                    for y in range(row - 1, row + 2):
+                        for x in range(min_pos - 1, max_pos + 2):
+                            if y >= 0 and y < len(grid) and x >= 0 and x < len(grid[y]):
+                                # print(y, x, grid[y][x])
+                                if grid[y][x] == 'Y':
+                                    result += part_number
+
+                    part_number = ''
+
+                min_pos = col_idx + 1
+                max_pos = col_idx + 1
+            
+            col_idx += 1
+
+        if part_number != '':
+            # print(col_idx, part_number, min_pos, max_pos)
+            part_number = int(part_number)
+
+            for y in range(row - 1, row + 2):
+                for x in range(min_pos - 1, max_pos + 2):
+                    if y >= 0 and y < len(grid) and x >= 0 and x < len(grid[y]):
+                        # print(y, x, grid[y][x])
+                        if grid[y][x] == 'Y':
+                            result += part_number
+
+        row += 1
 
     return result
 
@@ -29,10 +95,31 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = """
-"""
+test_list = """467..114..
+...*......
+..35..633.
+......#...
+617*......
+.....+.58.
+..592.....
+......755.
+...$.*....
+.664.598.."""
 
-result = run_test(test_list, 7)
+result = run_test(test_list, 4361)
+
+test_list = """467..114.
+...*.....
+..35..633
+......#..
+617*.....
+.....+.58
+..592....
+......755
+...$.*...
+.664.598."""
+
+result = run_test(test_list, 4361)
 
 print('')
 print('-----------------')
