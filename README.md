@@ -22,5 +22,7 @@ For now I've chosen to solve the puzzles using python, mainly for simplicity.
   * [2022](./2022/README.md)
   * [2023](./2023/README.md)
 
+For those of you looking to use Rust as your solution language, there's [this](https://www.youtube.com/watch?v=fEQv-cqzbPg) pretty good video from Chris Bascardi [YouTube](https://www.youtube.com/@chrisbiscardi) [Twitter](https://twitter.com/chrisbiscardi).
+
 If you enjoy these then you might also like the [Synacor Challenge](https://challenge.synacor.com/) from
 the same author. I've also got a [code repository](https://github.com/rvaughan/synacor-challenge) for my paltry efforts at solving this puzzle.
