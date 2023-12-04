@@ -42,3 +42,5 @@ In the above example, card 1 has five winning numbers (`41`, `48`, `83`, `86`, a
 So, in this example, the Elf's pile of scratchcards is worth `13` points.
 
 Take a seat in the large pile of colorful cards. **How many points are they worth in total?**
+
+**Solution:** 22897
