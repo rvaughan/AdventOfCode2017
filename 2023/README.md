@@ -48,7 +48,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
         * A colour coded [schematic](https://www.reddit.com/r/adventofcode/comments/189o4dj/2023_day_3_color_coded_schematic/) of the puzzle.
         * A [terminal visualisation](https://www.reddit.com/r/adventofcode/comments/189qda4/2023_day_3python_terminal_visualization/).
         * A [console visualisation](https://www.reddit.com/r/adventofcode/comments/189sgvx/2023_day_3_console_visualization/)
-  * [Day 4 - xxx](./day_04/README.md)
+  * [Day 4 - Scratchcards](./day_04/README.md)
   * [Day 5 - xxx](./day_05/README.md)
   * [Day 6 - xxx](./day_06/README.md)
   * [Day 7 - xxx](./day_07/README.md)
