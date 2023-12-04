@@ -1,6 +1,6 @@
 # Day 03 : Gear Ratios
 
-This folder contains a solution for day 1.
+This folder contains a solution for day 3.
 
 ## Problem Description
 

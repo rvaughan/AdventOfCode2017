@@ -1,6 +1,6 @@
 # Day 02 : Cube Conundrum
 
-This folder contains a solution for day 1.
+This folder contains a solution for day 2.
 
 ## Problem Description
 
