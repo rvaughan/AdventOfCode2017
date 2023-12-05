@@ -57,6 +57,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
         * A [terminal](https://www.reddit.com/r/adventofcode/comments/18arb9o/2023_day_04_both_parts_terminalbased_visualization/) viz.
   * [Day 5 - If You Give A Seed A Fertilizer](./day_05/README.md). Ugh. I thought I'd nailed the secret sauce in part 1 by not storing all of the data and just using lookups, turns out I needed to hold all of the sub-lookups too to get the second part to work in any reasonable length of time.
     * [Watch](https://www.youtube.com/watch?v=iqTopXV13LE) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=_RpZrD3CaDc) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18b4b0r/2023_day_5_solutions/)
   * [Day 6 - xxx](./day_06/README.md)
   * [Day 7 - xxx](./day_07/README.md)
