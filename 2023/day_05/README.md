@@ -1,4 +1,4 @@
-# Day 05 : If You Give A Seed A Fertilize
+# Day 05 : If You Give A Seed A Fertilizer
 
 This folder contains a solution for day 5.
 
