@@ -110,3 +110,5 @@ The gardener and his team want to get started as soon as possible, so they'd lik
 So, the lowest location number in this example is `35`.
 
 **What is the lowest location number that corresponds to any of the initial seed numbers?**
+
+**Solution:** 175622908
