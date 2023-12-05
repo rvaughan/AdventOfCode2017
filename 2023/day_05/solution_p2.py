@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This code holds the solution for part 1 of day 5 of the Advent of Code for 2023.
+This code holds the solution for part 2 of day 5 of the Advent of Code for 2023.
 """
 import sys
 
@@ -11,14 +11,57 @@ def get_dest(map, seed):
 
 def get_dest_2(map, seed):
     for x in map:
-        # print(x)
         if seed >= x[1]:
-            # print('a', seed, x[1], x[1] + x[2])
             if seed < x[1] + x[2]:
-                # print('b', x[0], (x[1] + x[2]), (seed - x[1]))
                 return x[0] + (seed - x[1])
         
     return seed
+
+
+class Processor:
+    """
+    Provides processing of range intervals.
+    """
+    def __init__(self, definition) -> None:
+        # Build up the list of starting points.
+        self.definitions = [[int(x) for x in line] for line in definition]
+
+    def process_range(self, data_range):
+        answers = []
+
+        for (dest, src, size) in self.definitions:
+            src_end = src + size
+            next_range = []
+            while data_range:
+                (start, end) = data_range.pop()
+
+                # We need to split the data into 3 parts identifying where (if)
+                # the intersection appears between the range being sought, and
+                # the defined range.
+
+                # [start                                            end]
+                #                 [src               src_end]
+                # (BEFORE        )(INTERSECTION             )(AFTER     )
+
+                before = (start, min(end, src))
+                intersection = (max(start, src), min(src_end, end))
+                after = (max(src_end, start), end)
+
+                if before[1] > before[0]:
+                    next_range.append(before)
+
+                if intersection[1] > intersection[0]:
+                    # We found an interval, so include it in our answers as we
+                    # know there's only a single transform to be performed for
+                    # this puzzle.
+                    answers.append((intersection[0]-src+dest, intersection[1]-src+dest))
+
+                if after[1] > after[0]:
+                    next_range.append(after)
+
+            data_range = next_range
+        
+        return answers + data_range
 
 
 def calculate_solution(items):
@@ -42,10 +85,6 @@ def calculate_solution(items):
             continue
 
         parts = [int(x) for x in line.split()]
-        
-        # # print(parts)
-        # for dest, seed in zip(range(parts[0], parts[0] + parts[2]), range(parts[1], parts[1] + parts[2])):
-        #     map_data[seed] = dest
 
         map_data.append(parts)
 
@@ -53,26 +92,25 @@ def calculate_solution(items):
     if len(map_data) > 0:
         maps.append(map_data)
 
-    # print(get_dest_2(maps[0], 98))
-    # assert(get_dest_2(maps[0], 98)) == 50
-    # assert(get_dest_2(maps[0], 99)) == 51
-    # assert(get_dest_2(maps[0], 10)) == 10
+    # Turn the list of seeds into a list of seed pairs
+    seed_pairs = list(zip(seeds[::2], seeds[1::2]))
 
-    min_location = 9999999999
-    # print(seeds)
-    for x in range(0, len(seeds), 2):
-        # print('a', x, seeds[x], seeds[x+1])
-        for seed in range(seeds[x], seeds[x] + seeds[x+1]):
-            loc = seed
-            for map in maps:
-                loc = get_dest_2(map, loc)
+    Fs = [Processor(s) for s in maps]
 
-            min_location = min(min_location, loc)
+    solutions = []
 
-    # assert(min_location == 82)
-    x
+    for start, end in seed_pairs:
+        # Inclusive on the left, exclusive on the right. i.e. a range of (1,3) = [1, 2]
+        data_range = [(start, start+end)]
+        for f in Fs:
+            data_range = f.process_range(data_range)
 
-    return min_location
+        # data_range gives us back an interval, whilst data_range[0] gives us the starting point,
+        # which is the correct value for the given seed range.
+        solutions.append(min(data_range)[0])
+    
+    # Just return the minimum of all of the found solutions
+    return min(solutions)
 
 
 def run_test(test_input, expected_solution):
