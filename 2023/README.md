@@ -48,7 +48,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
         * A colour coded [schematic](https://www.reddit.com/r/adventofcode/comments/189o4dj/2023_day_3_color_coded_schematic/) of the puzzle.
         * A [terminal visualisation](https://www.reddit.com/r/adventofcode/comments/189qda4/2023_day_3python_terminal_visualization/).
         * A [console visualisation](https://www.reddit.com/r/adventofcode/comments/189sgvx/2023_day_3_console_visualization/)
-  * [Day 4 - Scratchcards](./day_04/README.md). Part 1 was a simple points counter, but part 2 was slightly trickier with you have to manipulate 2 different sets of data at the same time (although there might have been better ways of achieving the result.)
+  * [Day 4 - Scratchcards](./day_04/README.md). Part 1 was a simple points counter, but part 2 was slightly trickier with you having to manipulate 2 different sets of data at the same time (although there might have been better ways of achieving the result.)
     * [Watch](https://www.youtube.com/watch?v=tXnPMSSQgCU) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=QpPsyMEYAV8) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18actmy/2023_day_4_solutions/)
