@@ -59,6 +59,8 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=iqTopXV13LE) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=_RpZrD3CaDc) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18b4b0r/2023_day_5_solutions/)
+    * Visualisations:
+        * A Sankey like visualisation of [all of the mappings](https://www.reddit.com/r/adventofcode/comments/18b82w0/2023_day_5_part_2_visualizing_all_the_mapping/).
   * [Day 6 - xxx](./day_06/README.md)
   * [Day 7 - xxx](./day_07/README.md)
   * [Day 8 - xxx](./day_08/README.md)
