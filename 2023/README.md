@@ -52,7 +52,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=tXnPMSSQgCU) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=QpPsyMEYAV8) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18actmy/2023_day_4_solutions/)
-  * [Day 5 - xxx](./day_05/README.md)
+  * [Day 5 - If You Give A Seed A Fertilize](./day_05/README.md)
   * [Day 6 - xxx](./day_06/README.md)
   * [Day 7 - xxx](./day_07/README.md)
   * [Day 8 - xxx](./day_08/README.md)
