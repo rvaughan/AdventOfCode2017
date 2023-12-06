@@ -61,7 +61,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18b4b0r/2023_day_5_solutions/)
     * Visualisations:
         * A Sankey like visualisation of [all of the mappings](https://www.reddit.com/r/adventofcode/comments/18b82w0/2023_day_5_part_2_visualizing_all_the_mapping/).
-  * [Day 6 - xxx](./day_06/README.md)
+  * [Day 6 - Wait For It](./day_06/README.md)
   * [Day 7 - xxx](./day_07/README.md)
   * [Day 8 - xxx](./day_08/README.md)
   * [Day 9 - xxx](./day_09/README.md)
