@@ -8,6 +8,27 @@ import sys
 def calculate_solution(items):
     result = 0
 
+    times = [int(x) for x in items[0].split()[1:]]
+    distances = [int(x) for x in items[1].split()[1:]]
+
+    beaten = []
+    for max_time, max_distance in zip(times, distances):
+        speed = 0
+        wins = 0
+        for t in range(0, max_time):
+            # print(t, speed, max/_distance, (max_time - t) * speed)
+            if (max_time - t) * speed > max_distance:
+                wins += 1
+
+            speed += 1
+
+        # print(wins)
+        beaten.append(wins)
+
+    result = 1
+    for x in beaten:
+        result *= x
+
     return result
 
 
@@ -29,10 +50,10 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = """
-"""
+test_list = """Time:      7  15   30
+Distance:  9  40  200"""
 
-result = run_test(test_list, 7)
+result = run_test(test_list, 288)
 
 print('')
 print('-----------------')
