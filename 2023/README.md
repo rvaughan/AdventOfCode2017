@@ -61,6 +61,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18b4b0r/2023_day_5_solutions/)
     * Visualisations:
         * A Sankey like visualisation of [all of the mappings](https://www.reddit.com/r/adventofcode/comments/18b82w0/2023_day_5_part_2_visualizing_all_the_mapping/).
+        * Someone put together a [Python notebook](https://colab.research.google.com/github/derailed-dash/Advent-of-Code/blob/master/src/AoC_2023/Dazbo's_Advent_of_Code_2023.ipynb), and a [nice representation](https://www.reddit.com/r/adventofcode/comments/18bq77i/2023_day_5_part_2_walkthrough_and_a_picture_to/) of the problem space.
   * [Day 6 - Wait For It](./day_06/README.md). Fairly straightforward today. I did think it was going to be a combination optimisation problem, but it was much simpler than that.
     * [Watch](https://www.youtube.com/watch?v=R_tud5SLROs) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=Q89EpotUuzk) William Y. Feng explain the problem.
