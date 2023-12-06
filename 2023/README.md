@@ -61,7 +61,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18b4b0r/2023_day_5_solutions/)
     * Visualisations:
         * A Sankey like visualisation of [all of the mappings](https://www.reddit.com/r/adventofcode/comments/18b82w0/2023_day_5_part_2_visualizing_all_the_mapping/).
-  * [Day 6 - Wait For It](./day_06/README.md)
+  * [Day 6 - Wait For It](./day_06/README.md). Fairly straightforward today. I did think it was going to be a combination optimisation problem, but it was much simpler than that.
     * [Watch](https://www.youtube.com/watch?v=R_tud5SLROs) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=Q89EpotUuzk) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18bwe6t/2023_day_6_solutions/)
