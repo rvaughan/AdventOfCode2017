@@ -66,7 +66,10 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=R_tud5SLROs) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=Q89EpotUuzk) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18bwe6t/2023_day_6_solutions/)
-  * [Day 7 - Camel Cards](./day_07/README.md)
+  * [Day 7 - Camel Cards](./day_07/README.md). Grouped the hands into their types first, and then sorted the groups individually (bubble sort). Part 2 was straightforward, but I completely forgot about having all Jokers originally, and missed the fact that J < 2 and not actually 2!
+    * [Watch](https://www.youtube.com/watch?v=22IrAlrWqu4) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=DUzKm0n6HgY) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18cnzbm/2023_day_7_solutions/)
   * [Day 8 - xxx](./day_08/README.md)
   * [Day 9 - xxx](./day_09/README.md)
   * [Day 10 - xxx](./day_10/README.md)
