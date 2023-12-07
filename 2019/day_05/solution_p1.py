@@ -45,6 +45,8 @@ def run_op(program, inst_ptr):
         return 0, program, inst_ptr + 4
     elif op == 3:
         # print('set')
+        if mode_1:
+            program
         program[program[inst_ptr+1]] = 1    # special input specified in puzzle
                                             # representing the system to be
                                             # diagnosed.

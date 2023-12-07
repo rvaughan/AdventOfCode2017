@@ -66,7 +66,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=R_tud5SLROs) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=Q89EpotUuzk) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18bwe6t/2023_day_6_solutions/)
-  * [Day 7 - xxx](./day_07/README.md)
+  * [Day 7 - Camel Cards](./day_07/README.md)
   * [Day 8 - xxx](./day_08/README.md)
   * [Day 9 - xxx](./day_09/README.md)
   * [Day 10 - xxx](./day_10/README.md)
