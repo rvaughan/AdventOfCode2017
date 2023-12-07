@@ -6,7 +6,7 @@ This folder contains a solution for day 7.
 
 ### Part 1
 
-Your all-expenses-paid trip turns out to be a one-way, five-minute ride in an [airship](https://en.wikipedia.org/wiki/Airship). (At least it's a cool airship!) It drops you off at the edge of a vast desert and descends back to Island Island.
+Your all-expenses-paid trip turns out to be a one-way, five-minute ride in an [airship](https://en.wikipedia.org/wiki/Airship). (At least it's a **cool** airship!) It drops you off at the edge of a vast desert and descends back to Island Island.
 
 "Did you bring the parts?"
 
@@ -16,7 +16,7 @@ You turn around to see an Elf completely covered in white clothing, wearing gogg
 
 "The parts! For the sand, yes! Come with me; I will show you." She beckons you onto the camel.
 
-After riding a bit across the sands of Desert Island, you can see what look like very large rocks covering half of the horizon. The Elf explains that the rocks are all along the part of Desert Island that is directly above Island Island, making it hard to even get there. Normally, they use big machines to move the rocks and filter the sand, but the machines have broken down because Desert Island recently stopped receiving the parts they need to fix the machines.
+After riding a bit across the sands of Desert Island, you can see what look like very large rocks covering half of the horizon. The Elf explains that the rocks are all along the part of Desert Island that is directly above Island Island, making it hard to even get there. Normally, they use big machines to move the rocks and filter the sand, but the machines have broken down because Desert Island recently stopped receiving the **parts** they need to fix the machines.
 
 You've already assumed it'll be your job to figure out why the parts stopped when she asks if you can help. You agree automatically.
 
@@ -61,3 +61,5 @@ So, the first step is to put the hands in order of strength:
 Now, you can determine the total winnings of this set of hands by adding up the result of multiplying each hand's bid with its rank (`765 * 1 + 220 * 2 + 28 * 3 + 684 * 4 + 483 * 5`). So the **total winnings** in this example are **6440**.
 
 Find the rank of every hand in your set. **What are the total winnings?**
+
+**Solution:** 248559379
