@@ -102,4 +102,4 @@ This time, when the TEST diagnostic program runs its input instruction to get th
 
 **What is the diagnostic code for system ID 5?**
 
-**Solution:** ???
+**Solution:** 3176266

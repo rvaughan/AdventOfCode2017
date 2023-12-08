@@ -6,6 +6,8 @@ This code holds the solution for part 2 of day 5 of the Advent of Code for 2019.
 import math
 import sys
 
+input_code = 8
+
 
 def run_op(program, inst_ptr):
     # print("IP: {} [{}]".format(inst_ptr, len(program)))
@@ -37,13 +39,13 @@ def run_op(program, inst_ptr):
         return 0, program, inst_ptr + 4
     elif op == 3:
         # print('set')
-        program[program[inst_ptr+1]] = 5    # special input specified in puzzle
-                                            # representing the system to be
-                                            # diagnosed.
+        program[program[inst_ptr+1]] = input_code   # special input specified in puzzle
+                                                    # representing the system to be
+                                                    # diagnosed.
         return 0, program, inst_ptr + 2
     elif op == 4:
-        # print('print')
-        print(program[program[inst_ptr+1]])
+        # print('output')
+        print(f'output: {program[program[inst_ptr+1]]}')
 
         return 0, program, inst_ptr + 2
     elif op == 5:
@@ -77,7 +79,7 @@ def run_op(program, inst_ptr):
         while (len(digits) < 3):
             digits = [0] + digits
 
-        i1, i2, i3 = program[inst_ptr+1], program[inst_ptr+2], program[inst_ptr+2]
+        i1, i2, i3 = program[inst_ptr+1], program[inst_ptr+2], program[inst_ptr+3]
         p1 = (i1 if digits[2] == 1 else program[i1])
         p2 = (i2 if digits[1] == 1 else program[i2])
         p3 = (i3 if digits[0] == 1 else program[i3])
@@ -93,10 +95,12 @@ def run_op(program, inst_ptr):
         while (len(digits) < 3):
             digits = [0] + digits
 
-        i1, i2, i3 = program[inst_ptr+1], program[inst_ptr+2], program[inst_ptr+2]
+        i1, i2, i3 = program[inst_ptr+1], program[inst_ptr+2], program[inst_ptr+3]
         p1 = (i1 if digits[2] == 1 else program[i1])
         p2 = (i2 if digits[1] == 1 else program[i2])
         p3 = (i3 if digits[0] == 1 else program[i3])
+
+        print('==', i1, i2, i3, p1, p2, p3)
 
         if p1 == p2:
             program[i3] = 1
@@ -116,17 +120,19 @@ def run_test(test_input, expected_solution):
     """
     Helper method for running some unit tests whilst minimising repetative code.
     """
+    print(f'Verifying: {test_input}')
     inst_ptr = 0
     result = 0
     program = test_input
     while result == 0:
         result, program, inst_ptr = run_op(program, inst_ptr)
+        print(result, program[inst_ptr:])
 
     if test_input != expected_solution:
-        print "Test FAILED. Got a result of {}, not {}".format(test_input, expected_solution)
+        print("Test FAILED. Got a result of {}, not {}".format(test_input, expected_solution))
         sys.exit(-1)
 
-    print "Test passed.".format(test_input)
+    print("Test passed.".format(test_input))
 
     return result
 
@@ -134,18 +140,20 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-run_test([1,9,10,3,2,3,11,0,99,30,40,50], [3500,9,10,70,2,3,11,0,99,30,40,50])
-run_test([1,0,0,0,99], [2,0,0,0,99])
-run_test([2,3,0,3,99], [2,3,0,6,99])
-run_test([2,4,4,5,99,0], [2,4,4,5,99,9801])
-run_test([1,1,1,4,99,5,6,0,99], [30,1,1,4,2,5,6,0,99])
-run_test([3,0,4,0,99], [5,0,4,0,99])
+# run_test([1,9,10,3,2,3,11,0,99,30,40,50], [3500,9,10,70,2,3,11,0,99,30,40,50])
+# run_test([1,0,0,0,99], [2,0,0,0,99])
+# run_test([2,3,0,3,99], [2,3,0,6,99])
+# run_test([2,4,4,5,99,0], [2,4,4,5,99,9801])
+# run_test([1,1,1,4,99,5,6,0,99], [30,1,1,4,2,5,6,0,99])
+# run_test([3,0,4,0,99], [5,0,4,0,99])
 
-print ""
-print "-----------------"
-print "All Tests PASSED."
-print "-----------------"
-print ""
+run_test([3,9,8,9,10,9,4,9,99,-1,8], [3, 9, 8, 9, 10, 9, 4, 9, 99, 1, 8])
+
+print("")
+print("-----------------")
+print("All Tests PASSED.")
+print("-----------------")
+print("")
 
 # Ok, so if we reach here, then we can be reasonably sure that the code
 # above is working correctly. Let's use the actual captcha now.
@@ -155,5 +163,6 @@ with open("input.txt", "r") as f:
     # print(program)
     inst_ptr = 0
     result = 0
+    input_code = 5
     while result == 0:
         result, program, inst_ptr = run_op(program, inst_ptr)

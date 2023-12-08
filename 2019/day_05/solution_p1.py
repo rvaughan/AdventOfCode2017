@@ -6,6 +6,9 @@ This code holds the solution for part 1 of day 5 of the Advent of Code for 2019.
 import math
 import sys
 
+POSITION_MODE = 0
+IMMEDIATE_MODE = 1
+
 
 def run_op(program, inst_ptr):
     # print('->', program, inst_ptr)
@@ -52,7 +55,7 @@ def run_op(program, inst_ptr):
                                             # diagnosed.
         return 0, program, inst_ptr + 2
     elif op == 4:
-        # print('print')
+        # print('output')
         print(program[program[inst_ptr+1]])
 
         return 0, program, inst_ptr + 2
@@ -114,3 +117,5 @@ with open("input.txt", "r") as f:
     result = 0
     while result == 0:
         result, program, inst_ptr = run_op(program, inst_ptr)
+
+        # print(result, program, inst_ptr)
