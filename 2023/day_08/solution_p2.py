@@ -2,8 +2,8 @@
 """
 This code holds the solution for part 2 of day 8 of the Advent of Code for 2023.
 """
-import sys
 from math import lcm
+import sys
 
 
 def calculate_solution(items):
@@ -19,18 +19,18 @@ def calculate_solution(items):
 
     cur_i = 0
 
-    # Identify all of our starting positions
-    cur_positions = []
+    # Identify all of the starting positions for the ghosts
+    ghost_positions = []
     for key in map:
         if key[-1] == 'A':
-            cur_positions.append({
+            ghost_positions.append({
                 'pos': key,
                 'cur_instruction': instructions[cur_i]
             })
 
     ghost_moves = []
 
-    for things in cur_positions:
+    for things in ghost_positions:
         moves = 0
 
         cur_pos = things['pos']
@@ -41,6 +41,7 @@ def calculate_solution(items):
             print(moves, cur_i, cur_pos, cur_instruction)
 
             if map[cur_pos][cur_instruction][-1] == 'Z':
+                # Found this ghosts first end position
                 ghost_moves.append(moves)
                 break
 
@@ -57,6 +58,8 @@ def calculate_solution(items):
 
             things['cur_instruction'] = instructions[cur_i]
 
+    # We've got all of the ghosts final positions, so now use LCM to work out
+    # when they would all stop at the same time using LCM.
     return lcm(*ghost_moves)
 
 
