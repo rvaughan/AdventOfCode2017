@@ -6,9 +6,34 @@ import sys
 
 
 def calculate_solution(items):
-    result = 0
+    instructions = items[0]
 
-    return result
+    map = {}
+    for item in items[2:]:
+        parts = item.split()
+        map[parts[0]] = {
+            'L': parts[2].replace('(', '').replace(',', '').strip(),
+            'R': parts[3].replace(')', '').replace(',', '').strip()
+        }
+
+    moves = 1
+    cur_i = 0
+    cur_pos = 'AAA'
+    cur_instruction = instructions[cur_i]
+    while True:
+        # print(moves, cur_i, cur_pos, cur_instruction)
+
+        if map[cur_pos][cur_instruction] == 'ZZZ':
+            break
+
+        cur_pos = map[cur_pos][cur_instruction]
+        moves += 1
+        cur_i += 1
+        if cur_i == len(instructions):
+            cur_i = 0
+        cur_instruction = instructions[cur_i]
+
+    return moves
 
 
 def run_test(test_input, expected_solution):
@@ -29,10 +54,25 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = """
-"""
+test_list = """RL
 
-result = run_test(test_list, 7)
+AAA = (BBB, CCC)
+BBB = (DDD, EEE)
+CCC = (ZZZ, GGG)
+DDD = (DDD, DDD)
+EEE = (EEE, EEE)
+GGG = (GGG, GGG)
+ZZZ = (ZZZ, ZZZ)"""
+
+result = run_test(test_list, 2)
+
+test_list = """LLR
+
+AAA = (BBB, BBB)
+BBB = (AAA, ZZZ)
+ZZZ = (ZZZ, ZZZ)"""
+
+result = run_test(test_list, 6)
 
 print('')
 print('-----------------')
