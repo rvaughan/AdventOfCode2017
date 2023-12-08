@@ -70,7 +70,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=22IrAlrWqu4) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=DUzKm0n6HgY) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18cnzbm/2023_day_7_solutions/)
-  * [Day 8 - xxx](./day_08/README.md)
+  * [Day 8 - Haunted Wasteland](./day_08/README.md)
   * [Day 9 - xxx](./day_09/README.md)
   * [Day 10 - xxx](./day_10/README.md)
   * [Day 11 - xxx](./day_11/README.md)
