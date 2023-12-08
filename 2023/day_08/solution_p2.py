@@ -59,7 +59,11 @@ def calculate_solution(items):
             things['cur_instruction'] = instructions[cur_i]
 
     # We've got all of the ghosts final positions, so now use LCM to work out
-    # when they would all stop at the same time using LCM.
+    # when they would all stop at the same time using LCM. The intuition here
+    # is that ghosts movements are in a pattern and they converge on the solution
+    # at the same time, so you just have to find that position by finding the
+    # first divisible position - the Least Common Multiplier (LCM) of all of the
+    # movements.
     return lcm(*ghost_moves)
 
 
