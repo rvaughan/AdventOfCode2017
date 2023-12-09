@@ -55,3 +55,5 @@ Max thruster signal **65210** (from phase setting sequence `1,0,4,3,2`):
 ```
 
 Try every combination of phase settings on the amplifiers. **What is the highest signal that can be sent to the thrusters?**
+
+**Solution:** 51679
