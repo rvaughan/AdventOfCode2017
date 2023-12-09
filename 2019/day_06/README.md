@@ -126,3 +126,5 @@ COM - B - C - D - E - F
 ```
 
 **What is the minimum number of orbital transfers required** to move from the object `YOU` are orbiting to the object `SAN` is orbiting? (Between the objects they are orbiting - not between `YOU` and `SAN`.)
+
+**Solution:** 514
