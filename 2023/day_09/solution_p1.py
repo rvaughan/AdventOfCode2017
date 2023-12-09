@@ -8,6 +8,35 @@ import sys
 def calculate_solution(items):
     result = 0
 
+    for item in items:
+        layers = []
+        numbers = [int(x) for x in item.split()]
+        
+        descend = True
+        row = numbers.copy()
+        while descend:
+            descend = False
+            layer = []
+            for idx in range(len(row) - 1):
+                diff = row[idx+1] - row[idx]
+                if diff != 0:
+                    descend = True
+                layer.append(diff)
+
+            if len(layer) > 0:
+                layers.append(layer)
+                row = layer
+
+        # This bottom layer is always zero...
+        layers.pop()
+
+        last_row = 0
+        while len(layers) > 0:
+            layer = layers.pop()
+            last_row = layer[-1] + last_row
+
+        result += (numbers[-1] + last_row)
+
     return result
 
 
@@ -29,10 +58,23 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = """
-"""
+test_list = """0 3 6 9 12 15"""
 
-result = run_test(test_list, 7)
+result = run_test(test_list, 18)
+
+test_list = """1 3 6 10 15 21"""
+
+result = run_test(test_list, 28)
+
+test_list = """10 13 16 21 30 45"""
+
+result = run_test(test_list, 68)
+
+test_list = """0 3 6 9 12 15
+1 3 6 10 15 21
+10 13 16 21 30 45"""
+
+result = run_test(test_list, 114)
 
 print('')
 print('-----------------')
