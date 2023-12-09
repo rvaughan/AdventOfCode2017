@@ -77,7 +77,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * Visualisations:
         * This is a brilliant rendition of what is going on using [card tables](https://www.reddit.com/r/adventofcode/comments/18dprr1/2023_day_8_part_2pygame_counting_camel_cycles/).
         * Visualising the input as a [planetary graph](https://www.reddit.com/r/adventofcode/comments/18e2cyt/2023_day_08_part_2_a_planetarysystem_like_graph/)
-  * [Day 9 - Mirage Maintenance](./day_09/README.md)
+  * [Day 9 - Mirage Maintenance](./day_09/README.md). Part 1 was easy enough, just a bit of array manipulation. I think I over complicated it in the expectation that part 2 was going to be more complicated than it turned out to be. Part 2 was more complicated then that it needed to be. Booo!
     * [Watch](https://www.youtube.com/watch?v=bOdSvEXoy5Q) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=Kr_6NquFbxE) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18e5ytd/2023_day_9_solutions/)
