@@ -65,3 +65,5 @@ Here, we can count the total number of orbits as follows:
 The total number of direct and indirect orbits in this example is *42*.
 
 **What is the total number of direct and indirect orbits in your map data?**
+
+**Solution:** 314247

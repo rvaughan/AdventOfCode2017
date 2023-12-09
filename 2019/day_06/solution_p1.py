@@ -2,11 +2,30 @@
 """
 This code holds the solution for part 1 of day 6 of the Advent of Code for 2019.
 """
+from collections import defaultdict
 import sys
 
 
 def calculate_solution(items):
-    result = 0
+    orbits = {}
+    for item in items:
+        p1, p2 = item.split(')')
+
+        # Intuit: A planet can only orbit ONE other planet
+        orbits[p2] = p1
+
+    # Calculate all of the orbit counts from all of the planets in the system.
+    # This will include "duplicates".
+    result = 1
+    for _, planet in orbits.items():
+        if planet == 'COM':
+            continue
+
+        result += 1
+        cur_planet = planet
+        while cur_planet != 'COM':
+            result += 1
+            cur_planet = orbits[cur_planet]
 
     return result
 
@@ -29,10 +48,26 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = """
-"""
 
-result = run_test(test_list, 7)
+test_list = """COM)B"""
+result = run_test(test_list, 1)
+
+test_list = """COM)B
+B)C"""
+result = run_test(test_list, 3)
+
+test_list = """COM)B
+B)C
+C)D
+D)E
+E)F
+B)G
+G)H
+D)I
+E)J
+J)K
+K)L"""
+result = run_test(test_list, 42)
 
 print('')
 print('-----------------')
