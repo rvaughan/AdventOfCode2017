@@ -35,3 +35,4 @@ This year I set up a private [leaderboard](leaderboard.json).
   * [Day 5 - Sunny with a Chance of Asteroids](./day_05/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/e6carb/2019_day_5_solutions/)
   * [Day 6 - Universal Orbit Map](./day_06/README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/e6tyva/2019_day_6_solutions/)
