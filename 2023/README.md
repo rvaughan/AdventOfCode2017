@@ -72,10 +72,17 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18cnzbm/2023_day_7_solutions/)
   * [Day 8 - Haunted Wasteland](./day_08/README.md). Part 1 was eeasy enough. Part 2 started off doing brute force, but that's stupid. The ghost patterns were repetetive, so [Least Common Multiplier](https://www.educative.io/answers/what-is-the-mathlcm-function-in-python) (LCM) seemed the way to go.
     * [Watch](https://www.youtube.com/watch?v=07AMCU8Xyg4) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=xH9LFkYRTD0) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18df7px/2023_day_8_solutions/)
     * Visualisations:
         * This is a brilliant rendition of what is going on using [card tables](https://www.reddit.com/r/adventofcode/comments/18dprr1/2023_day_8_part_2pygame_counting_camel_cycles/).
+        * Visualising the input as a [planetary graph](https://www.reddit.com/r/adventofcode/comments/18e2cyt/2023_day_08_part_2_a_planetarysystem_like_graph/)
   * [Day 9 - Mirage Maintenance](./day_09/README.md)
+    * [Watch](https://www.youtube.com/watch?v=bOdSvEXoy5Q) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=Kr_6NquFbxE) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18e5ytd/2023_day_9_solutions/)
+    * Visualisations:
+        * Not specific to this day, but [this](https://www.reddit.com/r/adventofcode/comments/18dzc8t/aoc_2023_challenges_have_felt_oddly_outofplace/) graph shows the completions of p2 v p2 across the years by day (so far).
   * [Day 10 - xxx](./day_10/README.md)
   * [Day 11 - xxx](./day_11/README.md)
   * [Day 12 - xxx](./day_12/README.md)
