@@ -75,7 +75,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18df7px/2023_day_8_solutions/)
     * Visualisations:
         * This is a brilliant rendition of what is going on using [card tables](https://www.reddit.com/r/adventofcode/comments/18dprr1/2023_day_8_part_2pygame_counting_camel_cycles/).
-  * [Day 9 - xxx](./day_09/README.md)
+  * [Day 9 - Mirage Maintenance](./day_09/README.md)
   * [Day 10 - xxx](./day_10/README.md)
   * [Day 11 - xxx](./day_11/README.md)
   * [Day 12 - xxx](./day_12/README.md)
