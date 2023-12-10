@@ -148,13 +148,17 @@ def calculate_solution(field):
 
     # print(loop)
 
-    # 'Draw' the loop in asterixs'
-    for points in loop:
-        grid[points[0]][points[1]] = '*'
+    # Fun - it shows up the picture that's being draw - presumably this was the
+    #       original input for the day? Otherwise it breaks things later.
+    # # 'Draw' the loop in asterixs'
+    # for points in loop:
+    #     grid[points[0]][points[1]] = '*'
     
     # for row in grid:
     #     print(''.join(row))
 
+    # Initial attempt - just read across and count the dots. Works for the first
+    # basic test, but not the others due to the column arrangements (I think)
     # result = 0
     # for row in grid:
     #     inside = False
@@ -171,15 +175,65 @@ def calculate_solution(field):
 
     #     print(''.join(row), count, result)
 
-    # Create an empty border around the map
-    larger_map = []
-    larger_map.append(['.'] * (len(grid[0]) + 2))
-    for row in grid:
-        larger_map.append(['.'] + row[:] + ['.'])
-    larger_map.append(['.'] * (len(grid[0]) + 2))
+    # Going to have to get a bit more adventurous and try a flood fill.
+    # Ref: https://gamedev.stackexchange.com/questions/141460/how-can-i-fill-the-interior-of-a-closed-loop-on-a-tile-map
 
-    for row in larger_map:
-        print(''.join(row))
+    # This code isn't needed if we expand the grid
+    # # Create an empty border around the map - this allows the flood fill to catch
+    # # everything around the edge of the 'map',
+    # larger_map = []
+    # larger_map.append(['.'] * (len(grid[0]) + 2))
+    # for row in grid:
+    #     larger_map.append(['.'] + row[:] + ['.'])
+    # larger_map.append(['.'] * (len(grid[0]) + 2))
+
+    # for row in larger_map:
+    #     print(''.join(row))
+
+    # Normally this would be enough. The flood would work and all is right with
+    # the world. This puzzle is a little tricker though. They want you to
+    # allow the flood to pass between two pipes - even if there is no gap. This
+    # means that you need to pad all of the cells out. Additionally, the puzzle
+    # is asking for the number of tiles enclosed - not just the empty ones, so
+    # don't do anything with those tiles and pretend they are empty ground.
+
+    new_rows = len(grid) * 3
+    new_cols = len(grid[0]) * 3
+    huge_map = [['.' for _ in range(new_cols)] for _ in range(new_rows)]
+    for row in range(len(grid)):
+        for col in range(len(grid[0])):
+            if (row, col) not in explored:
+                continue
+
+            if grid[row][col] == '|':
+                huge_map[3*row+0][3*col+1] = '*'
+                huge_map[3*row+1][3*col+1] = '*'
+                huge_map[3*row+2][3*col+1] = '*'
+            elif grid[row][col] == '-':
+                huge_map[3*row+1][3*col+0] = '*'
+                huge_map[3*row+1][3*col+1] = '*'
+                huge_map[3*row+1][3*col+2] = '*'
+            elif grid[row][col] == '7':
+                huge_map[3*row+1][3*col+0] = '*'
+                huge_map[3*row+1][3*col+1] = '*'
+                huge_map[3*row+2][3*col+1] = '*'
+            elif grid[row][col] == 'F':
+                huge_map[3*row+2][3*col+1] = '*'
+                huge_map[3*row+1][3*col+1] = '*'
+                huge_map[3*row+1][3*col+2] = '*'
+            elif grid[row][col] == 'J':
+                huge_map[3*row+1][3*col+0] = '*'
+                huge_map[3*row+1][3*col+1] = '*'
+                huge_map[3*row+0][3*col+1] = '*'
+            elif grid[row][col] == 'L':
+                huge_map[3*row+0][3*col+1] = '*'
+                huge_map[3*row+1][3*col+1] = '*'
+                huge_map[3*row+1][3*col+2] = '*'
+            else:
+                pass
+
+    # for row in huge_map:
+    #     print(''.join(row))
 
     # Now, flood fill the map
     q = Queue()
@@ -195,17 +249,34 @@ def calculate_solution(field):
         for d in range(4):
             i_next = i+di0[d]
             j_next = j+dj0[d]
-            if i_next >= 0 and j_next >= 0 and i_next < len(larger_map) and j_next < len(larger_map[0]) and larger_map[i_next][j_next] == '.':
-                larger_map[i_next][j_next] = ' '
+            if i_next >= 0 and j_next >= 0 and i_next < len(huge_map) and j_next < len(huge_map[0]) and huge_map[i_next][j_next] == '.':
+                huge_map[i_next][j_next] = ' '
                 q.put((i_next, j_next))
     
-    # Any remaining dots should be the ones we want
+    # for row in huge_map:
+    #     print(''.join(row))
+
+    # # Any remaining dots should be the ones we want
+    # result = 0
+    # for row in huge_map:
+    #     print(''.join(row))
+    #     for cell in row:
+    #         if cell == '.':
+    #             result += 1
+
+    # Ok, so now we should be able to iterate over the row, 3 cells at a time
+    # and look at the middle cell. If it's a dot then we count it.
     result = 0
-    for row in larger_map:
-        print(''.join(row))
-        for cell in row:
-            if cell == '.':
-                result += 1
+    for row in range(1, len(huge_map), 3):
+        row_data = ''
+        count = 0
+        for col in range(1, len(huge_map[0]), 3):
+            row_data += huge_map[row][col]
+            if huge_map[row][col] == '.':
+                count += 1
+
+        # print(row_data, count)
+        result += count
 
     return result
 
