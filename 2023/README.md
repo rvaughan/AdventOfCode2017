@@ -83,7 +83,10 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18e5ytd/2023_day_9_solutions/)
     * Visualisations:
         * Not specific to this day, but [this](https://www.reddit.com/r/adventofcode/comments/18dzc8t/aoc_2023_challenges_have_felt_oddly_outofplace/) graph shows the completions of p2 v p2 across the years by day (so far).
-  * [Day 10 - Pipe Maze](./day_10/README.md)
+  * [Day 10 - Pipe Maze](./day_10/README.md). OMG what an absolute pig of a challenge. Part 1 was ok, just a simple depth first search with multiple parallel searches that you need to stop when you've explored the cell before. Part 2 was just a gigantic pain in the ass. Essentially you find the loop then you [flood fill](https://gamedev.stackexchange.com/questions/141460/how-can-i-fill-the-interior-of-a-closed-loop-on-a-tile-map) the resultant 'map' to find all of the enclosed tiles. Except that there are non-visual gaps in the tile walls where the flood also needs to fill. So you need to stretch your map to allow the flood to enter those bits as well. No wonder my code for this puzzle is such a mess.
+    * [Watch](https://www.youtube.com/watch?v=M6cy6zkNGRw) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=zhmzPQwgPg0) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18evyu9/2023_day_10_solutions/)
   * [Day 11 - xxx](./day_11/README.md)
   * [Day 12 - xxx](./day_12/README.md)
   * [Day 13 - xxx](./day_13/README.md)
