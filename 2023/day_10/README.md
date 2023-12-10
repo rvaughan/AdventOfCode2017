@@ -126,3 +126,5 @@ Here are the distances for each tile on that loop:
 ```
 
 Find the single giant loop starting at `S`. **How many steps along the loop does it take to get from the starting position to the point farthest from the starting position?**
+
+**Solution:** 6820
