@@ -83,7 +83,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18e5ytd/2023_day_9_solutions/)
     * Visualisations:
         * Not specific to this day, but [this](https://www.reddit.com/r/adventofcode/comments/18dzc8t/aoc_2023_challenges_have_felt_oddly_outofplace/) graph shows the completions of p2 v p2 across the years by day (so far).
-  * [Day 10 - xxx](./day_10/README.md)
+  * [Day 10 - Pipe Maze](./day_10/README.md)
   * [Day 11 - xxx](./day_11/README.md)
   * [Day 12 - xxx](./day_12/README.md)
   * [Day 13 - xxx](./day_13/README.md)
