@@ -88,7 +88,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=zhmzPQwgPg0) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18evyu9/2023_day_10_solutions/)
     * Visualisations
-        * [Every](https://www.reddit.com/r/adventofcode/comments/18eyms2/2023_day_10_part_2_finding_the_interior_space/) [man](https://www.reddit.com/r/adventofcode/comments/18eyv9b/2023_day_10_part_2_almost_looks_like_a_star/) and his [dog](https://www.reddit.com/r/adventofcode/comments/18f0l5q/2023_day_10_part_2_visualization_of_my_area/) has a [visualisation](https://www.reddit.com/r/adventofcode/comments/18f0z0o/2023_day_10_animating_my_algorithms_to_solve_both/) for [todays](https://www.reddit.com/r/adventofcode/comments/18f3asf/2023_day_10pygame_pixel_perfect_pipes/) puzzle.
+        * [Every](https://www.reddit.com/r/adventofcode/comments/18eyms2/2023_day_10_part_2_finding_the_interior_space/) [man](https://www.reddit.com/r/adventofcode/comments/18eyv9b/2023_day_10_part_2_almost_looks_like_a_star/) and his [dog](https://www.reddit.com/r/adventofcode/comments/18f0l5q/2023_day_10_part_2_visualization_of_my_area/) has a [visualisation](https://www.reddit.com/r/adventofcode/comments/18f0z0o/2023_day_10_animating_my_algorithms_to_solve_both/) for [todays](https://www.reddit.com/r/adventofcode/comments/18f3asf/2023_day_10pygame_pixel_perfect_pipes/) [puzzle](https://www.reddit.com/r/adventofcode/comments/18f3diq/2023_day_10_pipe_loop_with_curve_parameter/).
   * [Day 11 - xxx](./day_11/README.md)
   * [Day 12 - xxx](./day_12/README.md)
   * [Day 13 - xxx](./day_13/README.md)
