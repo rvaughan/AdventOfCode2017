@@ -1,39 +1,28 @@
 #!/usr/bin/env python3
 """
-This code holds the solution for part 1 of day 8 of the Advent of Code for 2019.
+This code holds the solution for part 2 of day 8 of the Advent of Code for 2019.
 """
 from collections import defaultdict
 import sys
 
 
-def calculate_solution(items, rows, cols):
-    width = rows * cols
+def calculate_solution(items, cols, rows):
     line = items[0]
 
-    layers = [line[i:i+width] for i in range(0, len(line), width)]
+    layers = [] 
+    width = cols * rows
+    for i in range(len(line) // width):
+        layers.append([list(map(int, line[i*width + j*cols : i*width + (j+1)*cols])) for j in range(rows)])
 
-    print(len(layers))
+    image = [['#'] * cols for _ in range(rows)]
+    for r in range(rows):
+        for c in range(cols):
+            pixel = next(layer[r][c] for layer in layers if layer[r][c] != 2)
+            image[r][c] = '*' if pixel == 1 else ' '
+    
+    print('\n'.join(''.join(row) for row in image))
 
-    max_layer = 0
-    max = 9999999
-    max_digits = None
-    for idx, layer in enumerate(layers):
-        digits = defaultdict(int)
-        for d in layer:
-            digits[d] += 1
-
-        if digits['0'] < max:
-            max = digits['0']
-            max_layer = idx + 1
-            max_digits = digits
-            print(f'Layer {idx + 1} has {max} zeros')
-
-    print(f'Max layer is {max_layer}')
-    print(f'Max digits are {max_digits}')
-
-    result = max_digits['1'] * max_digits['2']
-
-    return result
+    return 0
 
 
 def run_test(test_input, rows, cols, expected_solution):
@@ -54,9 +43,9 @@ def run_test(test_input, rows, cols, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = """123456789012"""
+test_list = """0222112222120000"""
 
-result = run_test(test_list, 3, 2, 1)
+result = run_test(test_list, 2, 2, 0)
 
 print('')
 print('-----------------')
@@ -70,7 +59,5 @@ print('')
 with open('input.txt', 'r') as f:
     input_data = [line.strip() for line in f]
     answer = calculate_solution(input_data, 25, 6)
-
-    # 1640 is too high
 
     print(f'Solution is {answer}')

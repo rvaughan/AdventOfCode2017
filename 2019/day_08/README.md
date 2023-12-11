@@ -69,3 +69,5 @@ So, the final image looks like this:
 ```
 
 **What message is produced after decoding your image?**
+
+**Solution:** ZLBJF
