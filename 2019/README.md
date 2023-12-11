@@ -39,3 +39,4 @@ This year I set up a private [leaderboard](leaderboard.json).
   * [Day 7 - Amplification Circuit](./day_07/README.md)
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/e7a4nj/2019_day_7_solutions/)
   * [Day 8 - Space Image Format](./day_08/README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/e7pkmt/2019_day_8_solutions/)
