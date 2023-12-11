@@ -110,3 +110,5 @@ This path has length **9** because it takes a minimum of **nine steps** to get f
 In this example, after expanding the universe, the sum of the shortest path between all 36 pairs of galaxies is **374**.
 
 Expand the universe, then find the length of the shortest path between every pair of galaxies. *What is the sum of these lengths?*
+
+**Solution:** 9403026
