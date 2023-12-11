@@ -73,8 +73,11 @@ def calculate_solution(items):
         start = galaxies[galaxy_id]
         for next_galaxy_id in range(galaxy_id+1, num_galaxies + 1):
             end = galaxies[next_galaxy_id]
+            # Manhatten distance calculation.
             distance = abs(start[0] - end[0]) + abs(start[1] - end[1])
+            
             # print(galaxy_id, next_galaxy_id, distance, start, end)
+            
             distances.append(distance)
 
     result = sum(distances)
