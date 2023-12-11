@@ -89,7 +89,10 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18evyu9/2023_day_10_solutions/)
     * Visualisations
         * [Every](https://www.reddit.com/r/adventofcode/comments/18eyms2/2023_day_10_part_2_finding_the_interior_space/) [man](https://www.reddit.com/r/adventofcode/comments/18eyv9b/2023_day_10_part_2_almost_looks_like_a_star/) and his [dog](https://www.reddit.com/r/adventofcode/comments/18f0l5q/2023_day_10_part_2_visualization_of_my_area/) has a [visualisation](https://www.reddit.com/r/adventofcode/comments/18f0z0o/2023_day_10_animating_my_algorithms_to_solve_both/) for [todays](https://www.reddit.com/r/adventofcode/comments/18f3asf/2023_day_10pygame_pixel_perfect_pipes/) [puzzle](https://www.reddit.com/r/adventofcode/comments/18f3diq/2023_day_10_pipe_loop_with_curve_parameter/).
-  * [Day 11 - Cosmic Expansion](./day_11/README.md)
+  * [Day 11 - Cosmic Expansion](./day_11/README.md). Part 1 was simple enough and despite the examples using a diagonal line it was possible to use the [Manhatten Distance](https://en.wikipedia.org/wiki/Taxicab_geometry) to find the distance between the points. Part 2 was a bit trickier because you couldn't add the distances 'visually' only virtually to solve the problem in any meaningful time. However, you knew where the empty rows and columns were, so it's just a little bit of math that's required.
+    * [Watch](https://www.youtube.com/watch?v=tia99l_AcFM) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=qelii-Biz1o) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18fmrjk/2023_day_11_solutions/)
   * [Day 12 - xxx](./day_12/README.md)
   * [Day 13 - xxx](./day_13/README.md)
   * [Day 14 - xxx](./day_14/README.md)
