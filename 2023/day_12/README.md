@@ -20,9 +20,9 @@ It only takes you a few more steps to reach the main gate of the massive fenced-
 
 "Oh, all of Gear Island is currently offline! Nothing is being manufactured at the moment, not until we get more lava to heat our forges. And our springs. The springs aren't very springy unless they're hot!"
 
-"Say, could you go up and see why the lava stopped flowing? The springs are too cold for normal operation, but we should be able to find one springy enough to launch you up there!"
+"Say, could you go up and see why the lava stopped flowing? The springs are too cold for normal operation, but we should be able to find one springy enough to launch **you** up there!"
 
-There's just one problem - many of the springs have fallen into disrepair, so they're not actually sure which springs would even be safe to use! Worse yet, **their condition records of which springs are damaged** (your puzzle input) are also damaged! You'll need to help them repair the damaged records.
+There's just one problem - many of the springs have fallen into disrepair, so they're not actually sure which springs would even be **safe** to use! Worse yet, **their condition records of which springs are damaged** (your puzzle input) are also damaged! You'll need to help them repair the damaged records.
 
 In the giant field just outside, the springs are arranged into **rows**. For each row, the condition records show every spring and whether it is **operational** (`.`) or **damaged** (`#`). This is the part of the condition records that is itself damaged; for some springs, it is simply **unknown** (`?`) whether the spring is operational or damaged.
 
@@ -84,3 +84,5 @@ In this example, the number of possible arrangements for each row is:
 Adding all of the possible arrangement counts together produces a total of **21** arrangements.
 
 For each row, count all of the different arrangements of operational and broken springs that meet the given criteria. **What is the sum of those counts?**
+
+**Solution:** 7286
