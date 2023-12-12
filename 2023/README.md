@@ -93,7 +93,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=tia99l_AcFM) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=qelii-Biz1o) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18fmrjk/2023_day_11_solutions/)
-  * [Day 12 - xxx](./day_12/README.md)
+  * [Day 12 - Hot Springs](./day_12/README.md)
   * [Day 13 - xxx](./day_13/README.md)
   * [Day 14 - xxx](./day_14/README.md)
   * [Day 15 - xxx](./day_15/README.md)
