@@ -95,8 +95,15 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18fmrjk/2023_day_11_solutions/)
   * [Day 12 - Hot Springs](./day_12/README.md)
     * [Watch](https://www.youtube.com/watch?v=xTGkP2GNmbQ) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=veJvlIMjv94) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18ge41g/2023_day_12_solutions/)
+    * Visualisations:
+        * A neat little [terminal](https://www.youtube.com/watch?v=ZO84hyTS2DA) view.
+        * Maybe a helpful [view](https://www.reddit.com/r/adventofcode/comments/18hbjdi/2023_day_12_part_2_this_image_helped_a_few_people/) of the problem?
   * [Day 13 - Point of Incidence](./day_13/README.md)
+    * [Watch](https://www.youtube.com/watch?v=KObhCimyl2I) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=Jzp8INWz5Z0) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18h940b/2023_day_13_solutions/)
   * [Day 14 - xxx](./day_14/README.md)
   * [Day 15 - xxx](./day_15/README.md)
   * [Day 16 - xxx](./day_16/README.md)
