@@ -10,7 +10,7 @@ With your help, the hot springs team locates an appropriate spring which launche
 
 There's just one problem: you don't see any **lava**.
 
-You do see a lot of ash and igneous rock; there are even what look like gray mountains scattered around. After a while, you make your way to a nearby cluster of mountains only to discover that the valley between them is completely full of large **mirrors**. Most of the mirrors seem to be aligned in a consistent way; perhaps you should head in that direction?
+You **do** see a lot of ash and igneous rock; there are even what look like gray mountains scattered around. After a while, you make your way to a nearby cluster of mountains only to discover that the valley between them is completely full of large **mirrors**. Most of the mirrors seem to be aligned in a consistent way; perhaps you should head in that direction?
 
 As you move through the valley of mirrors, you find that several of them have fallen from the large metal frames keeping them in place. The mirrors are extremely flat and shiny, and many of the fallen mirrors have lodged into the ash at strange angles. Because the terrain is all one color, it's hard to tell where it's safe to walk or where you're about to run into a mirror.
 
@@ -73,3 +73,5 @@ This pattern reflects across the horizontal line between rows 4 and 5. Row 1 wou
 To **summarize** your pattern notes, add up the **number of columns** to the left of each vertical line of reflection; to that, also add **100 multiplied by the number of rows** above each horizontal line of reflection. In the above example, the first pattern's vertical line has `5` columns to its left and the second pattern's horizontal line has `4` rows above it, a total of `405`.
 
 Find the line of reflection in each of the patterns in your notes. **What number do you get after summarizing all of your notes?**
+
+**Solution:** 33122
