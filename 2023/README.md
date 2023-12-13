@@ -96,7 +96,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
   * [Day 12 - Hot Springs](./day_12/README.md)
     * [Watch](https://www.youtube.com/watch?v=xTGkP2GNmbQ) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18ge41g/2023_day_12_solutions/)
-  * [Day 13 - xxx](./day_13/README.md)
+  * [Day 13 - Point of Incidence](./day_13/README.md)
   * [Day 14 - xxx](./day_14/README.md)
   * [Day 15 - xxx](./day_15/README.md)
   * [Day 16 - xxx](./day_16/README.md)
