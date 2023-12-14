@@ -64,7 +64,17 @@ def roll_west(grid):
 
 
 def grid_signature(grid):
-    return hash(tuple(tuple(row) for row in grid))
+    return tuple([tuple(row) for row in grid])
+
+
+def weight(rows):
+    weight = 0
+    rows2 = list(zip(*rows))
+    rows2 = [list(reversed(row)) for row in rows2]
+    for row in rows2:
+        for i in range(len(row)):
+            if row[i] == 'O': weight += i+1
+    return weight
 
 
 def calculate_solution(items):
@@ -74,7 +84,7 @@ def calculate_solution(items):
         
     cycle = 0
     history = {}
-    for cycle in range(1_000_000_000):
+    for cycle in range(1, 1_000_000_000):
         # Run a cycle
         grid = roll_north(grid)
         # print()
@@ -113,17 +123,19 @@ def calculate_solution(items):
 
         history[signature] = {'idx': cycle, 'grid': grid[:]}
     
-    # Find the cycle that would be at the end of the sequence if we let the loop complete.
-    target = loop_start + (999999999 - loop_start) % loop_size
-
-    print(cycle, loop_start, loop_size, target)
+    # print(cycle, loop_start, loop_size, target)
 
     # Calculate the load
 
-    grid = None
-    for k,v in history.items():
-        if v['idx'] == target:
-            grid = v['grid']
+    grid = []
+    for item in items:
+        grid.append([x for x in item])
+
+    for _ in range(loop_start + (1000000000-loop_start)%loop_size):
+        grid = roll_north(grid)
+        grid = roll_west(grid)
+        grid = roll_south(grid)
+        grid = roll_east(grid)
 
     load = 0
     for row_idx in range(len(grid)):
@@ -131,7 +143,7 @@ def calculate_solution(items):
         for idx, cell in enumerate(grid[row_idx]):
             load += rock_score if cell == 'O' else 0
 
-        print(rock_score, ''.join(grid[row_idx]), load)
+        # print(rock_score, ''.join(grid[row_idx]), load)
 
     return load
 
