@@ -73,7 +73,7 @@ def calculate_solution(items):
         grid.append([x for x in item])
         
     cycle = 0
-    seen_previously = {}
+    history = {}
     for cycle in range(1_000_000_000):
         # Run a cycle
         grid = roll_north(grid)
@@ -97,26 +97,31 @@ def calculate_solution(items):
         # for row in grid:
         #     print(''.join(row))
 
-        # if cycle == 2:
+        # if cycle == 3:
         #     x
 
+        # We need to keep a hash of the grid so that we can find items later, and check if we've
+        # seen them before.
         signature = grid_signature(grid)
 
-        if signature in seen_previously:
-            loop_start = seen_previously[signature]['idx']
+        # Have we seen it before?
+        if signature in history:
+            # Yes, so let's try and work out when the loop started and how large the loop is
+            loop_start = history[signature]['idx']
             loop_size = cycle - loop_start
             break
 
-        seen_previously[signature] = {'idx': cycle, 'grid': grid[:]}
-
-    print(cycle, loop_start, loop_size)
+        history[signature] = {'idx': cycle, 'grid': grid[:]}
+    
+    # Find the cycle that would be at the end of the sequence if we let the loop complete.
     target = loop_start + (999999999 - loop_start) % loop_size
-    print(target)
+
+    print(cycle, loop_start, loop_size, target)
 
     # Calculate the load
 
     grid = None
-    for k,v in seen_previously.items():
+    for k,v in history.items():
         if v['idx'] == target:
             grid = v['grid']
 
@@ -125,6 +130,8 @@ def calculate_solution(items):
         rock_score = len(grid) - row_idx
         for idx, cell in enumerate(grid[row_idx]):
             load += rock_score if cell == 'O' else 0
+
+        print(rock_score, ''.join(grid[row_idx]), load)
 
     return load
 
