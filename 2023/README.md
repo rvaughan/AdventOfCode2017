@@ -105,6 +105,9 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=Jzp8INWz5Z0) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18h940b/2023_day_13_solutions/)
   * [Day 14 - Parabolic Reflector Dish](./day_14/README.md)
+    * [Watch](https://www.youtube.com/watch?v=4Ms3SN0lpxE) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=M9SPYhWgWbM) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18i0xtn/2023_day_14_solutions/)
   * [Day 15 - xxx](./day_15/README.md)
   * [Day 16 - xxx](./day_16/README.md)
   * [Day 17 - xxx](./day_17/README.md)
