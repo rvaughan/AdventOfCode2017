@@ -6,9 +6,31 @@ import sys
 
 
 def calculate_solution(items):
-    result = 0
 
-    return result
+    grid = []
+    for item in items:
+        grid.append([x for x in item])
+        
+    # Move the rocks north
+    movement = True
+    while movement:
+        movement = False
+        for row_idx in range(1, len(grid)):
+            for idx, cell in enumerate(grid[row_idx]):
+                if grid[row_idx-1][idx] == '.' and cell == 'O':
+                    grid[row_idx-1][idx] = 'O'
+                    grid[row_idx][idx] = '.'
+                    movement = True
+
+    # Calculate the load
+    load = 0
+
+    for row_idx in range(len(grid)):
+        rock_score = len(grid) - row_idx
+        for idx, cell in enumerate(grid[row_idx]):
+            load += rock_score if cell == 'O' else 0
+
+    return load
 
 
 def run_test(test_input, expected_solution):
@@ -29,10 +51,18 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = """
-"""
+test_list = """O....#....
+O.OO#....#
+.....##...
+OO.#O....O
+.O.....O#.
+O.#..O.#.#
+..O..#O..O
+.......O..
+#....###..
+#OO..#...."""
 
-result = run_test(test_list, 7)
+result = run_test(test_list, 136)
 
 print('')
 print('-----------------')
