@@ -108,7 +108,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=4Ms3SN0lpxE) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=M9SPYhWgWbM) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18i0xtn/2023_day_14_solutions/)
-  * [Day 15 - xxx](./day_15/README.md)
+  * [Day 15 - Lens Library](./day_15/README.md)
   * [Day 16 - xxx](./day_16/README.md)
   * [Day 17 - xxx](./day_17/README.md)
   * [Day 18 - xxx](./day_18/README.md)
