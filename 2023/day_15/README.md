@@ -72,3 +72,5 @@ This initialization sequence specifies 11 individual steps; the result of runnin
 In this example, the sum of these results is `1320`. Unfortunately, the reindeer has stolen the page containing the expected verification number and is currently running around the facility with it excitedly.
 
 Run the HASH algorithm on each step in the initialization sequence. **What is the sum of the results?** (The initialization sequence is one long line; be careful when copy-pasting it.)
+
+**Solution:** 517965

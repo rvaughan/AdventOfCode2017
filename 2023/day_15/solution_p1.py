@@ -8,6 +8,16 @@ import sys
 def calculate_solution(items):
     result = 0
 
+    for item in items:
+        for parts in item.split(','):
+            current = 0
+            for char in parts:
+                current += ord(char)
+                current *= 17
+                current %= 256
+
+            result += current
+
     return result
 
 
@@ -29,10 +39,11 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = """
-"""
+test_list = """HASH"""
+result = run_test(test_list, 52)
 
-result = run_test(test_list, 7)
+test_list = """rn=1,cm-,qp=3,cm=2,qp-,pc=4,ot=9,ab=5,pc-,pc=6,ot=7"""
+result = run_test(test_list, 1320)
 
 print('')
 print('-----------------')
