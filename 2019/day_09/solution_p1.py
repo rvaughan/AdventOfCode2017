@@ -35,7 +35,7 @@ class Computer:
             # print(f'  pm {code} {param_num} {mode} * {param}')
             return param
         
-        # print(f'  pm {code} {param_num} {mode} ^ {self.memory[self.relative_base + param]}')
+        print(f'  pm {code} {param_num} {mode} ^ {self.memory[self.relative_base + param]}')
         return self.memory[param + self.relative_base]
 
     def run_op(self):
@@ -49,7 +49,7 @@ class Computer:
         
         op = digits[0] % 100
         op_code = digits[0]
-        print(f'IP: {self.inst_ptr:03} [{len(self.memory)}], {op_code} {op}, {digits}')
+        # print(f'IP: {self.inst_ptr:03} [{len(self.memory)}], {op_code} {op}, {digits}')
 
         if op == 1:
             i1 = self.get_param(op_code, 1, self.memory[self.inst_ptr+1])
@@ -76,7 +76,7 @@ class Computer:
             self.inst_ptr += 4
             return 0
         elif op == 3:
-            print('  SET')
+            # print('  SET')
             self.memory[self.inst_ptr+1] = self.input_code.pop()   # special input specified in puzzle
                                                                                 # representing the system to be
                                                                                 # diagnosed.
@@ -94,7 +94,7 @@ class Computer:
             i1 = self.get_param(op_code, 1, self.memory[self.inst_ptr+1])
             i2 = self.get_param(op_code, 2, self.memory[self.inst_ptr+2])
 
-            print(f'  jump-if-true {i1}')
+            print(f'  jump-if-true {i1} {i2}')
 
             if i1 != 0:
                 self.inst_ptr = i2
@@ -119,12 +119,9 @@ class Computer:
             i2 = self.get_param(op_code, 2, self.memory[self.inst_ptr+2])
             i3 = self.memory[self.inst_ptr+3]
 
-            print(f'  LESS {i1} {i2}')
+            print(f'  LESS {i1} {i2} -> {i3}')
 
-            if i1 < i2:
-                self.memory[i3] = 1
-            else:
-                self.memory[i3] = 0
+            self.memory[i3] = 1 if i1 < i2 else 0
 
             self.inst_ptr += 4
             return 0
@@ -133,7 +130,7 @@ class Computer:
             i2 = self.get_param(op_code, 2, self.memory[self.inst_ptr+2])
             i3 = self.memory[self.inst_ptr+3]
 
-            print(f'  EQUAL {i1} {i2}')
+            # print(f'  EQUAL {i1} {i2}')
 
             self.memory[i3] = 1 if i1 == i2 else 0
 
@@ -141,16 +138,17 @@ class Computer:
             return 0
         elif op == 9:
             self.relative_base += self.memory[self.memory[self.inst_ptr+1]]
-            print(f'  SETREL {self.relative_base}')
+            # print(f'  SETREL {self.relative_base}')
 
             self.inst_ptr += 2
             return 0
         elif op == 99:
-            print('  END')
+            # print('  END')
             self.inst_ptr += 1
+            self.result = 1
             return 1
         else:
-            print('  ???')
+            # print('  ???')
             self.inst_ptr += 1
             self.result = -1
             return -1
@@ -208,17 +206,17 @@ def run_test(program_code, amplifier_values, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-run_test([109,1,204,-1,1001,100,1,100,1008,100,16,101,1006,101,0,99], [0], [109,1,204,-1,1001,100,1,100,1008,100,16,101,1006,101,0,99])
+# run_test([109,1,204,-1,1001,100,1,100,1008,100,16,101,1006,101,0,99], [0], [109,1,204,-1,1001,100,1,100,1008,100,16,101,1006,101,0,99])
 
-run_test([1102,34915192,34915192,7,4,7,99,0], [0], [1219070632396864])
+# run_test([1102,34915192,34915192,7,4,7,99,0], [0], [1219070632396864])
 
-run_test([104,1125899906842624,99], [0], [1125899906842624])
+# run_test([104,1125899906842624,99], [0], [1125899906842624])
 
-print("")
-print("-----------------")
-print("All Tests PASSED.")
-print("-----------------")
-print("")
+# print("")
+# print("-----------------")
+# print("All Tests PASSED.")
+# print("-----------------")
+# print("")
 
 # Ok, so if we reach here, then we can be reasonably sure that the code
 # above is working correctly. Let's use the actual captcha now.
@@ -237,6 +235,9 @@ with open("input.txt", "r") as f:
         for program in programs:
             program.set_input(last_output)
             last_output = program.run_program()
+            if program.errored():
+                print('eeee')
+                break
             if not program.halted():
                 result.append(last_output)
 
