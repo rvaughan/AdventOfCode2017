@@ -89,7 +89,7 @@ Light | Box |  | Box |   ...   | Box |
       +-----+  +-----+         +-----+
 ```
 
-Inside each box, there are several lens slots that will keep a lens correctly positioned to focus light passing through the box. The side of each box has a panel that opens to allow you to insert or remove lenses as necessary.
+Inside each box, there are several **lens slots** that will keep a lens correctly positioned to focus light passing through the box. The side of each box has a panel that opens to allow you to insert or remove lenses as necessary.
 
 Along the wall running parallel to the boxes is a large library containing lenses organized by **focal length** ranging from `1` through `9`. The reindeer also brings you a small handheld [label printer](https://en.wikipedia.org/wiki/Label_printer).
 
