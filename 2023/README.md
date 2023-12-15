@@ -93,22 +93,24 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=tia99l_AcFM) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=dBqz6Iv9IB8) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18fmrjk/2023_day_11_solutions/)
-  * [Day 12 - Hot Springs](./day_12/README.md)
+  * [Day 12 - Hot Springs](./day_12/README.md). A lot of cominations to try and calculate in this one! needed to break out an LRU cache so calculations didn't need to be redone all of the time. Combine that with some good old recursion and you end up with a working mess.
     * [Watch](https://www.youtube.com/watch?v=xTGkP2GNmbQ) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=veJvlIMjv94) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18ge41g/2023_day_12_solutions/)
     * Visualisations:
         * A neat little [terminal](https://www.youtube.com/watch?v=ZO84hyTS2DA) view.
         * Maybe a helpful [view](https://www.reddit.com/r/adventofcode/comments/18hbjdi/2023_day_12_part_2_this_image_helped_a_few_people/) of the problem?
-  * [Day 13 - Point of Incidence](./day_13/README.md)
+  * [Day 13 - Point of Incidence](./day_13/README.md). Bit of a head scratcher at first, but to make the coding simpler a 90 degree rotation can be done to allow the horizontal and vertical check to use the same simple code. Part 2 was ok once - "just" work out the row where 1 change would cause the line of reflection.
     * [Watch](https://www.youtube.com/watch?v=KObhCimyl2I) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=Jzp8INWz5Z0) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18h940b/2023_day_13_solutions/)
-  * [Day 14 - Parabolic Reflector Dish](./day_14/README.md)
+  * [Day 14 - Parabolic Reflector Dish](./day_14/README.md). Part 1 was fairly straight forward, just a bit of 'animation'!. For part 2 though you needed to understand that (much like day 8) that there were cycles to the pattern. Then use that and the length of the cycle to work out which part of the cycle the system would be in after 1,000,000,000 iterations.
     * [Watch](https://www.youtube.com/watch?v=4Ms3SN0lpxE) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=M9SPYhWgWbM) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18i0xtn/2023_day_14_solutions/)
-  * [Day 15 - Lens Library](./day_15/README.md)
+  * [Day 15 - Lens Library](./day_15/README.md). After a couple of days of difficult puzzles, a bit of an easier one! Part 1 was a straightforward calculation. Part 2 was an extension of this to include the use of stacks and hashmaps. Only intuition here was that a lens would only appear in a  single box (due to the hash) so I didn't have to mess around with a sub object type within the stack and could keep the lens' focal length in a separate hashmap.
+    * [Watch](https://www.youtube.com/watch?v=xcVwTpeMEMM) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18isayp/2023_day_15_solutions/)
   * [Day 16 - xxx](./day_16/README.md)
   * [Day 17 - xxx](./day_17/README.md)
   * [Day 18 - xxx](./day_18/README.md)
