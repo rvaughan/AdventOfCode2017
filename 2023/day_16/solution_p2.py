@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This code holds the solution for part 1 of day 16 of the Advent of Code for 2023.
+This code holds the solution for part 2 of day 16 of the Advent of Code for 2023.
 """
 import copy
 import sys
@@ -12,25 +12,17 @@ DOWN = 2
 LEFT = 3
 
 
-def calculate_solution(items):
-    grid = []
-    for row in items:
-        row_data = []
-        for cell in row:
-            row_data.append(cell)
-
-        grid.append(row_data)
-
+def calculate_routes(grid, starting_point):
     energised = copy.deepcopy(grid)
 
     beams = []
-    beams.append((0, 0, RIGHT))
+    beams.append(starting_point)
     seen = set()
 
     for beam in beams:
         x, y, direction = beam
 
-        if x < 0 or x >= len(items[0]) or y < 0 or y >= len(items):
+        if x < 0 or x >= len(grid[0]) or y < 0 or y >= len(grid):
             continue
 
         energised[y][x] = '#'
@@ -44,7 +36,7 @@ def calculate_solution(items):
         elif direction == LEFT:
             x -= 1
 
-        if x < 0 or x >= len(items[0]) or y < 0 or y >= len(items):
+        if x < 0 or x >= len(grid[0]) or y < 0 or y >= len(grid):
             continue
 
         if (x, y, direction) in seen:
@@ -98,6 +90,32 @@ def calculate_solution(items):
     return result
 
 
+def calculate_solution(items):
+    grid = []
+    for row in items:
+        row_data = []
+        for cell in row:
+            row_data.append(cell)
+
+        grid.append(row_data)
+
+    results = []
+    possibilities = []
+    for row in range(len(grid)):
+        possibilities.append((0, row, RIGHT))
+        possibilities.append((len(grid) - 1, row, LEFT))
+
+    for row in range(len(grid[0])):
+        possibilities.append((row, 0, DOWN))
+        possibilities.append((row, len(grid) - 1, UP))
+
+
+    for possibility in possibilities:
+        results.append(calculate_routes(grid, possibility))
+
+    return max(results)
+
+
 def run_test(test_input, expected_solution):
     """
     Helper method for running some unit tests whilst minimising repetative code.
@@ -126,7 +144,7 @@ test_list = """.|...\....
 .-.-/..|..
 .|....-|.\\
 ..//.|...."""
-result = run_test(test_list, 46)
+result = run_test(test_list, 51)
 
 print('')
 print('-----------------')
