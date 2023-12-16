@@ -71,3 +71,5 @@ Beams are only shown on empty tiles; arrows indicate the direction of the beams.
 Ultimately, in this example, **46** tiles become **energized**.
 
 The light isn't energizing enough tiles to produce lava; to debug the contraption, you need to start by analyzing the current situation. With the beam starting in the top-left heading right, **how many tiles end up being energized?**
+
+**Solution:** 8098
