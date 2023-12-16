@@ -110,8 +110,11 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18i0xtn/2023_day_14_solutions/)
   * [Day 15 - Lens Library](./day_15/README.md). After a couple of days of difficult puzzles, a bit of an easier one! Part 1 was a straightforward calculation. Part 2 was an extension of this to include the use of stacks and hashmaps. Only intuition here was that a lens would only appear in a  single box (due to the hash) so I didn't have to mess around with a sub object type within the stack and could keep the lens' focal length in a separate hashmap.
     * [Watch](https://www.youtube.com/watch?v=xcVwTpeMEMM) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=zwK_Nw0GpKA) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18isayp/2023_day_15_solutions/)
   * [Day 16 - The Floor Will Be Lava](./day_16/README.md)
+    * [Watch](https://www.youtube.com/watch?v=RulV5PWHBmw) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18jjpfk/2023_day_16_solutions/)
   * [Day 17 - xxx](./day_17/README.md)
   * [Day 18 - xxx](./day_18/README.md)
   * [Day 19 - xxx](./day_19/README.md)
