@@ -35,7 +35,7 @@ class Computer:
             # print(f'  pm {code} {param_num} {mode} * {param}')
             return param
         
-        print(f'  pm {code} {param_num} {mode} ^ {self.memory[self.relative_base + param]}')
+        # print(f'  pm {code} {param_num} {mode} ^ {self.memory[self.relative_base + param]}')
         return self.memory[param + self.relative_base]
 
     def run_op(self):
@@ -49,7 +49,7 @@ class Computer:
         
         op = digits[0] % 100
         op_code = digits[0]
-        # print(f'IP: {self.inst_ptr:03} [{len(self.memory)}], {op_code} {op}, {digits}')
+        # print(f'IP: {self.inst_ptr:03} [{len(self.memory)}], {op_code}, {op}, {digits}')
 
         if op == 1:
             i1 = self.get_param(op_code, 1, self.memory[self.inst_ptr+1])
@@ -119,7 +119,7 @@ class Computer:
             i2 = self.get_param(op_code, 2, self.memory[self.inst_ptr+2])
             i3 = self.memory[self.inst_ptr+3]
 
-            print(f'  LESS {i1} {i2} -> {i3}')
+            print(f'  LESS {i1} {i2} -> {i3} | {digits}')
 
             self.memory[i3] = 1 if i1 < i2 else 0
 
@@ -225,7 +225,7 @@ with open("input.txt", "r") as f:
     program_code = [int(x) for x in f.readline().split(',')]
 
     programs = []
-    # Create the program, and set it to test mode.
+    # Create the program, and set it to the correct mode.
     for amp in [1]:
         programs.append(Computer(program_code[:], amp))
     
