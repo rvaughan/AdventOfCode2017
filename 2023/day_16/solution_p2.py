@@ -14,6 +14,7 @@ LEFT = 3
 
 def calculate_routes(grid, starting_point):
     energised = energised = set()
+    energised.add((starting_point[0], starting_point[1]))
 
     beams = []
     beams.append(starting_point)
@@ -21,11 +22,6 @@ def calculate_routes(grid, starting_point):
 
     while any(beams):
         x, y, direction = beams.pop()
-
-        if x < 0 or x >= len(grid[0]) or y < 0 or y >= len(grid):
-            continue
-
-        energised.add((x, y))
 
         if direction == UP:
             y -= 1
@@ -36,42 +32,38 @@ def calculate_routes(grid, starting_point):
         elif direction == LEFT:
             x -= 1
 
-        if x < 0 or x >= len(grid[0]) or y < 0 or y >= len(grid):
-            continue
+        if 0 <= x < len(grid[0]) and 0 <= y < len(grid) and (x, y, direction) not in seen:
+            energised.add((x, y))
+            seen.add((x, y, direction))
 
-        if (x, y, direction) in seen:
-            continue
+            if grid[y][x] == '-':
+                if direction == UP or direction == DOWN:
+                    beams.append((x, y, LEFT))
+                    direction = RIGHT
+            elif grid[y][x] == '\\':
+                if direction == UP:
+                    direction = LEFT
+                elif direction == RIGHT:
+                    direction = DOWN
+                elif direction == DOWN:
+                    direction = RIGHT
+                elif direction == LEFT:
+                    direction = UP
+            elif grid[y][x] == '/':
+                if direction == UP:
+                    direction = RIGHT
+                elif direction == RIGHT:
+                    direction = UP
+                elif direction == DOWN:
+                    direction = LEFT
+                elif direction == LEFT:
+                    direction = DOWN
+            elif grid[y][x] == '|':
+                if direction == RIGHT or direction == LEFT:
+                    beams.append((x, y, UP))
+                    direction = DOWN
 
-        if grid[y][x] == '-':
-            if direction == UP or direction == DOWN:
-                beams.append((x, y, LEFT))
-                direction = RIGHT
-        elif grid[y][x] == '\\':
-            if direction == UP:
-                direction = LEFT
-            elif direction == RIGHT:
-                direction = DOWN
-            elif direction == DOWN:
-                direction = RIGHT
-            elif direction == LEFT:
-                direction = UP
-        elif grid[y][x] == '/':
-            if direction == UP:
-                direction = RIGHT
-            elif direction == RIGHT:
-                direction = UP
-            elif direction == DOWN:
-                direction = LEFT
-            elif direction == LEFT:
-                direction = DOWN
-        elif grid[y][x] == '|':
-            if direction == RIGHT or direction == LEFT:
-                beams.append((x, y, UP))
-                direction = DOWN
-
-        beams.append((x, y, direction))
-
-        seen.add((x, y, direction))
+            beams.append((x, y, direction))
 
     # for row in energised:
     #     print(''.join(row))
