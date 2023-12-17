@@ -115,7 +115,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
   * [Day 16 - The Floor Will Be Lava](./day_16/README.md)
     * [Watch](https://www.youtube.com/watch?v=RulV5PWHBmw) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18jjpfk/2023_day_16_solutions/)
-  * [Day 17 - xxx](./day_17/README.md)
+  * [Day 17 - Clumsy Crucible](./day_17/README.md)
   * [Day 18 - xxx](./day_18/README.md)
   * [Day 19 - xxx](./day_19/README.md)
   * [Day 20 - xxx](./day_20/README.md)
