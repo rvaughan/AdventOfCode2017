@@ -62,3 +62,5 @@ At this point, the trench could contain 38 cubic meters of lava. However, this i
 Now, the lagoon can contain a much more respectable **62** cubic meters of lava. While the interior is dug out, the edges are also painted according to the color codes in the dig plan.
 
 The Elves are concerned the lagoon won't be large enough; if they follow their dig plan, **how many cubic meters of lava could it hold?**
+
+**Solution:** 74074

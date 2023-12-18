@@ -61,3 +61,5 @@ One way to **minimize heat loss** is this path:
 This path never moves more than three consecutive blocks in the same direction and incurs a heat loss of only **102**.
 
 Directing the crucible from the lava pool to the machine parts factory, but not moving more than three consecutive blocks in the same direction, **what is the least heat loss it can incur?**
+
+**Solution:** 698
