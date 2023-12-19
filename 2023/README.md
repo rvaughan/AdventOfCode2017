@@ -117,7 +117,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18jjpfk/2023_day_16_solutions/)
   * [Day 17 - Clumsy Crucible](./day_17/README.md)
   * [Day 18 - Lavaduct Lagoon](./day_18/README.md)
-  * [Day 19 - xxx](./day_19/README.md)
+  * [Day 19 - Aplenty](./day_19/README.md)
   * [Day 20 - xxx](./day_20/README.md)
   * [Day 21 - xxx](./day_21/README.md)
   * [Day 22 - xxx](./day_22/README.md)
