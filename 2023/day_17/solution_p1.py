@@ -4,6 +4,7 @@ This code holds the solution for part 1 of day 17 of the Advent of Code for 2023
 """
 import copy
 import sys
+import heapq
 
 
 UP = 1
@@ -18,113 +19,37 @@ def calculate_solution(items):
     for row in items:
         grid.append([int(x) for x in row])
 
-    successful_paths = []
-    paths = []
+    num_cols = len(grid)
+    num_rows = len(grid[0])
 
-    # Set the first two possible paths
-    # x, y, direction, heat_loss, num of moves in that direction, list of cells seen so far in the route
-    paths.append([(0, 0, RIGHT, 0, 1, set())])
-    paths.append([(0, 0, DOWN, 0, 1, set())])
+    queue = [(0, 0, 0, -1, 0)]
+    D = {}
+    while queue:
+        heat_loss, row, col, dir_, indir = heapq.heappop(queue)
 
-    while any(paths):
-        path = paths.pop()
-
-        # Get the last point in the path
-        x, y, direction, heat_loss, distance, seen = path[-1]
-
-        # Check if we've reached our goal
-        if x == len(grid[0]) - 1 and y == len(grid) - 1:
-            successful_paths.append(path)
+        # Have we already been through this path, from the direction being travelled?
+        if (row, col, dir_, indir) in D:
             continue
 
-        # Check the move is valid...
-        if 0 <= x < len(grid[0]) and 0 <= y < len(grid):
-            seen.add((x, y))
-            heat_loss = grid[y][x]
+        # Store the heat_loss to the current point
+        D[(row, col, dir_, indir)] = heat_loss
+        
+        for i, (dr, dc) in enumerate([[-1, 0], [0, 1], [1, 0], [0, -1]]):
+            new_row = row + dr
+            new_col = col + dc
+            new_dir = i
+            new_indir = (1 if new_dir != dir_ else indir + 1)
+            if 0 <= new_row < num_rows and 0 <= new_col < num_cols and new_indir <= 3 and ((new_dir+2)%4 != dir_):
+                # Get the heat loss at this cell
+                loss = int(grid[new_row][new_col])
+                heapq.heappush(queue, (heat_loss + loss, new_row, new_col, new_dir, new_indir))
 
-            if direction == UP:
-                if distance <= 3 and (x, y-1) not in seen:
-                    new_path = copy.deepcopy(path)
-                    new_path.append((x, y - 1, UP, heat_loss, distance + 1, seen))
-                    paths.append(new_path)
+    ans = 1e9
+    for (row, col, dir_, indir), v in D.items():
+        if row == num_rows-1 and col == num_cols-1:
+            ans = min(ans, v)
 
-                if (x+1, y) not in seen:
-                    new_path = copy.deepcopy(path)
-                    new_path.append((x + 1, y, LEFT, heat_loss, 1, seen))
-                    paths.append(new_path)
-
-                if (x-1, y) not in seen:
-                    new_path = copy.deepcopy(path)
-                    new_path.append((x - 1, y, RIGHT, heat_loss, 1, seen))
-                    paths.append(new_path)
-            elif direction == DOWN:
-                if distance <= 3 and (x, y+1) not in seen:
-                    new_path = copy.deepcopy(path)
-                    new_path.append((x, y + 1, DOWN, heat_loss, distance + 1, seen))
-                    paths.append(new_path)
-
-                if (x-1, y) not in seen:
-                    new_path = copy.deepcopy(path)
-                    new_path.append((x - 1, y, LEFT, heat_loss, 1, seen))
-                    paths.append(new_path)
-
-                if (x+1, y) not in seen:
-                    new_path = copy.deepcopy(path)
-                    new_path.append((x + 1, y, RIGHT, heat_loss, 1, seen))
-                    paths.append(new_path)
-            elif direction == LEFT:
-                if distance <= 3 and (x-1, y) not in seen:
-                    new_path = copy.deepcopy(path)
-                    new_path.append((x - 1, y, LEFT, heat_loss, distance + 1, seen))
-                    paths.append(new_path)
-
-                if (x, y-1) not in seen:
-                    new_path = copy.deepcopy(path)
-                    new_path.append((x, y - 1, UP, heat_loss, 1, seen))
-                    paths.append(new_path)
-
-                if (x, y+1) not in seen:
-                    new_path = copy.deepcopy(path)
-                    new_path.append((x, y + 1, DOWN, heat_loss, 1, seen))
-                    paths.append(new_path)
-            elif direction == RIGHT:
-                if distance <= 3 and (x+1, y) not in seen:
-                    new_path = copy.deepcopy(path)
-                    new_path.append((x + 1, y, RIGHT, heat_loss, distance + 1, seen))
-                    paths.append(new_path)
-
-                if (x, y-1) not in seen:
-                    new_path = copy.deepcopy(path)
-                    new_path.append((x, y - 1, UP, heat_loss, 1, seen))
-                    paths.append(new_path)
-
-                if (x, y+1) not in seen:
-                    new_path = copy.deepcopy(path)
-                    new_path.append((x, y + 1, DOWN, heat_loss, 1, seen))
-                    paths.append(new_path)
-
-        # print(len(paths), len(successful_paths))
-
-    min_heat_loss = 99999999
-    winning_path = None
-    print(len(successful_paths))
-    for path in successful_paths:
-        loss = sum([grid[step[1]][step[0]] for step in path])
-        loss -= grid[0][0]
-        # print(loss)
-        min_heat_loss = min(min_heat_loss, loss)
-        if loss == min_heat_loss:
-            winning_path = path
-
-    for step in winning_path:
-        grid[step[1]][step[0]] = '*'
-
-    print()
-    for row in grid:
-        print(''.join([str(x) for x in row]))
-    print()
-
-    return min_heat_loss    
+    return ans    
 
 
 def run_test(test_input, expected_solution):
