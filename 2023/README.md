@@ -116,6 +116,8 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=RulV5PWHBmw) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18jjpfk/2023_day_16_solutions/)
   * [Day 17 - Clumsy Crucible](./day_17/README.md)
+    * [Watch](https://www.youtube.com/watch?v=jcZw1jRkUDE) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18k9ne5/2023_day_17_solutions/)
   * [Day 18 - Lavaduct Lagoon](./day_18/README.md)
   * [Day 19 - Aplenty](./day_19/README.md)
   * [Day 20 - xxx](./day_20/README.md)
