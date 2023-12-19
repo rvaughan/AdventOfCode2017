@@ -22,7 +22,7 @@ def calculate_solution(items):
     num_rows = len(grid)
     num_cols = len(grid[0])
 
-    queue = [(0, 0, 0, -1, 0)]
+    queue = [(0, 0, 0, -1, -1)]
     D = {}
     while queue:
         # dir_ is the current direction of travel
@@ -41,7 +41,7 @@ def calculate_solution(items):
             new_col = col + dc
             new_dir = i
             new_indir = (1 if new_dir != dir_ else indir + 1)
-            if 0 <= new_row < num_rows and 0 <= new_col < num_cols and new_indir <= 3 and ((new_dir+2)%4 != dir_):
+            if 0 <= new_row < num_rows and 0 <= new_col < num_cols and new_indir <= 10 and ((new_dir+2)%4 != dir_) and (new_dir==dir_ or indir >= 4 or indir == -1):
                 # Get the heat loss at this cell
                 loss = int(grid[new_row][new_col])
                 heapq.heappush(queue, (heat_loss + loss, new_row, new_col, new_dir, new_indir))
@@ -85,7 +85,14 @@ test_list = """2413432311323
 1224686865563
 2546548887735
 4322674655533"""
-result = run_test(test_list, 102)
+result = run_test(test_list, 94)
+
+test_list = """111111111111
+999999999991
+999999999991
+999999999991
+999999999991"""
+result = run_test(test_list, 71)
 
 print('')
 print('-----------------')
