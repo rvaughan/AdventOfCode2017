@@ -63,3 +63,5 @@ The workflows are listed first, followed by a blank line, then the ratings of th
 Ultimately, three parts are **accepted**. Adding up the `x`, `m`, `a`, and `s` rating for each of the accepted parts gives **7540** for the part with `x=787`, **4623** for the part with `x=2036`, and **6951** for the part with `x=2127`. Adding all of the ratings for all of the accepted parts gives the sum total of **19114**.
 
 Sort through all of the parts you've been given; **what do you get if you add together all of the rating numbers for all of the parts that ultimately get accepted?**
+
+**Solution:** 399284
