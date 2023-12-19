@@ -14,10 +14,7 @@ RIGHT = 4
 
 
 def calculate_solution(items):
-    grid = []
-
-    for row in items:
-        grid.append([int(x) for x in row])
+    grid = [[int(cell) for cell in row] for row in items]
 
     num_rows = len(grid)
     num_cols = len(grid[0])
@@ -43,15 +40,15 @@ def calculate_solution(items):
             new_indir = (1 if new_dir != dir_ else indir + 1)
             if 0 <= new_row < num_rows and 0 <= new_col < num_cols and new_indir <= 10 and ((new_dir+2)%4 != dir_) and (new_dir==dir_ or indir >= 4 or indir == -1):
                 # Get the heat loss at this cell
-                loss = int(grid[new_row][new_col])
+                loss = grid[new_row][new_col]
                 heapq.heappush(queue, (heat_loss + loss, new_row, new_col, new_dir, new_indir))
 
-    ans = 1e9
-    for (row, col, dir_, indir), v in D.items():
+    result = 1e9
+    for (row, col, dir_, indir), heat_loss in D.items():
         if row == num_rows-1 and col == num_cols-1:
-            ans = min(ans, v)
+            result = min(result, heat_loss)
 
-    return ans    
+    return result    
 
 
 def run_test(test_input, expected_solution):
@@ -60,6 +57,7 @@ def run_test(test_input, expected_solution):
     """
     result = calculate_solution(test_input.split('\n'))
 
+    print()
     if result != expected_solution:
         print(f'Test for {test_input} FAILED. Got a result of {result}, not {expected_solution}')
         sys.exit(-1)

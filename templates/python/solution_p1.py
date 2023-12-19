@@ -17,6 +17,7 @@ def run_test(test_input, expected_solution):
     """
     result = calculate_solution(test_input.split('\n'))
 
+    print()
     if result != expected_solution:
         print(f'Test for {test_input} FAILED. Got a result of {result}, not {expected_solution}')
         sys.exit(-1)
@@ -31,7 +32,6 @@ def run_test(test_input, expected_solution):
 
 test_list = """
 """
-
 result = run_test(test_list, 7)
 
 print('')
