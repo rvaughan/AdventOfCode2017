@@ -121,7 +121,19 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * Visualisations
         * Godot [visualisation](https://www.reddit.com/r/adventofcode/comments/18l0oa4/2023_day_17_part_1_godot_3d_visualization_of_my/).
   * [Day 18 - Lavaduct Lagoon](./day_18/README.md)
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18l0qtr/2023_day_18_solutions/)
+    * Visualisations:
+        * A [trench](https://www.reddit.com/r/adventofcode/comments/18l58ce/2023_day_18_part_1_pygame_trench_calculus/) visualisation.
+        * A simple [static](https://www.reddit.com/r/adventofcode/comments/18l5ju8/2023_day_18_part_1_maybe_not_that_interesting_but/) visualisation.
+        * Another [video](https://www.reddit.com/r/adventofcode/comments/18l63dc/2023_day_18_calculating_a_rectangular_curve_area/).
+        * Lava [fill](https://www.reddit.com/r/adventofcode/comments/18lazoq/2023_day_18_part_1_filling_the_lava_lagoon/).
   * [Day 19 - Aplenty](./day_19/README.md)
+    * [Watch](https://www.youtube.com/watch?v=vQWe35EEHbI) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18ltr8m/2023_day_19_solutions/)
+    * Visualisations:
+        * Showing the [graph](https://www.reddit.com/r/adventofcode/comments/18lvl0s/2023_day_19_visualization_of_the_workflows/).
+        * Showing the graph as a [Sankey](https://www.reddit.com/r/adventofcode/comments/18lyvuv/2023_day_19_part_2_sankey_diagrams_are_cool/).
+        * All [possible parts](https://www.reddit.com/r/adventofcode/comments/18m1uxq/2023_day_19_part_2_looking_for_all_possible_parts/).
   * [Day 20 - xxx](./day_20/README.md)
   * [Day 21 - xxx](./day_21/README.md)
   * [Day 22 - xxx](./day_22/README.md)
