@@ -135,6 +135,8 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
         * Showing the graph as a [Sankey](https://www.reddit.com/r/adventofcode/comments/18lyvuv/2023_day_19_part_2_sankey_diagrams_are_cool/).
         * All [possible parts](https://www.reddit.com/r/adventofcode/comments/18m1uxq/2023_day_19_part_2_looking_for_all_possible_parts/).
   * [Day 20 - Pulse Propagation](./day_20/README.md)
+    * [Watch](https://www.youtube.com/watch?v=3STpz-M-wiw) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18mmfxb/2023_day_20_solutions/)
   * [Day 21 - xxx](./day_21/README.md)
   * [Day 22 - xxx](./day_22/README.md)
   * [Day 23 - xxx](./day_23/README.md)
