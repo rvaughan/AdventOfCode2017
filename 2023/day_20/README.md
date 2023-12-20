@@ -8,7 +8,7 @@ This folder contains a solution for day 20.
 
 With your help, the Elves manage to find the right parts and fix all of the machines. Now, they just need to send the command to boot up the machines and get the sand flowing again.
 
-The machines are far apart and wired together with long **cables**. The cables don't connect to the machines directly, but rather to communication modules attached to the machines that perform various initialization tasks and also act as communication relays.
+The machines are far apart and wired together with long **cables**. The cables don't connect to the machines directly, but rather to communication **modules** attached to the machines that perform various initialization tasks and also act as communication relays.
 
 Modules communicate using **pulses**. Each pulse is either a **high pulse** or a **low pulse**. When a module sends a pulse, it sends that type of pulse to each module in its list of **destination modules**.
 
@@ -130,3 +130,5 @@ In the first example, the same thing happens every time the button is pushed: `8
 In the second example, after pushing the button `1000` times, `4250` low pulses and `2750` high pulses are sent. Multiplying these together gives `11687500`.
 
 Consult your module configuration; determine the number of low pulses and high pulses that would be sent after pushing the button `1000` times, waiting for all pulses to be fully handled after each push of the button. **What do you get if you multiply the total number of low pulses sent by the total number of high pulses sent?**
+
+**Solution:** 980457412
