@@ -134,7 +134,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
         * Showing the [graph](https://www.reddit.com/r/adventofcode/comments/18lvl0s/2023_day_19_visualization_of_the_workflows/).
         * Showing the graph as a [Sankey](https://www.reddit.com/r/adventofcode/comments/18lyvuv/2023_day_19_part_2_sankey_diagrams_are_cool/).
         * All [possible parts](https://www.reddit.com/r/adventofcode/comments/18m1uxq/2023_day_19_part_2_looking_for_all_possible_parts/).
-  * [Day 20 - xxx](./day_20/README.md)
+  * [Day 20 - Pulse Propagation](./day_20/README.md)
   * [Day 21 - xxx](./day_21/README.md)
   * [Day 22 - xxx](./day_22/README.md)
   * [Day 23 - xxx](./day_23/README.md)
