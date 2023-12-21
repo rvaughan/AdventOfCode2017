@@ -138,6 +138,8 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=3STpz-M-wiw) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18mmfxb/2023_day_20_solutions/)
   * [Day 21 - Step Counter](./day_21/README.md)
+    * [Watch](https://www.youtube.com/watch?v=C2dmxCGGH1s) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18nevo3/2023_day_21_solutions/)
   * [Day 22 - xxx](./day_22/README.md)
   * [Day 23 - xxx](./day_23/README.md)
   * [Day 24 - xxx](./day_24/README.md)
