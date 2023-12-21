@@ -99,3 +99,5 @@ In this example, if the Elf's goal was to get exactly `6` more steps today, he c
 However, the Elf **actually needs to get 64 steps today**, and the map he's handed you is much larger than the example map.
 
 Starting from the garden plot marked `S` on your map, **how many garden plots could the Elf reach in exactly 64 steps?**
+
+**Solution:** 3637
