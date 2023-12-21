@@ -137,7 +137,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
   * [Day 20 - Pulse Propagation](./day_20/README.md)
     * [Watch](https://www.youtube.com/watch?v=3STpz-M-wiw) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18mmfxb/2023_day_20_solutions/)
-  * [Day 21 - xxx](./day_21/README.md)
+  * [Day 21 - Step Counter](./day_21/README.md)
   * [Day 22 - xxx](./day_22/README.md)
   * [Day 23 - xxx](./day_23/README.md)
   * [Day 24 - xxx](./day_24/README.md)
