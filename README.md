@@ -5,8 +5,10 @@ competition run every December.
 
 There's some videos by the creator [Eric Wastl](http://was.tl/) ([Twitter](https://twitter.com/ericwastl)):
 
-  * [Advent of Code: Behind the Scenes](https://www.youtube.com/watch?v=CFWuwNDOnIo)
-  * [FOSDEM 2021 Talk](https://ftp.osuosl.org/pub/fosdem/2021/D.perl/adventofcode.webm)
+  * [Advent of Code: Behind the Scenes](https://www.youtube.com/watch?v=_oNOTknRTSU)
+  * [Google Talk](https://www.youtube.com/watch?v=Mb8WwKS6ajk)
+  * [Øredev 2019](https://www.youtube.com/watch?v=bS9882S0ZHs)
+  * [FOSDEM 2021 Talk](https://www.youtube.com/watch?v=Phe-avmhDts)
 
 While you wait for the challenges to unlock [VeloxxMusic](https://www.twitch.tv/veloxxmusic) has run an unlock party the past couple of years.
 
