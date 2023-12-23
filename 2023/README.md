@@ -132,10 +132,13 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18jjpfk/2023_day_16_solutions/)
   * [Day 17 - Clumsy Crucible](./day_17/README.md)
     * [Watch](https://www.youtube.com/watch?v=jcZw1jRkUDE) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=lkMGDa1-Eo4) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18k9ne5/2023_day_17_solutions/)
     * Visualisations
         * Godot [visualisation](https://www.reddit.com/r/adventofcode/comments/18l0oa4/2023_day_17_part_1_godot_3d_visualization_of_my/).
   * [Day 18 - Lavaduct Lagoon](./day_18/README.md)
+    * [Watch](https://www.youtube.com/watch?v=v371rRu83O0) Jonathan Paulson [solve](https://www.youtube.com/watch?v=UNimgm_ogrw) it.
+    * [Watch](https://www.youtube.com/watch?v=noAt9sBBOis) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18l0qtr/2023_day_18_solutions/)
     * Visualisations:
         * A [trench](https://www.reddit.com/r/adventofcode/comments/18l58ce/2023_day_18_part_1_pygame_trench_calculus/) visualisation.
@@ -159,5 +162,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Watch](https://www.youtube.com/watch?v=N1uYqpCTWJQ) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18o7014/2023_day_22_solutions/)
   * [Day 23 - A Long Walk](./day_23/README.md)
+    * [Watch](https://www.youtube.com/watch?v=T-mLlWdw_io) Jonathan Paulson solve it.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18oy4pc/2023_day_23_solutions/)
   * [Day 24 - xxx](./day_24/README.md)
   * [Day 25 - xxx](./day_25/README.md)
