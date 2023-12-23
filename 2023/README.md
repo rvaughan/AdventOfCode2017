@@ -136,7 +136,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18k9ne5/2023_day_17_solutions/)
     * Visualisations
         * Godot [visualisation](https://www.reddit.com/r/adventofcode/comments/18l0oa4/2023_day_17_part_1_godot_3d_visualization_of_my/).
-  * [Day 18 - Lavaduct Lagoon](./day_18/README.md)
+  * [Day 18 - Lavaduct Lagoon](./day_18/README.md). The key to part 1 is understanding that you need to use the [Shoelace algorithm](https://www.101computing.net/the-shoelace-algorithm/) to [calculate the area](https://stackoverflow.com/questions/41077185/fastest-way-to-shoelace-formula) of a [2D polygon](https://stackoverflow.com/questions/451426/how-do-i-calculate-the-area-of-a-2d-polygon/717367#717367).
     * [Watch](https://www.youtube.com/watch?v=v371rRu83O0) Jonathan Paulson [solve](https://www.youtube.com/watch?v=UNimgm_ogrw) it.
     * [Watch](https://www.youtube.com/watch?v=noAt9sBBOis) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18l0qtr/2023_day_18_solutions/)
