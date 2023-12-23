@@ -155,14 +155,22 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
   * [Day 20 - Pulse Propagation](./day_20/README.md)
     * [Watch](https://www.youtube.com/watch?v=3STpz-M-wiw) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18mmfxb/2023_day_20_solutions/)
+    * Visualisations:
+        * Of the input [itself](https://www.reddit.com/r/adventofcode/comments/18oo1yb/2023_day_20_ascii_art_pulse_flow_diagram/).
   * [Day 21 - Step Counter](./day_21/README.md)
     * [Watch](https://www.youtube.com/watch?v=C2dmxCGGH1s) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18nevo3/2023_day_21_solutions/)
+    * Visualisations:
+        * [Graphical](https://www.reddit.com/r/adventofcode/comments/18o6c4p/2023_day_21_part_2_visualization_graphical/)
   * [Day 22 - Sand Slabs](./day_22/README.md)
     * [Watch](https://www.youtube.com/watch?v=N1uYqpCTWJQ) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18o7014/2023_day_22_solutions/)
+    * Visualisations:
+        * [Lots](https://www.reddit.com/r/adventofcode/comments/18oa2dd/2023_day_22_graphviz_to_the_rescue_yet_again/) [of](https://www.reddit.com/r/adventofcode/comments/18obzrf/2023_day_22_falling_with_style/) [these](https://www.reddit.com/r/adventofcode/comments/18ofi9l/2023_day_22_part_2_more_red_more_pieces_would_fall/) [today](https://www.reddit.com/r/adventofcode/comments/18om32t/2023_day_22_yes_i_needed_to/). [And](https://www.reddit.com/r/adventofcode/comments/18onmx6/2023_day_22_maple_a_rendering_of_the_first_200ish/) [more](https://www.reddit.com/r/adventofcode/comments/18oo8ni/2023_day_22_pygame_tricky_tower_of_blockout/) [and](https://www.reddit.com/r/adventofcode/comments/18or6gr/2023_day_22_graph_of_blocks_theres_an_edge_from_a/) plus an [easter egg?](https://www.reddit.com/r/adventofcode/comments/18ote7q/2023_day_22_2d_visualisation_reveals_easter_egg/).
   * [Day 23 - A Long Walk](./day_23/README.md)
     * [Watch](https://www.youtube.com/watch?v=T-mLlWdw_io) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18oy4pc/2023_day_23_solutions/)
+    * Visualisations:
+       * [Another](https://www.reddit.com/r/adventofcode/comments/18p0l7w/2023_day_23_part_2_i_still_have_to_find_the/) [day](https://www.reddit.com/r/adventofcode/comments/18p0y5d/2023_day_23_part_2_python_condensed_graph/) [with](https://www.reddit.com/r/adventofcode/comments/18p1etx/2023_day_23_part_2_visualization_of_longest_path/) [quite](https://www.reddit.com/r/adventofcode/comments/18p1p6j/2023_day_23_pygame_walled_garden/) [a few](https://www.reddit.com/r/adventofcode/comments/18p1to0/2023_day_23_part_2_grid_compact_representation/) of [them](https://www.reddit.com/r/adventofcode/comments/18p35t1/2023_day_23_part_2_a_long_hike/).
   * [Day 24 - xxx](./day_24/README.md)
   * [Day 25 - xxx](./day_25/README.md)
