@@ -6,119 +6,39 @@ import sys
 from queue import Queue
 
 
+def area(p):
+    return int(0.5 * abs(sum(x0*y1 - x1*y0 for ((x0, y0), (x1, y1)) in segments(p))))
+
+
+def segments(p):
+    return zip(p, p[1:] + [p[0]])
+
+
 def calculate_solution(items):
     instructions = [x.split() for x in items]
 
-    grid = []
-    explored = {}
-    x, y = 0, 0
-    for _ in range(15):
-        grid.append(['.'] * 15)
+    points = []
+    cur_pos = (0, 0)
+    length = 0
 
     for instruction in instructions:
-        direction, count, colour  = instruction
+        direction, count, colour = instruction
         count = int(count)
 
         if direction == 'R':
-            for _ in range(count):
-                x += 1
-                grid[y][x] = '#'
+            cur_pos = (cur_pos[0], cur_pos[1] + count)
         elif direction == 'L':
-            for _ in range(count):
-                x -= 1
-                grid[y][x] = '#'
+            cur_pos = ( cur_pos[0], cur_pos[1] - count)
         elif direction == 'U':
-            for _ in range(count):
-                y -= 1
-                grid[y][x] = '#'
+            cur_pos = (cur_pos[0] - count, cur_pos[1])
         elif direction == 'D':
-            for _ in range(count):
-                y += 1
-                grid[y][x] = '#'
+            cur_pos = (cur_pos[0] + count, cur_pos[1])
 
-        explored[(y, x)] = True
+        length += count
 
-    print()
-    for row in grid:
-        print(''.join(row))
-    print()
+        points.append(cur_pos)
 
-    result = 0
-
-    for row in grid:
-        for cell in row:
-            result += 1 if cell == '#' else 0
-
-    # This code is taken from day 10...
-
-    # Now stretch the map
-    new_rows = len(grid) * 3
-    new_cols = len(grid[0]) * 3
-    huge_map = [['.' for _ in range(new_cols)] for _ in range(new_rows)]
-    for row in range(len(grid)):
-        for col in range(len(grid[0])):
-            if (row, col) not in explored:
-                continue
-
-            if grid[row][col] == '|':
-                huge_map[3*row+0][3*col+1] = '*'
-                huge_map[3*row+1][3*col+1] = '*'
-                huge_map[3*row+2][3*col+1] = '*'
-            elif grid[row][col] == '-':
-                huge_map[3*row+1][3*col+0] = '*'
-                huge_map[3*row+1][3*col+1] = '*'
-                huge_map[3*row+1][3*col+2] = '*'
-            elif grid[row][col] == '7':
-                huge_map[3*row+1][3*col+0] = '*'
-                huge_map[3*row+1][3*col+1] = '*'
-                huge_map[3*row+2][3*col+1] = '*'
-            elif grid[row][col] == 'F':
-                huge_map[3*row+2][3*col+1] = '*'
-                huge_map[3*row+1][3*col+1] = '*'
-                huge_map[3*row+1][3*col+2] = '*'
-            elif grid[row][col] == 'J':
-                huge_map[3*row+1][3*col+0] = '*'
-                huge_map[3*row+1][3*col+1] = '*'
-                huge_map[3*row+0][3*col+1] = '*'
-            elif grid[row][col] == 'L':
-                huge_map[3*row+0][3*col+1] = '*'
-                huge_map[3*row+1][3*col+1] = '*'
-                huge_map[3*row+1][3*col+2] = '*'
-            else:
-                pass
-
-    # Now, flood fill the map
-    q = Queue()
-
-    i, j = 0, 0
-    q.put((i, j))
-
-    di0 = [0, 0, 1, -1]
-    dj0 = [1, -1, 0, 0]
-
-    while not q.empty():
-        i, j = q.get()
-        for d in range(4):
-            i_next = i+di0[d]
-            j_next = j+dj0[d]
-            if i_next >= 0 and j_next >= 0 and i_next < len(huge_map) and j_next < len(huge_map[0]) and huge_map[i_next][j_next] == '.':
-                huge_map[i_next][j_next] = ' '
-                q.put((i_next, j_next))
-
-    # Ok, so now we should be able to iterate over the row, 3 cells at a time
-    # and look at the middle cell. If it's a dot then we count it.
-    for row in range(1, len(huge_map), 3):
-        row_data = ''
-        count = 0
-        for col in range(1, len(huge_map[0]), 3):
-            row_data += huge_map[row][col]
-            if huge_map[row][col] == '.':
-                count += 1
-
-        # print(row_data, count)
-        result += count
-
-    return result
+    return int(area(points) + 1 + (length / 2))
 
 
 def run_test(test_input, expected_solution):
