@@ -158,6 +158,6 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
   * [Day 22 - Sand Slabs](./day_22/README.md)
     * [Watch](https://www.youtube.com/watch?v=N1uYqpCTWJQ) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18o7014/2023_day_22_solutions/)
-  * [Day 23 - xxx](./day_23/README.md)
+  * [Day 23 - A Long Walk](./day_23/README.md)
   * [Day 24 - xxx](./day_24/README.md)
   * [Day 25 - xxx](./day_25/README.md)
