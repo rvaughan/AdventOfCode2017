@@ -75,3 +75,5 @@ In the example above, the longest hike you can take is marked with `O`, and your
 This hike contains **94** steps. (The other possible hikes you could have taken were `90`, `86`, `82`, `82`, and `74` steps long.)
 
 Find the longest hike you can take through the hiking trails listed on your map. **How many steps long is the longest hike?**
+
+**Solution:** 2214
