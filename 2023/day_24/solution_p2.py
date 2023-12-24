@@ -20,15 +20,16 @@ def calculate_solution(items):
 
     hailstones = []
     for line in items:
-        p,v = line.split(' @ ')
-        pp = [int(i) for i in p.split(',')]
-        vv = [int(i) for i in v.split(',')]
-        hailstones.append((pp,vv))
+        points, velocities = line.split(' @ ')
+        position = [int(i) for i in points.split(',')]
+        velocity = [int(i) for i in velocities.split(',')]
+
+        hailstones.append((position, velocity))
 
     solver = z3.Solver()
     x, y, z, vx, vy, vz = [z3.Int(var) for var in ["x", "y", "z", "vx", "vy", "vz"]]
 
-    # 4 unknowns, so we just need 4 equations... I think.
+    # There are 4 unknowns, so...
     for itx in range(4):
         (cpx, cpy, cpz), (cvx, cvy, cvz) = hailstones[itx]
 

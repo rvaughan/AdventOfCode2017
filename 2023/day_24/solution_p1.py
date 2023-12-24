@@ -60,10 +60,11 @@ def calculate_solution(items, start_loc, end_loc):
 
     hailstones = []
     for line in items:
-        p,v = line.split(' @ ')
-        pp = [int(i) for i in p.split(',')]
-        vv = [int(i) for i in v.split(',')]
-        hailstones.append((pp,vv))
+        points, velocities = line.split(' @ ')
+        position = [int(i) for i in points.split(',')]
+        velocity = [int(i) for i in velocities.split(',')]
+
+        hailstones.append((position, velocity))
 
     for i, a in enumerate(hailstones):
         for j, b in enumerate(hailstones):
