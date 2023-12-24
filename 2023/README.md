@@ -172,5 +172,5 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18oy4pc/2023_day_23_solutions/)
     * Visualisations:
        * [Another](https://www.reddit.com/r/adventofcode/comments/18p0l7w/2023_day_23_part_2_i_still_have_to_find_the/) [day](https://www.reddit.com/r/adventofcode/comments/18p0y5d/2023_day_23_part_2_python_condensed_graph/) [with](https://www.reddit.com/r/adventofcode/comments/18p1etx/2023_day_23_part_2_visualization_of_longest_path/) [quite](https://www.reddit.com/r/adventofcode/comments/18p1p6j/2023_day_23_pygame_walled_garden/) [a few](https://www.reddit.com/r/adventofcode/comments/18p1to0/2023_day_23_part_2_grid_compact_representation/) of [them](https://www.reddit.com/r/adventofcode/comments/18p35t1/2023_day_23_part_2_a_long_hike/).
-  * [Day 24 - Never Tell Me The Odds](./day_24/README.md). For part 1 you can use line intersections to see if the hailstones collide.
+  * [Day 24 - Never Tell Me The Odds](./day_24/README.md). For part 1 you can use [line intersections](https://stackoverflow.com/questions/20677795/how-do-i-compute-the-intersection-point-of-two-lines) to see if the hailstones collide.
   * [Day 25 - xxx](./day_25/README.md)
