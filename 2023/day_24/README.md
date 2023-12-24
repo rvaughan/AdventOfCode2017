@@ -77,3 +77,5 @@ So, in this example, **2** hailstones' future paths cross inside the boundaries 
 However, you'll need to search a much larger test area if you want to see if any hailstones might collide. Look for intersections that happen with an X and Y position each at least `200000000000000` and at most `400000000000000`. Disregard the Z axis entirely.
 
 Considering only the X and Y axes, check all pairs of hailstones' future paths for intersections. **How many of these intersections occur within the test area?**
+
+**Solution:** 16812
