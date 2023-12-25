@@ -176,4 +176,4 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
   * [Day 24 - Never Tell Me The Odds](./day_24/README.md). For part 1 you can use [line intersections](https://stackoverflow.com/questions/20677795/how-do-i-compute-the-intersection-point-of-two-lines) to see if the hailstones collide. For part 2 I used [z3](https://pypi.org/project/z3-solver/) to solve it.
     * [Watch](https://www.youtube.com/watch?v=vZa2jErpSg8) Jonathan Paulson solve it.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18pnycy/2023_day_24_solutions/)
-  * [Day 25 - xxx](./day_25/README.md)
+  * [Day 25 - Snowverload](./day_25/README.md)
