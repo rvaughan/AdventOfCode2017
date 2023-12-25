@@ -164,6 +164,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
         * [Graphical](https://www.reddit.com/r/adventofcode/comments/18o6c4p/2023_day_21_part_2_visualization_graphical/)
   * [Day 22 - Sand Slabs](./day_22/README.md)
     * [Watch](https://www.youtube.com/watch?v=N1uYqpCTWJQ) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=Q5NgjcUV1SI) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18o7014/2023_day_22_solutions/)
     * Visualisations:
         * [Lots](https://www.reddit.com/r/adventofcode/comments/18oa2dd/2023_day_22_graphviz_to_the_rescue_yet_again/) [of](https://www.reddit.com/r/adventofcode/comments/18obzrf/2023_day_22_falling_with_style/) [these](https://www.reddit.com/r/adventofcode/comments/18ofi9l/2023_day_22_part_2_more_red_more_pieces_would_fall/) [today](https://www.reddit.com/r/adventofcode/comments/18om32t/2023_day_22_yes_i_needed_to/). [And](https://www.reddit.com/r/adventofcode/comments/18onmx6/2023_day_22_maple_a_rendering_of_the_first_200ish/) [more](https://www.reddit.com/r/adventofcode/comments/18oo8ni/2023_day_22_pygame_tricky_tower_of_blockout/) [and](https://www.reddit.com/r/adventofcode/comments/18or6gr/2023_day_22_graph_of_blocks_theres_an_edge_from_a/) plus an [easter egg?](https://www.reddit.com/r/adventofcode/comments/18ote7q/2023_day_22_2d_visualisation_reveals_easter_egg/).
@@ -175,5 +176,11 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
        * [Another](https://www.reddit.com/r/adventofcode/comments/18p0l7w/2023_day_23_part_2_i_still_have_to_find_the/) [day](https://www.reddit.com/r/adventofcode/comments/18p0y5d/2023_day_23_part_2_python_condensed_graph/) [with](https://www.reddit.com/r/adventofcode/comments/18p1etx/2023_day_23_part_2_visualization_of_longest_path/) [quite](https://www.reddit.com/r/adventofcode/comments/18p1p6j/2023_day_23_pygame_walled_garden/) [a few](https://www.reddit.com/r/adventofcode/comments/18p1to0/2023_day_23_part_2_grid_compact_representation/) [of](https://www.reddit.com/r/adventofcode/comments/18pl47o/2023_day_23_part_2_watching_the_choices/) [them](https://www.reddit.com/r/adventofcode/comments/18p35t1/2023_day_23_part_2_a_long_hike/).
   * [Day 24 - Never Tell Me The Odds](./day_24/README.md). For part 1 you can use [line intersections](https://stackoverflow.com/questions/20677795/how-do-i-compute-the-intersection-point-of-two-lines) to see if the hailstones collide. For part 2 I used [z3](https://pypi.org/project/z3-solver/) to solve it.
     * [Watch](https://www.youtube.com/watch?v=vZa2jErpSg8) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=3BuW-Tw8dlc) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18pnycy/2023_day_24_solutions/)
   * [Day 25 - Snowverload](./day_25/README.md). For part 1 I used the [Minimum edge cut](https://en.wikipedia.org/wiki/Minimum_cut) algorithm to find the wires to cut.
+    * [Watch](https://www.youtube.com/watch?v=_p1VrvoJofo) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=ws97ZLFq9ZQ) Neil Thistlethwaite solve the puzzle.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/18qbsxs/2023_day_25_solutions/)
+    * Visualisations
+        * Seems that [Graphviz](https://www.reddit.com/r/adventofcode/comments/18qcer7/2023_day_25_graphviz_rescues_once_again/) really [helped](https://www.reddit.com/r/adventofcode/comments/18qcsux/2023_day_25_part_1_solve_by_visualization/).
