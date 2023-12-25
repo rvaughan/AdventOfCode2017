@@ -2,13 +2,23 @@
 """
 This code holds the solution for part 1 of day 25 of the Advent of Code for 2023.
 """
+from math import prod
 import sys
+
+import networkx as nx
 
 
 def calculate_solution(items):
-    result = 0
+    G  = nx.Graph()
 
-    return result
+    for item in items:
+        a, bs = item.split(': ')
+        for b in bs.split():
+            G.add_edge(a,b)
+  
+    G.remove_edges_from(nx.minimum_edge_cut(G))
+  
+    return prod(len(c) for c in nx.connected_components(G))
 
 
 def run_test(test_input, expected_solution):
@@ -30,9 +40,20 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = """
-"""
-result = run_test(test_list, 7)
+test_list = """jqt: rhn xhk nvd
+rsh: frs pzl lsr
+xhk: hfx
+cmg: qnr nvd lhk bvb
+rhn: xhk bvb hfx
+bvb: xhk hfx
+pzl: lsr hfx nvd
+qnr: nvd
+ntq: jqt hfx bvb xhk
+nvd: lhk
+lsr: lhk
+rzs: qnr cmg lsr rsh
+frs: qnr lhk lsr"""
+result = run_test(test_list, 54)
 
 print('')
 print('-----------------')
