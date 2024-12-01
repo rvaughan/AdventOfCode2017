@@ -2,6 +2,7 @@
 """
 This code holds the solution for part 2 of day 1 of the Advent of Code for 2024.
 """
+from collections import defaultdict
 import sys
 
 
@@ -9,19 +10,18 @@ def calculate_solution(numbers):
     result = 0
 
     left = []
-    right = []
+    right = defaultdict(int)
 
     for line in numbers:
         (l, r) = line.split('   ')
 
         left.append(int(l))
-        right.append(int(r))
+        right[int(r)] += 1
 
     left.sort()
-    right.sort()
 
-    for l, r in zip(left, right):
-        result += abs(int(l) - int(r))
+    for l in left:
+        result += (l * right[l])
 
     return result
 
