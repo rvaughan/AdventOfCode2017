@@ -5,8 +5,23 @@ This code holds the solution for part 1 of day 1 of the Advent of Code for 2024.
 import sys
 
 
-def calculate_solution(items):
+def calculate_solution(numbers):
     result = 0
+
+    left = []
+    right = []
+
+    for line in numbers:
+        (l, r) = line.split('   ')
+
+        left.append(int(l))
+        right.append(int(r))
+
+    left.sort()
+    right.sort()
+
+    for l, r in zip(left, right):
+        result += abs(int(l) - int(r))
 
     return result
 
