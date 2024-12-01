@@ -24,4 +24,4 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years - eve
 
 ## Puzzles
 
-  * [Day 1 - ???](./day_01/README.md).
+  * [Day 1 - Historian Hysteria](day_01/README.md).
