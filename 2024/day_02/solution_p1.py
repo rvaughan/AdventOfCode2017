@@ -6,25 +6,17 @@ import sys
 
 
 def check_levels(report):
-    ascending = True
-    first = True
+    is_safe = False
 
-    for idx in range(len(report) - 1):
-        if first:
-            if report[idx] > report[idx+1]:
-                ascending = False
-                if abs(report[idx+1] - report[idx]) == 0 or abs(report[idx+1] - report[idx]) > 3:
-                    return False
-                first = False
-        elif ascending and report[idx+1] <= report[idx]:
-            return False
-        elif not ascending and report[idx+1] >= report[idx]:
-            return False
+    diffs = [(x - y) for x, y in zip(report, report[1:])]
 
-        if abs(report[idx+1] - report[idx]) == 0 or abs(report[idx+1] - report[idx]) > 3:
-            return False
+    all_decreasing = all([x < 0 for x in diffs])
+    all_increasing = all([x > 0 for x in diffs])
+    
+    if all_decreasing or all_increasing:
+        is_safe = all([(abs(x) < 4 and abs(x) > 0) for x in diffs])
 
-    return True
+    return is_safe
 
 
 def calculate_solution(reports):

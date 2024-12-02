@@ -6,25 +6,24 @@ import sys
 
 
 def check_levels(report):
-    ascending = True
-    first = True
+    is_safe = False
 
-    for idx in range(len(report) - 1):
-        if first:
-            if report[idx] > report[idx+1]:
-                ascending = False
-                if abs(report[idx+1] - report[idx]) == 0 or abs(report[idx+1] - report[idx]) > 3:
-                    return False
-                first = False
-        elif ascending and report[idx+1] <= report[idx]:
-            return False
-        elif not ascending and report[idx+1] >= report[idx]:
-            return False
+    diffs = [(x - y) for x, y in zip(report, report[1:])]
 
-        if abs(report[idx+1] - report[idx]) == 0 or abs(report[idx+1] - report[idx]) > 3:
-            return False
+    all_decreasing = all([x < 0 for x in diffs])
+    all_increasing = all([x > 0 for x in diffs])
+    
+    if all_decreasing or all_increasing:
+        is_safe = all([(abs(x) < 4 and abs(x) > 0) for x in diffs])
 
-    return True
+    return is_safe
+
+
+def remove_level(report, pos):
+    new_report = report.copy()
+    new_report.pop(pos)
+    
+    return new_report
 
 
 def calculate_solution(reports):
@@ -33,7 +32,16 @@ def calculate_solution(reports):
     for report in reports:
         report = [int(x) for x in report.split(' ')]
 
-        result += 1 if check_levels(report) else 0
+        if not check_levels(report):
+            for variant in range(len(report)):
+                is_safe = check_levels(remove_level(report, variant))
+                if is_safe:
+                    # Removed one level and now it's fine. It's safe.
+                    result += 1
+                    break
+        else:
+            # The line is fine as is...
+            result += 1
 
     return result
 
