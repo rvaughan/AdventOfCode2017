@@ -19,4 +19,4 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=ym1ae-vBy6g) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=BMa48ib3ei8) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h3vp6n/2024_day_1_solutions/)
-  * [Day 2 - ???](day_02/README.md).
+  * [Day 2 - Red-Nosed Reports](day_02/README.md).
