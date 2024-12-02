@@ -5,8 +5,35 @@ This code holds the solution for part 1 of day 2 of the Advent of Code for 2024.
 import sys
 
 
-def calculate_solution(items):
+def check_levels(report):
+    ascending = True
+    first = True
+
+    for idx in range(len(report) - 1):
+        if first:
+            if report[idx] > report[idx+1]:
+                ascending = False
+                if abs(report[idx+1] - report[idx]) == 0 or abs(report[idx+1] - report[idx]) > 3:
+                    return False
+                first = False
+        elif ascending and report[idx+1] <= report[idx]:
+            return False
+        elif not ascending and report[idx+1] >= report[idx]:
+            return False
+
+        if abs(report[idx+1] - report[idx]) == 0 or abs(report[idx+1] - report[idx]) > 3:
+            return False
+
+    return True
+
+
+def calculate_solution(reports):
     result = 0
+
+    for report in reports:
+        report = [int(x) for x in report.split(' ')]
+
+        result += 1 if check_levels(report) else 0
 
     return result
 
