@@ -25,4 +25,4 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=4NRODX4skCM) Neil Thistlethwaite solve the puzzle.
     * [Watch](https://www.youtube.com/watch?v=4NICD495QFE) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h4ncyr/2024_day_2_solutions/)
-  * [Day 3 - ???](day_03/README.md).
+  * [Day 3 - Mull It Over](day_03/README.md).
