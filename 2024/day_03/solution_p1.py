@@ -2,11 +2,17 @@
 """
 This code holds the solution for part 1 of day 3 of the Advent of Code for 2024.
 """
+import re
 import sys
 
 
-def calculate_solution(items):
+def calculate_solution(program):
     result = 0
+
+    for line in program:
+        mul_cmds = re.findall(r'mul\(([0-9]{,3}),([0-9]{,3})\)', line)
+        for cmd in mul_cmds:
+            result += int(cmd[0]) * int(cmd[1])
 
     return result
 
