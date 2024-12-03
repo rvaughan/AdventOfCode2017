@@ -20,12 +20,19 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=ym1ae-vBy6g) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=BMa48ib3ei8) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h3vp6n/2024_day_1_solutions/)
+    * Visualisations:
+      * [Zig + Raylib](https://www.reddit.com/r/adventofcode/comments/1h44x03/2024_day_1zig_raylib_mix_and_match/)
+      * HTML Canvas animation [Part 1](https://www.reddit.com/r/adventofcode/comments/1h4dlbo/2024_day_1_part_1_ts_html_canvas_animation/) and [Part 2](https://www.reddit.com/r/adventofcode/comments/1h4do68/2024_day_1_part_2_ts_html_canvas_animation/)
   * [Day 2 - Red-Nosed Reports](day_02/README.md).
     * [Watch](https://www.youtube.com/watch?v=bDUBs_kUEvE) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=4NRODX4skCM) Neil Thistlethwaite solve the puzzle.
     * [Watch](https://www.youtube.com/watch?v=4NICD495QFE) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h4ncyr/2024_day_2_solutions/)
-  * [Day 3 - Mull It Over](day_03/README.md).
+    * Visualisations:
+      * [Terminal visualisation](https://www.reddit.com/r/adventofcode/comments/1h4wuuf/2024_day_2_python_terminal_visualization/) (source [here](https://github.com/salt-die/Advent-of-Code/tree/main/2024/visuals/02_Red_Nosed_Reports))
+      * HTML Canvas visualisation [Part 1](https://www.reddit.com/r/adventofcode/comments/1h4xbhf/2024_day_2_part_1_ts_html_canvas_animation/) and [Part 2](https://www.reddit.com/r/adventofcode/comments/1h51er6/2024_day_2_part_2_ts_html_canvas_animation/)
+      * [Zig + Raylib](https://www.reddit.com/r/adventofcode/comments/1h4xq2y/2024_day_2_part_2zig_raylib_super_multi_tuner/)
+  * [Day 3 - Mull It Over](day_03/README.md). This was a bit of a tricky regex based puzzle.
     * [Watch](https://www.youtube.com/watch?v=lCc60XI-QX8) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=uBup4-4uPBI) Neil Thistlethwaite solve the puzzle.
     * [Watch](https://www.youtube.com/watch?v=83Svq4UB8f4) William Y. Feng explain the problem.
