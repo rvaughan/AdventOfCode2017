@@ -37,4 +37,11 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=uBup4-4uPBI) Neil Thistlethwaite solve the puzzle.
     * [Watch](https://www.youtube.com/watch?v=83Svq4UB8f4) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h5frsp/2024_day_3_solutions/)
+    * Visualisations:
+      * [Godot](https://www.reddit.com/r/adventofcode/comments/1h6754y/2024_day_3_part_2_godot_day_3_visualization/)
+      * [Terminal](https://www.reddit.com/r/adventofcode/comments/1h624yd/2024_day_3_part_2_visualization/)
+      * [Zig + Raylib](https://www.reddit.com/r/adventofcode/comments/1h5jse8/2024_day_3_part_2zig_raylib_data_finding_animation/)
   * [Day 4 - Ceres Search](day_04/README.md).
+    * [Watch](https://www.youtube.com/watch?v=P1OZJ5ZkLN8) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=L8lNcd9yQuY) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h689qf/2024_day_4_solutions/)
