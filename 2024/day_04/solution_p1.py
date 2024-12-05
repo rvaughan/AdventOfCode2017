@@ -8,12 +8,12 @@ import sys
 def calculate_solution(items):
     result = 0
 
-    g = { ( x, y ): c
-        for y, r in enumerate( items )
-        for x, c in enumerate( r.strip( '\n' ) ) }
-    xh, yh = max( g.keys() )
+    grid = { ( x, y ): col
+        for y, row in enumerate( items )
+        for x, col in enumerate( row.strip( '\n' ) ) }
+    xh, yh = max( grid.keys() )
 
-    result = sum( "XMAS" == "".join( g.get( ( x + dx * n, y + dy * n ), "" )
+    result = sum( "XMAS" == "".join( grid.get( ( x + dx * n, y + dy * n ), "" )
                                for n in range( 4 ) )
             for y in range( yh + 1 )
             for x in range( xh + 1 )

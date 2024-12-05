@@ -8,17 +8,17 @@ import sys
 def calculate_solution(items):
     result = 0
 
-    g = { ( x, y ): c
-        for y, r in enumerate( items )
-        for x, c in enumerate( r.strip( '\n' ) ) }
-    xh, yh = max( g.keys() )
+    grid = { ( x, y ): col
+        for y, row in enumerate( items )
+        for x, col in enumerate( row.strip( '\n' ) ) }
+    xh, yh = max( grid.keys() )
 
-    result = sum("".join( [ g.get( ( x - 1, y - 1 ), "" ),
-                       g.get( ( x, y ), "" ),
-                       g.get( ( x + 1, y + 1 ), "" ) ] ) in ( "MAS", "SAM" ) and
-            "".join( [ g.get( ( x - 1, y + 1 ), "" ),
-                        g.get( ( x, y ), "" ),
-                        g.get( ( x + 1, y - 1 ), "" ) ] ) in ( "MAS", "SAM" )
+    result = sum("".join( [ grid.get( ( x - 1, y - 1 ), "" ),
+                       grid.get( ( x, y ), "" ),
+                       grid.get( ( x + 1, y + 1 ), "" ) ] ) in ( "MAS", "SAM" ) and
+            "".join( [ grid.get( ( x - 1, y + 1 ), "" ),
+                        grid.get( ( x, y ), "" ),
+                        grid.get( ( x + 1, y - 1 ), "" ) ] ) in ( "MAS", "SAM" )
             for y in range( yh + 1 )
             for x in range( xh + 1 ) )
 
