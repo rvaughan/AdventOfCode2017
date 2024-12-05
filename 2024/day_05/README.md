@@ -82,3 +82,5 @@ These have middle page numbers of `61`, `53`, and `29` respectively. Adding thes
 Of course, you'll need to be careful: the actual list of **page ordering rules** is bigger and more complicated than the above example.
 
 Determine which updates are already in the correct order. **What do you get if you add up the middle page number from those correctly-ordered updates?**
+
+Solution: **5329**
