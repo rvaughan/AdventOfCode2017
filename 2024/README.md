@@ -44,5 +44,9 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
   * [Day 4 - Ceres Search](day_04/README.md).
     * [Watch](https://www.youtube.com/watch?v=P1OZJ5ZkLN8) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=L8lNcd9yQuY) William Y. Feng explain the problem.
+    * [Watch](https://www.youtube.com/watch?v=BSCkl0fyARE) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h689qf/2024_day_4_solutions/)
   * [Day 5 - Print Queue](day_05/README.md).
+    * [Watch](https://www.youtube.com/watch?v=FFVulz0tAzs) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=LA4RiCDPUlI) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h71eyz/2024_day_5_solutions/)

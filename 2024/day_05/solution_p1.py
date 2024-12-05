@@ -21,8 +21,8 @@ def calculate_solution(items):
         manuals.append(tuple(int(i) for i in lst.strip().split(',')))
 
     for manual in manuals:
-        for ix, page in enumerate(manual[1:], 1):
-            prev = set(manual[:ix])
+        for idx, page in enumerate(manual[1:], 1):
+            prev = set(manual[:idx])
             bad = set(order[page])
             
             if prev.intersection(bad):  
