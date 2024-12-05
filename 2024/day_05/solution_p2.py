@@ -6,6 +6,20 @@ from collections import defaultdict
 import sys
 
 
+def reorder_pages(incorrect, failing, manual):
+    failing_page = manual[failing]
+    swap = 999999999
+    
+    for bad in incorrect:
+        swap = min(swap, manual.index(bad))
+    
+    reordered = list(manual)
+    reordered.pop(failing)
+    reordered.insert(swap, failing_page)
+    
+    return tuple(reordered)
+
+
 def calculate_solution(items):
     result = 0
 
@@ -21,13 +35,19 @@ def calculate_solution(items):
         manuals.append(tuple(int(i) for i in lst.strip().split(',')))
 
     for manual in manuals:
-        for ix, page in enumerate(manual[1:], 1):
-            prev = set(manual[:ix])
-            bad = set(order[page])
+        needed_fixing = False
+        idx = 0
+        while idx < len(manual):
+            page = manual[idx]
+            prev = set(manual[:idx])
+            bad = set(order[page]).intersection(prev)
+            if bad:
+                needed_fixing = True
+                manual = reorder_pages(bad, idx, manual)
             
-            if prev.intersection(bad):  
-                break
-        else:
+            idx += 1
+        
+        if needed_fixing:
             result += manual[len(manual)//2]
 
     return result
