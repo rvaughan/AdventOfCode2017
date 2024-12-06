@@ -49,5 +49,10 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
   * [Day 5 - Print Queue](day_05/README.md).
     * [Watch](https://www.youtube.com/watch?v=FFVulz0tAzs) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=LA4RiCDPUlI) William Y. Feng explain the problem.
+    * [Watch](https://www.youtube.com/watch?v=Ky-RS4NCovY) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h71eyz/2024_day_5_solutions/)
   * [Day 6 - Guard Gallivant](day_06/README.md).
+    * [Watch](https://www.youtube.com/watch?v=v96h9BMwrSY) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=PivtIotcOhw) William Y. Feng explain the problem.
+    * [Watch](https://www.youtube.com/watch?v=q8etklVZr4I) Neil Thistlethwaite solve the puzzle.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h7tovg/2024_day_6_solutions/)
