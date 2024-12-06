@@ -50,4 +50,4 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=FFVulz0tAzs) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=LA4RiCDPUlI) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h71eyz/2024_day_5_solutions/)
-  * [Day 6 - ???](day_06/README.md).
+  * [Day 6 - Guard Gallivant](day_06/README.md).

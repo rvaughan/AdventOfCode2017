@@ -8,6 +8,45 @@ import sys
 def calculate_solution(items):
     result = 0
 
+    start = (0,0)
+    grid = {}
+    for y, line in enumerate(items):
+        for x, char in enumerate(line):
+            grid[(x, y)] = char
+            if char == '^':
+                start = (x, y)
+
+    height = len(items) - 1
+    width = len(items[0]) - 1
+
+    pos = start
+    visited = set()
+    visited.add(pos)
+    direction = 0
+
+    while True:
+        if direction == 0: # up
+            next_pos = (pos[0], pos[1] - 1)
+        elif direction == 1: # right
+            next_pos = (pos[0] + 1, pos[1])
+        elif direction == 2: # down
+            next_pos = (pos[0], pos[1] + 1)
+        elif direction == 3: # left
+            next_pos = (pos[0] - 1, pos[1])
+
+        if next_pos[0] < 0 or next_pos[1] < 0 or next_pos[0] > width or next_pos[1] > height:
+            break
+
+        if grid[next_pos] == '#':
+            direction = (direction + 1) % 4
+            continue
+
+        pos = next_pos
+
+        visited.add(pos)
+
+    result = len(visited)
+
     return result
 
 
@@ -30,9 +69,17 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = """
-"""
-result = run_test(test_list, 7)
+test_list = """....#.....
+.........#
+..........
+..#.......
+.......#..
+..........
+.#..^.....
+........#.
+#.........
+......#..."""
+result = run_test(test_list, 41)
 
 print('')
 print('-----------------')
