@@ -58,3 +58,4 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=PivtIotcOhw) William Y. Feng explain the problem.
     * [Watch](https://www.youtube.com/watch?v=q8etklVZr4I) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h7tovg/2024_day_6_solutions/)
+  * [Day 7 - xxx](day_07/README.md).
