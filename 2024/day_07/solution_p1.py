@@ -2,11 +2,32 @@
 """
 This code holds the solution for part 1 of day 7 of the Advent of Code for 2024.
 """
+from collections import deque
+import math
 import sys
 
 
 def calculate_solution(items):
     result = 0
+
+    for row in items:
+        row = list(map(int, row.replace(":", "").split()))
+        target, args = row[0], row[1:]
+
+        todo = deque()
+        todo.append((args[0], 1))
+        finish = len(args)
+        
+        while len(todo) > 0:
+            val, pos = todo.pop()
+            if pos == finish:
+                if val == target:
+                    result += target
+                    break
+            elif val <= target:
+                x = args[pos]
+                todo.append((val + x, pos + 1))
+                todo.append((val * x, pos + 1))
 
     return result
 

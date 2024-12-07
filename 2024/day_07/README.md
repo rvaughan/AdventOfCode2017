@@ -37,3 +37,5 @@ Only three of the above equations can be made true by inserting operators:
 The engineers just need the total calibration result, which is the sum of the test values from just the equations that could possibly be true. In the above example, the sum of the test values for the three equations listed above is **3749**.
 
 Determine which equations could possibly be true. **What is their total calibration result?**
+
+Solution: **1430271835320**
