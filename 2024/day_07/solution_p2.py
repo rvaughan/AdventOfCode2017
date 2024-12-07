@@ -33,7 +33,7 @@ def calculate_solution(items):
                 # Try a multiplication step
                 todo.append((val * x, pos + 1))
 
-                # Add a concatenation step
+                # Try a concatenation step
                 new = str(val) + str(x)
                 todo.append((int(new), pos + 1))
 
