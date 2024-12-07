@@ -26,7 +26,11 @@ def calculate_solution(items):
                     break
             elif val <= target:
                 x = args[pos]
+
+                # Try an addition step
                 todo.append((val + x, pos + 1))
+
+                # Try a multiplication step
                 todo.append((val * x, pos + 1))
 
     return result

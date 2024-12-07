@@ -13,7 +13,6 @@ def calculate_solution(items):
     for row in items:
         row = list(map(int, row.replace(":", "").split()))
         target, args = row[0], row[1:]
-        mul = [10 ** int(math.log10(x)+1) for x in args]
 
         todo = deque()
         todo.append((args[0], 1))
@@ -27,9 +26,16 @@ def calculate_solution(items):
                     break
             elif val <= target:
                 x = args[pos]
+
+                # Try an addition step
                 todo.append((val + x, pos + 1))
+
+                # Try a multiplication step
                 todo.append((val * x, pos + 1))
-                todo.append((val * mul[pos] + x, pos + 1))
+
+                # Add a concatenation step
+                new = str(val) + str(x)
+                todo.append((int(new), pos + 1))
 
     return result
 
