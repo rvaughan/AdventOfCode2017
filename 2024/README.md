@@ -58,4 +58,10 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=PivtIotcOhw) William Y. Feng explain the problem.
     * [Watch](https://www.youtube.com/watch?v=q8etklVZr4I) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h7tovg/2024_day_6_solutions/)
+    * Visualisations:
+      * [GDscript](https://www.reddit.com/r/adventofcode/comments/1h8cn76/2024_day_6part_1_gdscript_guard_roaming/)
   * [Day 7 - Bridge Repair](day_07/README.md).
+    * [Watch](https://www.youtube.com/watch?v=pSqvQiqOVO0) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=wRof9uV6GBA) William Y. Feng explain the problem.
+    * [Watch](https://www.youtube.com/watch?v=6XVFtf58cms) Neil Thistlethwaite solve the puzzle.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h8l3z5/2024_day_7_solutions/)
