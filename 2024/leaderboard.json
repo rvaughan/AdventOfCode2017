@@ -1,213 +1,223 @@
 {
-    "day1_ts": 1733029200,
     "event": "2024",
     "owner_id": 197482,
+    "day1_ts": 1733029200,
     "members": {
-        "2258566": {
-            "name": "JDGriff1",
+        "440387": {
+            "id": 440387,
             "stars": 0,
             "completion_day_level": {},
+            "name": "handybitesize",
             "global_score": 0,
             "last_star_ts": 0,
-            "local_score": 0,
-            "id": 2258566
+            "local_score": 0
         },
-        "696996": {
-            "id": 696996,
+        "667949": {
             "last_star_ts": 0,
-            "global_score": 0,
             "local_score": 0,
+            "global_score": 0,
+            "name": "@cmjdiff",
             "stars": 0,
-            "name": "tomgallard",
-            "completion_day_level": {}
+            "completion_day_level": {},
+            "id": 667949
+        },
+        "3295795": {
+            "name": "Robert Smith",
+            "id": 3295795,
+            "completion_day_level": {},
+            "stars": 0,
+            "last_star_ts": 0,
+            "local_score": 0,
+            "global_score": 0
+        },
+        "2260182": {
+            "name": "Mike Jones",
+            "id": 2260182,
+            "stars": 0,
+            "completion_day_level": {},
+            "local_score": 0,
+            "last_star_ts": 0,
+            "global_score": 0
+        },
+        "491038": {
+            "name": "plod",
+            "id": 491038,
+            "completion_day_level": {},
+            "stars": 0,
+            "last_star_ts": 0,
+            "local_score": 0,
+            "global_score": 0
         },
         "197482": {
-            "id": 197482,
             "global_score": 0,
-            "last_star_ts": 1733558140,
-            "local_score": 210,
-            "stars": 14,
-            "name": "R Vaughan",
+            "last_star_ts": 1733641535,
+            "local_score": 240,
             "completion_day_level": {
+                "8": {
+                    "2": {
+                        "star_index": 1634708,
+                        "get_star_ts": 1733641535
+                    },
+                    "1": {
+                        "get_star_ts": 1733640872,
+                        "star_index": 1633457
+                    }
+                },
                 "5": {
                     "2": {
-                        "star_index": 1068317,
-                        "get_star_ts": 1733381871
+                        "get_star_ts": 1733381871,
+                        "star_index": 1068317
                     },
                     "1": {
                         "get_star_ts": 1733381400,
                         "star_index": 1066903
                     }
                 },
-                "3": {
+                "2": {
                     "2": {
-                        "get_star_ts": 1733208531,
-                        "star_index": 546504
+                        "star_index": 230541,
+                        "get_star_ts": 1733120405
                     },
                     "1": {
-                        "get_star_ts": 1733206887,
-                        "star_index": 539407
+                        "star_index": 229815,
+                        "get_star_ts": 1733120220
                     }
                 },
                 "6": {
+                    "2": {
+                        "star_index": 1280536,
+                        "get_star_ts": 1733469532
+                    },
                     "1": {
                         "star_index": 1272724,
                         "get_star_ts": 1733466494
-                    },
-                    "2": {
-                        "get_star_ts": 1733469532,
-                        "star_index": 1280536
-                    }
-                },
-                "4": {
-                    "2": {
-                        "get_star_ts": 1733294095,
-                        "star_index": 823525
-                    },
-                    "1": {
-                        "get_star_ts": 1733294050,
-                        "star_index": 823357
-                    }
-                },
-                "2": {
-                    "1": {
-                        "get_star_ts": 1733120220,
-                        "star_index": 229815
-                    },
-                    "2": {
-                        "get_star_ts": 1733120405,
-                        "star_index": 230541
                     }
                 },
                 "1": {
                     "1": {
-                        "star_index": 0,
-                        "get_star_ts": 1733032847
+                        "get_star_ts": 1733032847,
+                        "star_index": 0
                     },
                     "2": {
                         "get_star_ts": 1733033158,
                         "star_index": 687
                     }
                 },
-                "7": {
+                "3": {
                     "1": {
-                        "get_star_ts": 1733557530,
-                        "star_index": 1467765
+                        "get_star_ts": 1733206887,
+                        "star_index": 539407
                     },
                     "2": {
-                        "get_star_ts": 1733558140,
-                        "star_index": 1469065
+                        "star_index": 546504,
+                        "get_star_ts": 1733208531
+                    }
+                },
+                "7": {
+                    "2": {
+                        "star_index": 1469065,
+                        "get_star_ts": 1733558140
+                    },
+                    "1": {
+                        "star_index": 1467765,
+                        "get_star_ts": 1733557530
+                    }
+                },
+                "4": {
+                    "1": {
+                        "get_star_ts": 1733294050,
+                        "star_index": 823357
+                    },
+                    "2": {
+                        "get_star_ts": 1733294095,
+                        "star_index": 823525
                     }
                 }
-            }
+            },
+            "stars": 16,
+            "id": 197482,
+            "name": "R Vaughan"
+        },
+        "696996": {
+            "id": 696996,
+            "stars": 0,
+            "completion_day_level": {},
+            "name": "tomgallard",
+            "global_score": 0,
+            "last_star_ts": 0,
+            "local_score": 0
+        },
+        "2258566": {
+            "stars": 0,
+            "completion_day_level": {},
+            "id": 2258566,
+            "name": "JDGriff1",
+            "global_score": 0,
+            "last_star_ts": 0,
+            "local_score": 0
+        },
+        "2265481": {
+            "stars": 0,
+            "completion_day_level": {},
+            "id": 2265481,
+            "name": "Ben Morris",
+            "global_score": 0,
+            "local_score": 0,
+            "last_star_ts": 0
+        },
+        "758120": {
+            "name": "James Tancock",
+            "completion_day_level": {},
+            "stars": 0,
+            "id": 758120,
+            "last_star_ts": 0,
+            "local_score": 0,
+            "global_score": 0
+        },
+        "2293101": {
+            "global_score": 0,
+            "local_score": 0,
+            "last_star_ts": 0,
+            "id": 2293101,
+            "stars": 0,
+            "completion_day_level": {},
+            "name": null
         },
         "754943": {
             "local_score": 0,
             "last_star_ts": 0,
             "global_score": 0,
-            "completion_day_level": {},
-            "stars": 0,
             "name": "Gareth Hendry",
+            "stars": 0,
+            "completion_day_level": {},
             "id": 754943
         },
         "1177054": {
-            "id": 1177054,
-            "local_score": 0,
-            "global_score": 0,
-            "last_star_ts": 0,
-            "completion_day_level": {},
             "name": "wose2008",
-            "stars": 0
-        },
-        "2265481": {
-            "stars": 0,
-            "name": "Ben Morris",
-            "completion_day_level": {},
-            "last_star_ts": 0,
-            "global_score": 0,
-            "local_score": 0,
-            "id": 2265481
-        },
-        "2260182": {
-            "name": "Mike Jones",
             "stars": 0,
             "completion_day_level": {},
-            "global_score": 0,
+            "id": 1177054,
             "last_star_ts": 0,
             "local_score": 0,
-            "id": 2260182
+            "global_score": 0
         },
         "638560": {
-            "id": 638560,
             "global_score": 0,
             "last_star_ts": 0,
             "local_score": 0,
-            "name": "Toby Maxwell-Lyte",
+            "completion_day_level": {},
             "stars": 0,
-            "completion_day_level": {}
+            "id": 638560,
+            "name": "Toby Maxwell-Lyte"
         },
         "1328362": {
-            "completion_day_level": {},
+            "last_star_ts": 0,
+            "local_score": 0,
+            "global_score": 0,
             "name": "OiYouYeahYou",
-            "stars": 0,
-            "local_score": 0,
-            "last_star_ts": 0,
-            "global_score": 0,
-            "id": 1328362
-        },
-        "491038": {
-            "stars": 0,
-            "name": "plod",
+            "id": 1328362,
             "completion_day_level": {},
-            "global_score": 0,
-            "last_star_ts": 0,
-            "local_score": 0,
-            "id": 491038
-        },
-        "440387": {
-            "name": "handybitesize",
-            "stars": 0,
-            "completion_day_level": {},
-            "last_star_ts": 0,
-            "global_score": 0,
-            "local_score": 0,
-            "id": 440387
-        },
-        "758120": {
-            "last_star_ts": 0,
-            "global_score": 0,
-            "local_score": 0,
-            "stars": 0,
-            "name": "James Tancock",
-            "completion_day_level": {},
-            "id": 758120
-        },
-        "3295795": {
-            "completion_day_level": {},
-            "stars": 0,
-            "name": "Robert Smith",
-            "local_score": 0,
-            "global_score": 0,
-            "last_star_ts": 0,
-            "id": 3295795
-        },
-        "2293101": {
-            "id": 2293101,
-            "name": null,
-            "stars": 0,
-            "completion_day_level": {},
-            "last_star_ts": 0,
-            "global_score": 0,
-            "local_score": 0
-        },
-        "667949": {
-            "id": 667949,
-            "stars": 0,
-            "name": "@cmjdiff",
-            "completion_day_level": {},
-            "last_star_ts": 0,
-            "global_score": 0,
-            "local_score": 0
+            "stars": 0
         }
     }
 }
