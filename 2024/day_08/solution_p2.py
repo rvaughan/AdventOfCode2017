@@ -46,8 +46,8 @@ def calculate_solution(items):
 
     for k in nodes:
         node_list = nodes[k]
-        L = len(node_list)
-        for i in range(L):
+        length = len(node_list)
+        for i in range(length):
             for j in range(i):
                 node1 = node_list[i]
                 node2 = node_list[j]

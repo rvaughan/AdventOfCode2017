@@ -5,7 +5,7 @@ This code holds the solution for part 1 of day 8 of the Advent of Code for 2024.
 import sys
 
 
-def antinode(pr1, pr2, width, height):
+def find_antinode(pr1, pr2, width, height):
     x1, y1 = pr1
     x2, y2 = pr2
     newx = x2 + (x2 - x1)
@@ -41,17 +41,17 @@ def calculate_solution(items):
 
     for k in nodes:
         node_list = nodes[k]
-        L = len(node_list)
-        for i in range(L):
+        length = len(node_list)
+        for i in range(length):
             for j in range(i):
                 node1 = node_list[i]
                 node2 = node_list[j]
 
-                ok, x, y = antinode(node1, node2, height, width)
+                ok, x, y = find_antinode(node1, node2, height, width)
                 if ok:
                     antinodes.add((x, y))
                 
-                ok, x, y = antinode(node2, node1, height, width)
+                ok, x, y = find_antinode(node2, node1, height, width)
                 if ok:
                     antinodes.add((x, y))
 
