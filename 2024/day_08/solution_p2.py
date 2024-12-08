@@ -5,15 +5,20 @@ This code holds the solution for part 2 of day 8 of the Advent of Code for 2024.
 import sys
 
 
-def antinode(pr1, pr2, width, height):
+def find_all_antinodes(pr1, pr2, width, height):
+    positions = set()
+
     x1, y1 = pr1
     x2, y2 = pr2
     newx = x2 + (x2 - x1)
     newy = y2 + (y2 - y1)
-    if newx >= 0 and newx < height and newy >= 0 and newy < width:
-        return True, newx, newy
+    positions.add((x2, y2))
+    while newx >= 0 and newx < height and newy >= 0 and newy < width:
+        positions.add((newx, newy))
+        newx += (x2 - x1)
+        newy += (y2 - y1)
 
-    return False, None, None
+    return positions
 
 
 def calculate_solution(items):
@@ -47,13 +52,9 @@ def calculate_solution(items):
                 node1 = node_list[i]
                 node2 = node_list[j]
 
-                ok, x, y = antinode(node1, node2, height, width)
-                if ok:
-                    antinodes.add((x, y))
+                antinodes.update(find_all_antinodes(node1, node2, height, width))
                 
-                ok, x, y = antinode(node2, node1, height, width)
-                if ok:
-                    antinodes.add((x, y))
+                antinodes.update(find_all_antinodes(node2, node1, height, width))
 
     result = len(antinodes)
 
@@ -81,13 +82,13 @@ def run_test(test_input, expected_solution):
 
 test_list = """T....#....
 ...T......
-.T....#...
-.........#
-..#.......
+.T........
 ..........
-...#......
 ..........
-....#.....
+..........
+..........
+..........
+..........
 .........."""
 result = run_test(test_list, 9)
 
