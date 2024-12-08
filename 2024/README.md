@@ -65,4 +65,9 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=wRof9uV6GBA) William Y. Feng explain the problem.
     * [Watch](https://www.youtube.com/watch?v=6XVFtf58cms) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h8l3z5/2024_day_7_solutions/)
+    * Visualisations:
+      * [Zig + Raylib](https://www.reddit.com/r/adventofcode/comments/1h9594i/2024_day_7zig_raylib_reverse_polished_calculator/)
   * [Day 8 - Resonant Collinearity](day_08/README.md).
+    * [Watch](https://www.youtube.com/watch?v=x3Rn5XXL4gs) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=3VDHDUQDCTY) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h9bdmp/2024_day_8_solutions/)
