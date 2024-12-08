@@ -65,4 +65,4 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=wRof9uV6GBA) William Y. Feng explain the problem.
     * [Watch](https://www.youtube.com/watch?v=6XVFtf58cms) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h8l3z5/2024_day_7_solutions/)
-  * [Day 8 - Bridge Repair](day_08/README.md).
+  * [Day 8 - Resonant Collinearity](day_08/README.md).
