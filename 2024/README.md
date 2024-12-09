@@ -71,4 +71,4 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=x3Rn5XXL4gs) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=3VDHDUQDCTY) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h9bdmp/2024_day_8_solutions/)
-  * [Day 9 - ???](day_09/README.md).
+  * [Day 9 - Disk Fragmenter](day_09/README.md).

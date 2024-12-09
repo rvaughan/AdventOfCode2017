@@ -30,9 +30,8 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = """
-"""
-result = run_test(test_list, 7)
+test_list = """2333133121414131402"""
+result = run_test(test_list, 1928)
 
 print('')
 print('-----------------')
