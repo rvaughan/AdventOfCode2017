@@ -6,7 +6,45 @@ import sys
 
 
 def calculate_solution(items):
+    # Layout the files on disk
+    block = 0
+    disk = {}
+    file_id = 0
+
+    for idx, file in enumerate(items[0]):
+        if idx % 2 == 0:
+            # Is a file
+            for idx in range(int(file)):
+                disk[block + idx] = file_id
+            
+            file_id += 1
+        else:
+            # Free space
+            pass
+
+        block += int(file)
+
+    # Compact the files by shuffling everything from the right to the left
+    new_disk = disk.copy()
+    left = 0
+    # Find the rightmost block used on the disk...
+    right = max(new_disk.keys())
+    while left < right:
+        if right in new_disk:
+            file_id = new_disk[right]
+            del new_disk[right]
+            
+            while left in new_disk:
+                left += 1
+            
+            new_disk[left] = file_id
+        
+        right -= 1
+
+    # Calculate checksum
     result = 0
+    for block, file_id in new_disk.items():
+        result += block * file_id
 
     return result
 
