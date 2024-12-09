@@ -70,5 +70,12 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
   * [Day 8 - Resonant Collinearity](day_08/README.md).
     * [Watch](https://www.youtube.com/watch?v=x3Rn5XXL4gs) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=3VDHDUQDCTY) William Y. Feng explain the problem.
+    * [Watch](https://www.youtube.com/watch?v=623maGT7nEQ) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1h9bdmp/2024_day_8_solutions/)
+    * Visualisations:
+      * [Python Matplotlib Simple Vizualization](https://www.reddit.com/r/adventofcode/comments/1h9zhnc/2024_day_8_part_2_python_matplotlib_simple/)
+      * [Zig + Raylib](https://www.reddit.com/r/adventofcode/comments/1h9gv06/2024_day8_part_2zig_raylib_spectrum_wars/)
   * [Day 9 - Disk Fragmenter](day_09/README.md).
+    * [Watch](https://www.youtube.com/watch?v=cnhae3EQ7Ec) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=9I_S8gGcslo) William Y. Feng explain the problem.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1ha27bo/2024_day_9_solutions/)
