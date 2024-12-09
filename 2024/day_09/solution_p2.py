@@ -9,12 +9,15 @@ def calculate_solution(items):
     # Layout the files on disk
     block = 0
     disk = {}
+    files = {}
     file_id = 0
 
     for idx, file in enumerate(items[0]):
         if idx % 2 == 0:
             # Is a file
-            for idx in range(int(file)):
+            size = int(file)
+            files[file_id] = (block, size)
+            for idx in range(size):
                 disk[block + idx] = file_id
             
             file_id += 1
@@ -24,26 +27,26 @@ def calculate_solution(items):
 
         block += int(file)
 
-    # Compact the files by shuffling everything from the right to the left
-    new_disk = disk.copy()
-    left = 0
-    # Find the rightmost block used on the disk...
-    right = max(new_disk.keys())
-    while left < right:
-        if right in new_disk:
-            file_id = new_disk[right]
-            del new_disk[right]
-            
-            while left in new_disk:
-                left += 1
-            
-            new_disk[left] = file_id
-        
-        right -= 1
+    # Compact the files by shuffling complete files from the last to the first
+    files_to_compact = list(range(file_id - 1, -1, -1))
+    for file_id in files_to_compact:
+        # Basically try and brute force find a gap big enough in the disk layout for this file.
+        insert_pos = 0
+        while insert_pos < files[file_id][0]:
+            # Does it fit?
+            if all(insert_pos + i not in disk for i in range(files[file_id][1])):
+                # Yep, so we can move the file blocks here.
+                for i in range(files[file_id][1]):
+                    del disk[files[file_id][0] + i]
+                    disk[insert_pos + i] = file_id
+                break
+            else:
+                # Nope
+                insert_pos += 1
 
     # Calculate checksum
     result = 0
-    for block, file_id in new_disk.items():
+    for block, file_id in disk.items():
         result += block * file_id
 
     return result
