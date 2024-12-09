@@ -75,7 +75,9 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * Visualisations:
       * [Python Matplotlib Simple Vizualization](https://www.reddit.com/r/adventofcode/comments/1h9zhnc/2024_day_8_part_2_python_matplotlib_simple/)
       * [Zig + Raylib](https://www.reddit.com/r/adventofcode/comments/1h9gv06/2024_day8_part_2zig_raylib_spectrum_wars/)
+      * [Terminal Toy!](https://www.reddit.com/r/adventofcode/comments/1h9o32z/2024_day_8_part_2_python_terminal_toy/) with the source code [here](https://github.com/salt-die/Advent-of-Code/tree/main/2024/visuals/08_Resonant_Collinearity)
   * [Day 9 - Disk Fragmenter](day_09/README.md).
     * [Watch](https://www.youtube.com/watch?v=cnhae3EQ7Ec) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=9I_S8gGcslo) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1ha27bo/2024_day_9_solutions/)
+  * [Day 10 - ???](day_10/README.md).
