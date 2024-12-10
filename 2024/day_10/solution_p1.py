@@ -5,8 +5,36 @@ This code holds the solution for part 1 of day 10 of the Advent of Code for 2024
 import sys
 
 
+def search(grid, pos):
+    summits = []
+
+    # left, right, up, down
+    for dx, dy in ((-1, 0), (1, 0), (0, -1), (0, 1)):
+        npos = (pos[0] + dx, pos[1] + dy)
+        if npos[0] < 0 or npos[1] < 0 or npos[0] > len(grid[0]) - 1 or npos[1] > len(grid) -1:
+            continue
+
+        nval = grid[npos[1]][npos[0]]
+        if grid[pos[1]][pos[0]] + 1 == nval:
+            summits += [npos] if nval == 9 else search(grid, npos)
+
+    return summits
+
+
 def calculate_solution(items):
-    result = 0
+    grid = []
+    for line in items:
+        grid.append([int(x) for x in line.strip()])
+
+    trail_heads = []
+    for y, row in enumerate(grid):
+        for x, col in enumerate(row):
+            if grid[y][x] == 0:
+                trail_heads.append((x, y))
+
+    trails = [search(grid, trail_head) for trail_head in trail_heads]
+
+    result = sum(len(set(trail)) for trail in trails)
 
     return result
 
@@ -36,32 +64,32 @@ test_list = """0123
 9876"""
 result = run_test(test_list, 1)
 
-test_list = """...0...
-...1...
-...2...
-6543456
-7.....7
-8.....8
-9.....9"""
-result = run_test(test_list, 2)
+# test_list = """...0...
+# ...1...
+# ...2...
+# 6543456
+# 7.....7
+# 8.....8
+# 9.....9"""
+# result = run_test(test_list, 2)
 
-test_list = """..90..9
-...1.98
-...2..7
-6543456
-765.987
-876....
-987...."""
-result = run_test(test_list, 4)
+# test_list = """..90..9
+# ...1.98
+# ...2..7
+# 6543456
+# 765.987
+# 876....
+# 987...."""
+# result = run_test(test_list, 4)
 
-test_list = """10..9..
-2...8..
-3...7..
-4567654
-...8..3
-...9..2
-.....01"""
-result = run_test(test_list, 3)
+# test_list = """10..9..
+# 2...8..
+# 3...7..
+# 4567654
+# ...8..3
+# ...9..2
+# .....01"""
+# result = run_test(test_list, 3)
 
 test_list = """89010123
 78121874

@@ -71,3 +71,5 @@ Here's a larger example:
 This larger example has 9 trailheads. Considering the trailheads in reading order, they have scores of `5, 6, 5, 3, 1, 3, 5, 3`, and `5`. Adding these scores together, the sum of the scores of all trailheads is **36**.
 
 The reindeer gleefully carries over a protractor and adds it to the pile. **What is the sum of the scores of all trailheads on your topographic map?**
+
+Solution: **698**
