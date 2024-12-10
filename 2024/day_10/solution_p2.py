@@ -58,12 +58,6 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = """0123
-1234
-8765
-9876"""
-result = run_test(test_list, 1)
-
 test_list = """89010123
 78121874
 87430965
@@ -72,7 +66,7 @@ test_list = """89010123
 32019012
 01329801
 10456732"""
-result = run_test(test_list, 36)
+result = run_test(test_list, 81)
 
 print('')
 print('-----------------')
