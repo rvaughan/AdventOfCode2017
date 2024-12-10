@@ -79,5 +79,13 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
   * [Day 9 - Disk Fragmenter](day_09/README.md).
     * [Watch](https://www.youtube.com/watch?v=cnhae3EQ7Ec) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=9I_S8gGcslo) William Y. Feng explain the problem.
+    * [Watch](https://www.youtube.com/watch?v=L7cVBk3mWs8) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1ha27bo/2024_day_9_solutions/)
+    * Visualisations:
+      * [Amphibian Speed Disk](https://www.reddit.com/r/adventofcode/comments/1ha7e1v/2024_day_9_amphibian_speed_disk/)
+      * [Defragging the hard drive](https://www.reddit.com/r/adventofcode/comments/1ha3xb7/2024_day_9_part_2_defragging_the_hard_drive/) source code is on GitHub [here](https://github.com/seligman/aoc/blob/master/2024/Helpers/day_09.py).
   * [Day 10 - Hoof It](day_10/README.md).
+    * [Watch](https://www.youtube.com/watch?v=EdFtEeRGDAw) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=MmT5xgXnbcc) William Y. Feng explain the problem.
+    * [Watch](https://www.youtube.com/watch?v=vcvKgS-kUtk) Neil Thistlethwaite solve the puzzle.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1hau6hl/2024_day_10_solutions/)
