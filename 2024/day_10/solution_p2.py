@@ -34,7 +34,7 @@ def calculate_solution(items):
 
     trails = [search(grid, trail_head) for trail_head in trail_heads]
 
-    result = sum(len(set(trail)) for trail in trails)
+    result = sum(len(trail) for trail in trails)
 
     return result
 
