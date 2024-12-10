@@ -80,4 +80,4 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=cnhae3EQ7Ec) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=9I_S8gGcslo) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1ha27bo/2024_day_9_solutions/)
-  * [Day 10 - ???](day_10/README.md).
+  * [Day 10 - Hoof It](day_10/README.md).
