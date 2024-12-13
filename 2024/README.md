@@ -89,4 +89,4 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=MmT5xgXnbcc) William Y. Feng explain the problem.
     * [Watch](https://www.youtube.com/watch?v=vcvKgS-kUtk) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1hau6hl/2024_day_10_solutions/)
-  * [Day 11 - ???](day_11/README.md).
+  * [Day 11 - Plutonian Pebbles](day_11/README.md).
