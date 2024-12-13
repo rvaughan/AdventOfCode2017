@@ -90,3 +90,6 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=vcvKgS-kUtk) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1hau6hl/2024_day_10_solutions/)
   * [Day 11 - Plutonian Pebbles](day_11/README.md).
+    * [Watch](https://www.youtube.com/watch?v=dfZ4uxqgT6o) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=EOAFa8j-GVQ) Neil Thistlethwaite solve the puzzle.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1hbm0al/2024_day_11_solutions/)
