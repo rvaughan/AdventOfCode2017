@@ -92,5 +92,10 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
   * [Day 11 - Plutonian Pebbles](day_11/README.md).
     * [Watch](https://www.youtube.com/watch?v=dfZ4uxqgT6o) Jonathan Paulson solve it.
     * [Watch](https://www.youtube.com/watch?v=EOAFa8j-GVQ) Neil Thistlethwaite solve the puzzle.
+    * [Watch](https://www.youtube.com/watch?v=FLl7s0uPbOo) William Y. Feng explain the problem.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1hbm0al/2024_day_11_solutions/)
   * [Day 12 - Garden Groups](day_12/README.md).
+    * [Watch](https://www.youtube.com/watch?v=k_No9BLUwiI) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=L3_XgH3Xzyw) William Y. Feng explain the problem.
+    * [Watch](https://www.youtube.com/watch?v=glNiVe_Rztg) Neil Thistlethwaite solve the puzzle.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1hcdnk0/2024_day_12_solutions/)
