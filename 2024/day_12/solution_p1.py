@@ -30,9 +30,30 @@ def run_test(test_input, expected_solution):
 # Run any tests that we've defined to help validate our code prior to
 # trying to solve the puzzle.
 
-test_list = """
-"""
-result = run_test(test_list, 7)
+test_list = """AAAA
+BBCD
+BBCC
+EEEC"""
+result = run_test(test_list, 140)
+
+test_list = """OOOOO
+OXOXO
+OOOOO
+OXOXO
+OOOOO"""
+result = run_test(test_list, 772)
+
+test_list = """RRRRIICCFF
+RRRRIICCCF
+VVRRRCCFFF
+VVRCCCJFFF
+VVVVCJJCFE
+VVIVCCJJEE
+VVIIICJJEE
+MIIIIIJJEE
+MIIISIJEEE
+MMMISSJEEE"""
+result = run_test(test_list, 1930)
 
 print('')
 print('-----------------')
