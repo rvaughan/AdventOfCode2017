@@ -99,3 +99,5 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=L3_XgH3Xzyw) William Y. Feng explain the problem.
     * [Watch](https://www.youtube.com/watch?v=glNiVe_Rztg) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1hcdnk0/2024_day_12_solutions/)
+    * Visualisations:
+      * [Zig + Raylib](https://www.reddit.com/r/adventofcode/comments/1hcyloq/2024_day_12zig_raylib_garden_fences/)
