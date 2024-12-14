@@ -5,8 +5,43 @@ This code holds the solution for part 1 of day 12 of the Advent of Code for 2024
 import sys
 
 
+def find_region(grid, height, width, i, j):
+    plant = grid[i][j]
+    visited = set()
+    fence = 0
+    queue = [(i, j)]
+
+    while queue:
+        i, j = queue.pop()
+        if (i, j) in visited:
+            continue
+
+        if i not in range(height) or j not in range(width) or grid[i][j] != plant:
+            fence += 1
+            continue
+        
+        visited.add((i, j))
+        
+        for x, y in [(1, 0), (0, 1), (-1, 0), (0, -1)]:
+            if (i+x, j+y) not in visited:
+                queue.append((i+x, j+y))
+                
+    return visited, len(visited) * fence
+
+
 def calculate_solution(items):
+    grid = items
+    height = len(grid)
+    width = len(grid[0])
+            
     result = 0
+    visited = set()
+    for i in range(height):
+        for j in range(width):
+            if (i, j) not in visited:
+                region, cost = find_region(grid, height, width, i, j)
+                visited |= region
+                result += cost
 
     return result
 

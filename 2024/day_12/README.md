@@ -89,3 +89,5 @@ It contains:
 So, it has a total price of **1930**.
 
 **What is the total price of fencing all regions on your map?**
+
+Solution: **1433460**
