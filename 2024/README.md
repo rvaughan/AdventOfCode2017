@@ -102,3 +102,7 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * Visualisations:
       * [Zig + Raylib](https://www.reddit.com/r/adventofcode/comments/1hcyloq/2024_day_12zig_raylib_garden_fences/)
   * [Day 13 - Claw Contraption](day_13/README.md).
+    * [Watch](https://www.youtube.com/watch?v=GqWX9MmFhX8) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=ck5cDK5Us1w) William Y. Feng explain the problem.
+    * [Watch](https://www.youtube.com/watch?v=T7a8YhqxBo4) Neil Thistlethwaite solve the puzzle.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1hd4wda/2024_day_13_solutions/)
