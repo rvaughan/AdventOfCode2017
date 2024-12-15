@@ -101,4 +101,4 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1hcdnk0/2024_day_12_solutions/)
     * Visualisations:
       * [Zig + Raylib](https://www.reddit.com/r/adventofcode/comments/1hcyloq/2024_day_12zig_raylib_garden_fences/)
-  * [Day 13 - ???](day_13/README.md).
+  * [Day 13 - Claw Contraption](day_13/README.md).
