@@ -106,3 +106,4 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=ck5cDK5Us1w) William Y. Feng explain the problem.
     * [Watch](https://www.youtube.com/watch?v=T7a8YhqxBo4) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1hd4wda/2024_day_13_solutions/)
+  * [Day 14 - ???](day_14/README.md).
