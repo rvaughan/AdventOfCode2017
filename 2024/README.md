@@ -107,3 +107,12 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
     * [Watch](https://www.youtube.com/watch?v=T7a8YhqxBo4) Neil Thistlethwaite solve the puzzle.
     * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1hd4wda/2024_day_13_solutions/)
   * [Day 14 - Restroom Redoubt](day_14/README.md).
+    * [Watch](https://www.youtube.com/watch?v=uj7OnaBDCiY) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=Zyvd-MWo7uE) William Y. Feng explain the problem.
+    * [Watch](https://www.youtube.com/watch?v=U3SoVMGpF-E) Neil Thistlethwaite solve the puzzle.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1hdvhvu/2024_day_14_solutions/)
+      * People seem to have solved this one a number of different ways:
+        1. Waiting for all of the robots to be in different spaces - no overlapping. Although the consensus is that this is partially coincidental as on a generalised problem this may not work.
+        2. Use of [Chinese Remainder theory](https://en.wikipedia.org/wiki/Chinese_remainder_theorem) when there are two horizontal lines in the data.
+        3. Generating an image for every iteration, and looking for the smallest one. Theory here is that when the desired image is visible then the image size will be smaller since there is much less randomness, and the image compression algorithms can work better.
+        4. Simply look for consecutive robots as this is an indicator that the image has 'formed'.
