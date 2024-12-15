@@ -63,37 +63,15 @@ def run_test(test_input, width, height, iterations, expected_solution):
     return result
 
 
-# Run any tests that we've defined to help validate our code prior to
-# trying to solve the puzzle.
-
-test_list="""p=2,4 v=2,-3"""
-result = run_test(test_list, 11, 7, 2, 0)
-
-test_list = """p=0,4 v=3,-3
-p=6,3 v=-1,-3
-p=10,3 v=-1,2
-p=2,0 v=2,-1
-p=0,0 v=1,3
-p=3,0 v=-2,-2
-p=7,6 v=-1,-3
-p=3,0 v=-1,-2
-p=9,3 v=2,3
-p=7,3 v=-1,2
-p=2,4 v=2,-3
-p=9,5 v=-3,-3"""
-result = run_test(test_list, 11, 7, 100, 12)
-
-print('')
-print('-----------------')
-print('All Tests PASSED.')
-print('-----------------')
-print('')
-
-# Ok, so if we reach here, then we can be reasonably sure that the code
-# above is working correctly. Let's use the actual captcha now.
-
 with open('input.txt', 'r') as f:
     input_data = [line.strip() for line in f]
-    answer = calculate_solution(input_data, 101, 103, 100)
+
+    # Essentially we're looking for the lowest safety factor since when the robots are most
+    # evenly distributed is when the Christmas tree is shown. Right?
+
+    def do_it(steps):
+        return calculate_solution(input_data, 101, 103, steps)
+
+    answer = min(range(10_000), key=do_it)
 
     print(f'Solution is {answer}')
