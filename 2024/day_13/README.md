@@ -53,3 +53,5 @@ So, the most prizes you could possibly win is two; the minimum tokens you would 
 You estimate that each button would need to be pressed **no more than** `100` times to win a prize. How else would someone be expected to play?
 
 Figure out how to win as many prizes as possible. **What is the fewest tokens you would have to spend to win all possible prizes?**
+
+Solution: **31589**

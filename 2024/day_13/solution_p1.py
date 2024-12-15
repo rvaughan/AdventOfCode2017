@@ -2,11 +2,45 @@
 """
 This code holds the solution for part 1 of day 13 of the Advent of Code for 2024.
 """
+import re
 import sys
+
+
+def solve_puzzle(puzzle):
+    x1, y1 = re.findall(r'Button A: X\+(\d+), Y\+(\d+)', puzzle[0])[0]
+    x1 = int(x1)
+    y1 = int(y1)
+
+    x2, y2 = re.findall(r'Button B: X\+(\d+), Y\+(\d+)', puzzle[1])[0]
+    x2 = int(x2)
+    y2 = int(y2)
+
+    tx, ty = re.findall(r'Prize: X=(\d+), Y=(\d+)', puzzle[2])[0]
+    tx = int(tx)
+    ty = int(ty)
+
+    a = (tx*y2 - ty*x2) / (x1*y2 - y1*x2)
+    b = (ty*x1 - tx*y1) / (x1*y2 - y1*x2)
+    
+    if a == int(a) and b == int(b):
+        return int(3 * a + b)
+
+    return 0
 
 
 def calculate_solution(items):
     result = 0
+
+    puzzle = []
+    for line in items:
+        if line != '':
+            puzzle.append(line)
+        else:
+            result += solve_puzzle(puzzle)
+            puzzle = []
+
+    if puzzle != []:
+        result += solve_puzzle(puzzle)
 
     return result
 
@@ -35,9 +69,9 @@ Button B: X+22, Y+67
 Prize: X=8400, Y=5400"""
 result = run_test(test_list, 280)
 
-test_list = """Button A: X+69, Y+23
-Button B: X+27, Y+71
-Prize: X=18641, Y=10279"""
+test_list = """Button A: X+17, Y+86
+Button B: X+84, Y+37
+Prize: X=7870, Y=6450"""
 result = run_test(test_list, 200)
 
 test_list = """Button A: X+94, Y+34
