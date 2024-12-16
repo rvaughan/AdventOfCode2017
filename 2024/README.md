@@ -116,4 +116,4 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
         2. Use of [Chinese Remainder theory](https://en.wikipedia.org/wiki/Chinese_remainder_theorem) when there are two horizontal lines in the data.
         3. Generating an image for every iteration, and looking for the smallest one. Theory here is that when the desired image is visible then the image size will be smaller since there is much less randomness, and the image compression algorithms can work better.
         4. Simply look for consecutive robots as this is an indicator that the image has 'formed'.
-  * [Day 15 - ???](day_15/README.md).
+  * [Day 15 - Warehouse Woes](day_15/README.md).
