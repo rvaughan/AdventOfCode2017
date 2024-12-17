@@ -5,10 +5,47 @@ This code holds the solution for part 1 of day 15 of the Advent of Code for 2024
 import sys
 
 
-def calculate_solution(items):
-    result = 0
+def move(grid, p, d):
+    print(p,d)
+    p += d
+    if all([
+        grid[p] != '[' or move(grid, p+1, d) and move(grid, p, d),
+        grid[p] != ']' or move(grid, p-1, d) and move(grid, p, d),
+        grid[p] != 'O' or move(grid, p, d), grid[p] != '#']):
+            grid[p], grid[p-d] = grid[p-d], grid[p]
+            return True
 
-    return result
+
+def calculate_solution(items):
+    grid = ''
+    moves = ''
+
+    grid_mode = True
+    for item in items:
+        if item.strip() == '':
+            grid_mode = False
+            continue
+
+        if grid_mode:
+            grid += item
+        else:
+            moves += item
+
+    grid = {i+j*1j:c for j,r in enumerate(grid.split())
+                    for i,c in enumerate(r)}
+
+    pos, = (p for p in grid if grid[p] == '@')
+
+    for m in moves.replace('\n', ''):
+        dir = {'<':-1, '>':+1, '^':-1j, 'v':+1j}[m]
+        copy = grid.copy()
+
+        if move(grid, pos, dir): pos += dir
+        else: grid = copy
+
+    ans = sum(pos for pos in grid if grid[pos] in 'O[')
+    
+    return int(ans.real + ans.imag*100)
 
 
 def run_test(test_input, expected_solution):
