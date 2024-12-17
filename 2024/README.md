@@ -117,4 +117,11 @@ I'm reusing my private [leaderboard](leaderboard.json) from previous years.
         3. Generating an image for every iteration, and looking for the smallest one. Theory here is that when the desired image is visible then the image size will be smaller since there is much less randomness, and the image compression algorithms can work better.
         4. Simply look for consecutive robots as this is an indicator that the image has 'formed'.
   * [Day 15 - Warehouse Woes](day_15/README.md).
+    * [Watch](https://www.youtube.com/watch?v=eie8bKi7oKo) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=zYvZS68tPsU) William Y. Feng explain the problem.
+    * [Watch](https://www.youtube.com/watch?v=xv3WAJ72-fQ) Neil Thistlethwaite solve the puzzle.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1hele8m/2024_day_15_solutions/)
   * [Day 16 - Reindeer Maze](day_16/README.md).
+    * [Watch](https://www.youtube.com/watch?v=ro2SSxd21JM) Jonathan Paulson solve it.
+    * [Watch](https://www.youtube.com/watch?v=CrIFfTB750w) Neil Thistlethwaite solve the puzzle.
+    * [Reddit discussion page](https://www.reddit.com/r/adventofcode/comments/1hfboft/2024_day_16_solutions/)
