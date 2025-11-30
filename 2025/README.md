@@ -12,7 +12,7 @@ Each day has two parts to it. Generally the 2nd part is a variation of the 1st p
 
 This year was discussed on [Hacker News](https://news.ycombinator.com/item?id=46096337) on November 30th, 2025.
 
-As with last year DJ Veloxx will be doing a 3 hour set on Twitch across the release of day 1's puzzle. (See [Reddit](https://www.reddit.com/r/adventofcode/comments/1p7q36k/psa_live_housetechnotrance_dj_veloxx_will_be_on/))
+As with last year DJ Veloxx will be doing a 3 hour set [on Twitch](https://www.twitch.tv/veloxxmusic) across the release of day 1's puzzle. (See [Reddit](https://www.reddit.com/r/adventofcode/comments/1p7q36k/psa_live_housetechnotrance_dj_veloxx_will_be_on/))
 
 ## Leaderboard
 
